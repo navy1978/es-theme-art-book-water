@@ -1,0 +1,43 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="basic,detailed,video">
+    <image name="water-list-background" extra="true">
+      <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path><color>${background}</color><zIndex>0</zIndex>
+    </image>
+    <image name="water-list-rule" extra="true">
+      <pos>0.05 0.137</pos><size>0.90 0.003</size><path>../assets/images/white.svg</path><color>${accent}66</color><zIndex>1</zIndex>
+    </image>
+    <image name="logo"><visible>false</visible></image>
+    <text name="logoText"><visible>false</visible></text>
+    <text name="water-list-title" extra="true">
+      <pos>0.05 0.044</pos><size>0.90 0.072</size><text>${system.fullName}</text>
+      <fontPath>${fontBold}</fontPath><fontSize>0.047</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+    </text>
+    <textlist name="gamelist">
+      <pos>0.05 0.19</pos><size>0.90 0.68</size><fontPath>${fontRegular}</fontPath><fontSize>${listFontSize}</fontSize>
+      <alignment>left</alignment><horizontalMargin>0.018</horizontalMargin><lineSpacing>1.45</lineSpacing>
+      <primaryColor>${uiMuted}</primaryColor><secondaryColor>${accent}</secondaryColor>
+      <selectedColor>${uiText}</selectedColor><selectorColor>${accent}35</selectorColor>
+      <selectorColorEnd>${accent}18</selectorColorEnd><zIndex>20</zIndex>
+    </textlist>
+  </view>
+  <view name="detailed,video">
+    <textlist name="gamelist"><size>0.47 0.68</size></textlist>
+    <text name="md_name"><visible>false</visible></text>
+    <image name="md_image"><pos>0.755 0.385</pos><origin>0.5 0.5</origin><maxSize>0.39 0.38</maxSize><zIndex>10</zIndex></image>
+    <text name="md_description">
+      <pos>0.56 0.62</pos><size>0.39 0.23</size><fontPath>${fontRegular}</fontPath>
+      <fontSize>${detailFontSize}</fontSize><color>${uiMuted}</color><lineSpacing>1.25</lineSpacing><zIndex>10</zIndex>
+    </text>
+    <text name="md_lbl_rating,md_lbl_releasedate,md_lbl_developer,md_lbl_publisher,md_lbl_genre,md_lbl_players,md_lbl_lastplayed,md_lbl_playcount,md_lbl_gametime,md_developer,md_publisher,md_genre,md_players,md_playcount,md_gametime"><visible>false</visible></text>
+    <datetime name="md_releasedate,md_lastplayed"><visible>false</visible></datetime>
+    <rating name="md_rating"><visible>false</visible></rating>
+  </view>
+  <view name="video">
+    <video name="md_video">
+      <pos>0.755 0.385</pos><origin>0.5 0.5</origin><maxSize>0.39 0.38</maxSize>
+      <delay>0.8</delay><audio>false</audio><showSnapshotNoVideo>true</showSnapshotNoVideo><showSnapshotDelay>true</showSnapshotDelay>
+      <effect>none</effect><zIndex>11</zIndex>
+    </video>
+  </view>
+</theme>

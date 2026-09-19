@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Art Book Water — Native shader preview</title>
+<style>
+  :root { color-scheme: dark; font-family: system-ui,sans-serif; background:#0b0e16; color:#dce2ed }
+  body { max-width:960px; margin:32px auto; padding:0 20px }
+  h1 { font-weight:500; font-size:24px } p { color:#9daabe; font-size:13px; line-height:1.6 }
+  canvas { width:100%; display:block; border:1px solid #303b4c; border-radius:10px; margin:24px 0 }
+  select,button { background:#172031; color:inherit; border:1px solid #37465d; padding:10px; border-radius:6px; margin:0 10px 10px 0 }
+  pre { white-space:pre-wrap; color:#9cdda7 } a { color:#a6bfe7 }
+</style>
+<h1>Art Book Water · native shader</h1>
+<p>This page compiles and renders the actual <code>assets/shaders/water.glsl</code> in WebGL 1 / GLES2.
+It exercises the texture orientation, native uniforms and geometry, without running EmulationStation.
+System text and menus are rendered separately by ES and are not part of this shader.</p>
+<label>System <select id="system"><option value="dreamcast">Dreamcast</option><option value="snes">Super Nintendo</option><option value="megadrive">Mega Drive</option></select></label>
+<label>Screen <select id="size"><option value="480,320">480 × 320</option><option value="640,480">640 × 480</option><option value="1920,1152">1920 × 1152</option></select></label>
+<button id="restart">Replay entry</button><button id="pause">Pause</button>
+<canvas id="native" width="480" height="320" aria-label="Native water shader"></canvas>
+<pre id="result" role="status">Compiling shader…</pre>
+<p><a href="index.html">Open the interactive design concept</a> · Device performance and ES integration still require handheld testing.</p>
+<script>
+'use strict';
+const shaderSource = /* __SHADER__ */;
+const logos = /* __ASSETS__ */;
+const canvas = document.getElementById('native');
+const gl = canvas.getContext('webgl', {alpha:false,preserveDrawingBuffer:true});
+let paused = matchMedia('(prefers-reduced-motion: reduce)').matches, elapsed = 0, lastTime = null, textureWidth = 1, textureHeight = 1;
+let program, texture, buffer, logoReady = false, requestSerial = 0;
+const colors = { dreamcast:[1,119/255,76/255,1], snes:[163/255,149/255,1,1], megadrive:[67/255,172/255,1,1] };
+function compile(type, define) {
+  const shader = gl.createShader(type);
+  gl.shaderSource(shader, '#version 100\n#define ' + define + '\n' + shaderSource); gl.compileShader(shader);
+  if (!gl.getShaderParameter(shader,gl.COMPILE_STATUS)) throw Error(gl.getShaderInfoLog(shader));
+  return shader;
+}
+function floatUniform(name,value) { gl.uniform1f(gl.getUniformLocation(program,name),value); }
+function render() {
+  if (!logoReady) return;
+  const w=canvas.width,h=canvas.height;
+  gl.viewport(0,0,w,h); gl.useProgram(program);
+  gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([0,0,w,0,0,h,0,h,w,0,w,h]),gl.STATIC_DRAW);
+  const loc=gl.getAttribLocation(program,'VertexCoord');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+  const color=gl.getAttribLocation(program,'COLOR');gl.disableVertexAttribArray(color);gl.vertexAttrib4f(color,1,1,1,1);
+  gl.uniformMatrix4fv(gl.getUniformLocation(program,'MVPMatrix'),false,new Float32Array([2/w,0,0,0,0,-2/h,0,0,0,0,1,0,-1,1,0,1]));
+  gl.uniform2f(gl.getUniformLocation(program,'outputSize'),w,h);
+  gl.uniform2f(gl.getUniformLocation(program,'textureSize'),textureWidth,textureHeight);
+  gl.uniform4fv(gl.getUniformLocation(program,'waterAccent'),colors[document.getElementById('system').value]);
+  for (const [key,value] of Object.entries({waterPhase:(elapsed%4800)/4800,waterAge:Math.min(3,elapsed/1000),waterMotion:1,waterFloat:.0078125,waterWave:.003125,waterReflection:.55,waterLight:.65,waterLogoWidth:.63,waterLogoHeight:.17})) floatUniform(key,value);
+  gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,texture);gl.uniform1i(gl.getUniformLocation(program,'u_tex'),0);
+  gl.drawArrays(gl.TRIANGLES,0,6);
+  const error=gl.getError();if(error)throw Error('WebGL error '+error);
+}
+async function changeSystem() {
+  const serial=++requestSerial, image=new Image();logoReady=false;
+  image.src=logos[document.getElementById('system').value];await image.decode();
+  if(serial!==requestSerial)return;
+  // Rasterize the SVG before upload, as ES does through NanoSVG. WebGL does
+  // not accept SVG image sources without explicit intrinsic dimensions.
+  textureWidth=1024;textureHeight=Math.max(1,Math.round(textureWidth*image.naturalHeight/image.naturalWidth));
+  const pixels=document.createElement('canvas');pixels.width=textureWidth;pixels.height=textureHeight;
+  pixels.getContext('2d').drawImage(image,0,0,textureWidth,textureHeight);
+  gl.bindTexture(gl.TEXTURE_2D,texture);gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,true);
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,pixels);
+  elapsed=paused?3000:0;logoReady=true;render();
+  document.documentElement.dataset.ready='true';
+}
+function fail(error) { document.getElementById('result').textContent=String(error);document.documentElement.dataset.ready='error'; }
+try {
+  if(!gl)throw Error('WebGL 1 unavailable');
+  program=gl.createProgram();gl.attachShader(program,compile(gl.VERTEX_SHADER,'VERTEX'));gl.attachShader(program,compile(gl.FRAGMENT_SHADER,'FRAGMENT'));gl.linkProgram(program);
+  if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));
+  texture=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,texture);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+  buffer=gl.createBuffer();
+  document.getElementById('result').textContent='GLSL ES 1.00: vertex + fragment compiled and linked.';
+  document.getElementById('system').onchange=()=>changeSystem().catch(fail);
+  document.getElementById('size').onchange=()=>{[canvas.width,canvas.height]=document.getElementById('size').value.split(',').map(Number);render()};
+  document.getElementById('restart').onclick=()=>{elapsed=0;paused=false;document.getElementById('pause').textContent='Pause'};
+  document.getElementById('pause').textContent=paused?'Resume':'Pause';
+  document.getElementById('pause').onclick=()=>{paused=!paused;document.getElementById('pause').textContent=paused?'Resume':'Pause'};
+  changeSystem().catch(fail);
+  function frame(now){if(lastTime!==null&&!paused&&!document.hidden)elapsed+=Math.min(now-lastTime,100);lastTime=now;try{render()}catch(error){fail(error);return}requestAnimationFrame(frame)}
+  requestAnimationFrame(frame);
+} catch(error) {fail(error)}
+</script>
+</html>

@@ -1,0 +1,31 @@
+name: Validate theme
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate theme variants and asset provenance
+        run: python3 tools/validate-theme.py
+      - name: Check browser preview
+        run: |
+          node --check preview/app.js
+          python3 tools/build-preview.py
+          python3 tools/build-shader-preview.py
+          git diff --exit-code -- preview/index.html preview/native.html
+      - name: Compile GLES2 shader stages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y glslang-tools
+          python3 tools/check-shader.py
+      - name: Build installable archive
+        run: python3 tools/package-theme.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: es-theme-art-book-water
+          path: dist/es-theme-art-book-water.zip

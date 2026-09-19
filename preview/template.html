@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d11">
+  <title>Art Book Water — Luce e movimento</title>
+  <style>/* __CSS__ */</style>
+</head>
+<body>
+<main>
+  <header class="masthead"><a class="wordmark" href="#">ART BOOK <span> / WATER</span></a><span class="edition">STUDIO 02</span></header>
+  <section class="introduction">
+    <div><p class="eyebrow">Una nuova atmosfera per AmberELEC</p><h1>Lascia il segno<br>sull’acqua.</h1></div>
+    <p class="description">Solo il logo. Una luce che cambia.<br> Un’onda a ogni nuova console.<br><span>Usa le frecce e guarda il riflesso.</span></p>
+  </section>
+  <div class="workspace">
+    <section class="presentation" aria-label="Anteprima della schermata principale">
+      <div class="screen-caption"><span id="screen-caption">RG351P / M</span><span id="resolution">480 × 320 · 3:2</span></div>
+      <div class="screen"><canvas id="screen" width="480" height="320" tabindex="0" role="img" aria-label="Logo Dreamcast fluttuante e riflesso sull’acqua"></canvas></div>
+      <nav class="navigation" aria-label="Scegli la console">
+        <button id="previous" class="arrow" aria-label="Console precedente">←</button>
+        <div class="current-system"><span class="small-label">ORA IN SCENA</span><span id="system-name" aria-live="polite">Dreamcast</span></div>
+        <button id="next" class="arrow" aria-label="Console successiva">→</button>
+      </nav>
+      <div class="scene-actions"><button id="demo" class="text-button" aria-pressed="false"><span class="play-icon" aria-hidden="true">▷</span> Demo automatica</button><button id="pause" class="text-button" aria-pressed="false">Pausa</button></div>
+    </section>
+    <aside aria-label="Personalizza l’atmosfera">
+      <div class="panel-heading"><span class="small-label">LA TUA ATMOSFERA</span><span id="color-swatch" aria-hidden="true"></span></div>
+      <label class="field device-field"><span>Dispositivo</span><select id="device"><option value="480,320">RG351P / M · 3:2</option><option value="640,480">RG351V / MP · 4:3</option><option value="1920,1152">RG552 · 5:3</option></select></label>
+      <label class="field"><span>Fluttuazione <output id="float-value">2.5 px</output></span><input id="float" aria-label="Ampiezza della fluttuazione" type="range" min="0" max="6" step="0.5" value="2.5"></label>
+      <label class="field"><span>Acqua <output id="wave-value">Delicata</output></span><input id="wave" aria-label="Ampiezza delle onde" type="range" min="0" max="4" step="0.25" value="1"></label>
+      <label class="field"><span>Riflesso <output id="reflection-value">55%</output></span><input id="reflection" aria-label="Intensità del riflesso" type="range" min="0" max="80" step="5" value="55"></label>
+      <label class="field"><span>Luce <output id="light-value">65%</output></span><input id="light" aria-label="Intensità della luce" type="range" min="0" max="100" step="5" value="65"></label>
+      <button id="reset" class="reset-button">Ripristina l’atmosfera</button>
+      <p class="detail-note">L’onda nasce al cambio di sistema, poi torna la calma.</p>
+    </aside>
+  </div>
+  <p id="status" class="status" role="status">Caricamento dei loghi…</p>
+  <footer>
+    <p>Prototipo nel browser · resa e prestazioni su AmberELEC ancora da verificare.<br>Le ampiezze si riferiscono a 320 pixel di altezza. <a href="classic.html">Prima versione</a></p>
+    <p>Loghi da <a href="https://github.com/AmberELEC/art-book-next-amberelec">Art Book Next</a> di Anthony Caccese e collaboratori · CC BY-NC-SA.<br>Composizione e animazioni modificate per questo studio. Marchi dei rispettivi proprietari.</p>
+  </footer>
+</main>
+<script>const ASSETS = /* __LOGOS__ */;</script>
+<script>/* __APP__ */</script>
+</body>
+</html>

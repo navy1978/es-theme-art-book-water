@@ -1,0 +1,24 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Unlisted systems use the blue accent defined in settings.xml. -->
+  <variables>
+    <accent if="${system.theme} == 'dreamcast'">FF774C</accent>
+    <accent if="${system.theme} == 'snes'">A395FF</accent>
+    <accent if="${system.theme} == 'sfc'">A395FF</accent>
+    <accent if="${system.theme} == 'snesh'">A395FF</accent>
+    <accent if="${system.theme} == 'snesmsu1'">A395FF</accent>
+    <accent if="${system.theme} == 'snes-msu1'">A395FF</accent>
+    <accent if="${system.theme} == 'gba'">A395FF</accent>
+    <accent if="${system.theme} == 'gb'">A8CB79</accent>
+    <accent if="${system.theme} == 'gbc'">67CFA3</accent>
+    <accent if="${system.theme} == 'nes'">EF797C</accent>
+    <accent if="${system.theme} == 'famicom'">EF797C</accent>
+    <accent if="${system.theme} == 'neogeo'">E9BC64</accent>
+    <accent if="${system.theme} == 'neogeocd'">E9BC64</accent>
+    <accent if="${system.theme} == 'psx'">7CBBCB</accent>
+    <accent if="${system.theme} == 'arcade'">D590CF</accent>
+    <accent if="${system.theme} == 'mame'">D590CF</accent>
+    <accent if="${system.theme} == 'fbneo'">D590CF</accent>
+    <accent if="${system.theme} == 'auto-favorites'">E9BC64</accent>
+  </variables>
+</theme>

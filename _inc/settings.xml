@@ -1,0 +1,28 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+    <fontRegular>${themePath}/assets/fonts/Oxygen-Regular.ttf</fontRegular>
+    <fontBold>${themePath}/assets/fonts/Oxygen-Bold.ttf</fontBold>
+    <logoPath>${themePath}/assets/logos/${system.theme}.svg</logoPath>
+    <fallbackLogo>${themePath}/assets/images/fallback.svg</fallbackLogo>
+    <background>0B0E16</background>
+    <foreground>F4F5F8</foreground>
+    <muted>A5AFC1</muted>
+    <accent>43ACFF</accent>
+    <uiTint>FFFFFF</uiTint>
+    <uiText>F4F5F8</uiText>
+    <uiMuted>A5AFC1</uiMuted>
+    <listFontSize>0.043</listFontSize>
+    <listFontSize if="${screen.height} &lt; 400">0.050</listFontSize>
+    <detailFontSize>0.036</detailFontSize>
+    <detailFontSize if="${screen.height} &lt; 400">0.040</detailFontSize>
+    <logoMaxWidth>0.63</logoMaxWidth>
+    <logoMaxHeight>0.17</logoMaxHeight>
+    <logoDisplayMaxWidth>0.72</logoDisplayMaxWidth>
+    <logoDisplayMaxHeight>0.21</logoDisplayMaxHeight>
+    <floatAmount>0.0078125</floatAmount>
+    <waveAmount>0.003125</waveAmount>
+    <reflectionAmount>0.55</reflectionAmount>
+    <lightAmount>0.65</lightAmount>
+  </variables>
+</theme>

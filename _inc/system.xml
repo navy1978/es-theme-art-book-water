@@ -1,0 +1,84 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system" extraTransition="fade" extraTransitionSpeed="460">
+    <!-- Keep ES navigation active while the extra renders the selected scene. -->
+    <carousel name="systemcarousel">
+      <pos>0 0</pos><size>1 1</size><origin>0 0</origin>
+      <type>horizontal</type><color>00000000</color>
+      <logoSize>0.01 0.01</logoSize><logoScale>1</logoScale>
+      <maxLogoCount>1</maxLogoCount><defaultTransition>fade</defaultTransition>
+      <transitionSpeed>460</transitionSpeed><systemInfoDelay>0</systemInfoDelay>
+      <zIndex>-1</zIndex>
+    </carousel>
+    <image name="logo"><path>${fallbackLogo}</path><color>FFFFFF00</color></image>
+    <text name="logoText"><color>FFFFFF00</color></text>
+    <image name="water-background" extra="true">
+      <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path>
+      <color>${background}</color><zIndex>0</zIndex>
+    </image>
+    <!-- Keep the logo inside a bounded box.  This is compatible with the GLES2
+         renderer used by AmberELEC handhelds even when custom shaders are not
+         available in the installed EmulationStation build. -->
+    <image ifSubset="water-effects:animated|still" name="water-logo" extra="true">
+      <path>${fallbackLogo}</path><path>${logoPath}</path>
+      <origin>0.5 0.5</origin><pos>0.5 0.40</pos>
+      <maxSize>${logoDisplayMaxWidth} ${logoDisplayMaxHeight}</maxSize>
+      <color>${uiTint}FF</color><autoFade>false</autoFade><zIndex>3</zIndex>
+      <storyboard ifSubset="water-effects:animated" repeat="forever">
+        <animation property="pos" from="0.5 0.40" to="0.5 0.385" duration="2200" repeat="forever" autoReverse="true" mode="easeInOut"/>
+      </storyboard>
+    </image>
+    <image ifSubset="water-effects:animated|still" name="water-reflection" extra="true">
+      <path>${fallbackLogo}</path><path>${logoPath}</path>
+      <origin>0.5 0.5</origin><pos>0.5 0.71</pos>
+      <maxSize>${logoMaxWidth} ${logoMaxHeight}</maxSize>
+      <flipY>true</flipY><color>${uiTint}45</color><colorEnd>${uiTint}00</colorEnd>
+      <gradientType>vertical</gradientType><zIndex>3</zIndex>
+      <storyboard ifSubset="water-effects:animated" repeat="forever">
+        <animation property="pos" from="0.5 0.71" to="0.5 0.70" duration="2600" repeat="forever" autoReverse="true" mode="easeInOut"/>
+      </storyboard>
+    </image>
+    <image ifSubset="water-effects:calm" name="water-calm-horizon" extra="true">
+      <path>../assets/images/horizon.svg</path><pos>0 0.43</pos><size>1 0.25</size>
+      <color>${accent}55</color><zIndex>2</zIndex>
+    </image>
+    <image ifSubset="water-effects:calm" name="water-calm-logo" extra="true">
+      <path>${fallbackLogo}</path><path>${logoPath}</path>
+      <origin>0.5 0.5</origin><pos>0.5 0.40</pos><maxSize>${logoDisplayMaxWidth} ${logoDisplayMaxHeight}</maxSize>
+      <color>${uiTint}FF</color><zIndex>3</zIndex>
+    </image>
+    <image ifSubset="water-effects:calm" name="water-calm-reflection" extra="true">
+      <path>${fallbackLogo}</path><path>${logoPath}</path>
+      <origin>0.5 0.5</origin><pos>0.5 0.71</pos><maxSize>${logoMaxWidth} ${logoMaxHeight}</maxSize>
+      <flipY>true</flipY><color>${uiTint}45</color><colorEnd>${uiTint}00</colorEnd><gradientType>vertical</gradientType>
+      <zIndex>3</zIndex>
+    </image>
+    <text name="water-brand" extra="true">
+      <pos>0.05 0.055</pos><size>0.45 0.05</size><text>AMBERELEC</text>
+      <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+    </text>
+    <text name="water-system-name" extra="true">
+      <pos>0.12 0.21</pos><size>0.76 0.055</size><text>${system.fullName}</text>
+      <alignment>center</alignment><fontPath>${fontRegular}</fontPath><fontSize>0.033</fontSize>
+      <color>${uiMuted}</color><zIndex>10</zIndex>
+    </text>
+    <text name="water-left" extra="true">
+      <pos>0.04 0.355</pos><size>0.06 0.09</size><text>‹</text><alignment>center</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}</color><zIndex>10</zIndex>
+    </text>
+    <text name="water-right" extra="true">
+      <pos>0.90 0.355</pos><size>0.06 0.09</size><text>›</text><alignment>center</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}</color><zIndex>10</zIndex>
+    </text>
+    <text name="systemInfo">
+      <pos>0.12 0.83</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.032</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
+    </text>
+  </view>
+  <view name="system,basic,detailed,video">
+    <helpsystem name="help">
+      <pos>0.04 0.95</pos><origin>0 0.5</origin><fontPath>${fontRegular}</fontPath>
+      <fontSize>0.032</fontSize><textColor>${muted}</textColor><iconColor>${muted}</iconColor>
+    </helpsystem>
+  </view>
+</theme>

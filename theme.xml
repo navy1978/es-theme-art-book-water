@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Art Book Water. See LICENSE.md and CREDITS.md. -->
+<theme defaultTransition="fade">
+  <formatVersion>7</formatVersion>
+  <include>./_inc/settings.xml</include>
+  <include>./_inc/palette.xml</include>
+  <subset name="water-effects" displayName="Water effects">
+    <include name="animated" displayName="Water (animated)">./_inc/options/animated.xml</include>
+    <include name="still" displayName="Water (still)">./_inc/options/still.xml</include>
+    <include name="calm" displayName="Calm (no shaders)">./_inc/options/calm.xml</include>
+  </subset>
+  <subset name="water-colors" displayName="Water colors">
+    <include name="white" displayName="White">./_inc/colors/white.xml</include>
+    <include name="gold" displayName="Gold">./_inc/colors/gold.xml</include>
+    <include name="silver" displayName="Silver">./_inc/colors/silver.xml</include>
+    <include name="neon-blue" displayName="Neon blue">./_inc/colors/neon-blue.xml</include>
+  </subset>
+  <include>./_inc/system.xml</include>
+  <include>./_inc/gamelist.xml</include>
+  <include>./_inc/menu.xml</include>
+</theme>

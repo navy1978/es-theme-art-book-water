@@ -1,0 +1,976 @@
+{
+  "repository": "https://github.com/AmberELEC/art-book-next-amberelec",
+  "commit": "4ea9b03dba68ad4bc49e43315e1173901d282ceb",
+  "files": [
+    {
+      "path": "docs/upstream/Art-Book-Next-README.md",
+      "upstream_path": "README.md",
+      "sha256": "c08b5c357dbeb32ae2fe353fc4e7b2b7ea8753aafb2039fea993f8c10ae32ce2"
+    },
+    {
+      "path": "assets/fonts/Oxygen-Bold.ttf",
+      "upstream_path": "_inc/fonts/Oxygen-Bold.ttf",
+      "sha256": "607bb0a9591ac750a60064f4882c312553ed955745e297aa976ab882faf80f42"
+    },
+    {
+      "path": "assets/fonts/Oxygen-Regular.ttf",
+      "upstream_path": "_inc/fonts/Oxygen-Regular.ttf",
+      "sha256": "a2227b8a6f56a462fb6d6146552724893e7eb9f780ba622e8b0cf5702ef2aa11"
+    },
+    {
+      "path": "assets/logos/3do.svg",
+      "upstream_path": "_inc/systems/logos/3do.svg",
+      "sha256": "0a9f7f6bc28850e3f02343c79484dddf2213c84934a97079965daa0154f75431"
+    },
+    {
+      "path": "assets/logos/3ds.svg",
+      "upstream_path": "_inc/systems/logos/3ds.svg",
+      "sha256": "e3baf88affd4f1de4b819039589600a058f802e6da4e350a001638407cae4d42"
+    },
+    {
+      "path": "assets/logos/adam.svg",
+      "upstream_path": "_inc/systems/logos/adam.svg",
+      "sha256": "0d1c18c7ed28d4638902895b03b1842500ebb53258c8fbb1b1d9fa3d3e75c416"
+    },
+    {
+      "path": "assets/logos/advision.svg",
+      "upstream_path": "_inc/systems/logos/advision.svg",
+      "sha256": "5044c9b2953e76bcf2c8bd6c2109420267cbaed55ba87725822ddcb6feb55954"
+    },
+    {
+      "path": "assets/logos/amiga.svg",
+      "upstream_path": "_inc/systems/logos/amiga.svg",
+      "sha256": "c784bcabbc6c181943e1e3124e37447a3023296aad82cec8e4859b3543c3fe2d"
+    },
+    {
+      "path": "assets/logos/amigacd32.svg",
+      "upstream_path": "_inc/systems/logos/amigacd32.svg",
+      "sha256": "678c23134f6040e3155afc9d77ac3d3cd90e4667d0f9e233b13b9478bbbe2e78"
+    },
+    {
+      "path": "assets/logos/amstradcpc.svg",
+      "upstream_path": "_inc/systems/logos/amstradcpc.svg",
+      "sha256": "e89ae3f8d0b10e2a4ca60b9e030b07623c2c31838a84d8ced1132408a8b71f00"
+    },
+    {
+      "path": "assets/logos/arcade.svg",
+      "upstream_path": "_inc/systems/logos/arcade.svg",
+      "sha256": "e1009f9e20820f4acafd28919405cdfb85f9f01c64e4afe9022d05b0a936be3e"
+    },
+    {
+      "path": "assets/logos/arcadia.svg",
+      "upstream_path": "_inc/systems/logos/arcadia.svg",
+      "sha256": "24b2a51b466f0ead30bf2897320b9db0674643f4f8eb3514964e0f606cfd2124"
+    },
+    {
+      "path": "assets/logos/arduboy.svg",
+      "upstream_path": "_inc/systems/logos/arduboy.svg",
+      "sha256": "16bb142d13f6922a18aecd7b7ec577592fb4e975ecaee2da3a933ff1e640a5f0"
+    },
+    {
+      "path": "assets/logos/astrocade.svg",
+      "upstream_path": "_inc/systems/logos/astrocade.svg",
+      "sha256": "306dc313bc16efdcf670d00388d400af75f1701adb451c5415031b385bfa4ccf"
+    },
+    {
+      "path": "assets/logos/atari2600.svg",
+      "upstream_path": "_inc/systems/logos/atari2600.svg",
+      "sha256": "cad95748ccacd904b0310ec992451f2d0c07fb6b429e73bd6f56ffa9a2ba3514"
+    },
+    {
+      "path": "assets/logos/atari5200.svg",
+      "upstream_path": "_inc/systems/logos/atari5200.svg",
+      "sha256": "9450dc77b7236cfdee1aa3e62641a24e564b71697ab14441fdeec7c7d0fc34b4"
+    },
+    {
+      "path": "assets/logos/atari7800.svg",
+      "upstream_path": "_inc/systems/logos/atari7800.svg",
+      "sha256": "387c470323f0ba4fa3a4ea341b5e9c385b59fe04400e3e4fc7750af0a70acb05"
+    },
+    {
+      "path": "assets/logos/atari800.svg",
+      "upstream_path": "_inc/systems/logos/atari800.svg",
+      "sha256": "94ac1e31cc78702d037fb895ea683f3e5547f9e52c40dccfe2c10c56a23b2c55"
+    },
+    {
+      "path": "assets/logos/atarijaguar.svg",
+      "upstream_path": "_inc/systems/logos/atarijaguar.svg",
+      "sha256": "b1279fdb543be13476450614f3eac2b4a065639effdf801afe4dd3c3fe1c432b"
+    },
+    {
+      "path": "assets/logos/atarilynx.svg",
+      "upstream_path": "_inc/systems/logos/atarilynx.svg",
+      "sha256": "8ef1f871c9c9fffa161bef8136181baa1f375c648b3e7a72d02c3c7da1f22114"
+    },
+    {
+      "path": "assets/logos/atarist.svg",
+      "upstream_path": "_inc/systems/logos/atarist.svg",
+      "sha256": "865b417de25b3c46998e551ef5f4c0d6b740d8585d48d7d47af7d3e100efdcfa"
+    },
+    {
+      "path": "assets/logos/atomiswave.svg",
+      "upstream_path": "_inc/systems/logos/atomiswave.svg",
+      "sha256": "33c76e6d7689b41c2f5b7ab4e2f40cd4f4d25986f5dac835433ee31012af5fe6"
+    },
+    {
+      "path": "assets/logos/auto-action.svg",
+      "upstream_path": "_inc/systems/logos/auto-action.svg",
+      "sha256": "88cc1b8ab1f29349c0e9214fceba40b7251c806313147421490ffa227cbf87cb"
+    },
+    {
+      "path": "assets/logos/auto-adult.svg",
+      "upstream_path": "_inc/systems/logos/auto-adult.svg",
+      "sha256": "70540e33df6720e79bc60b2fef5a076827d96fa4d7f87849df4f8183a43224e9"
+    },
+    {
+      "path": "assets/logos/auto-adventure.svg",
+      "upstream_path": "_inc/systems/logos/auto-adventure.svg",
+      "sha256": "8bc02256f5f45590af60d253089eb00c41e5d295227fd780538ac17cc183204e"
+    },
+    {
+      "path": "assets/logos/auto-allgames.svg",
+      "upstream_path": "_inc/systems/logos/auto-allgames.svg",
+      "sha256": "b2052609636a7ed652389a320eaf25278a6fce797731999216b0b696233da6c1"
+    },
+    {
+      "path": "assets/logos/auto-asiaticboard.svg",
+      "upstream_path": "_inc/systems/logos/auto-asiaticboard.svg",
+      "sha256": "c274dd2de9b47f3b4cbe817c7589878a5a2f31e92c4c5c8cb9e0fc201d85af4e"
+    },
+    {
+      "path": "assets/logos/auto-at2players.svg",
+      "upstream_path": "_inc/systems/logos/auto-at2players.svg",
+      "sha256": "8312b4ad819652b4ace0f4f4a2d525e44e8e28b4ab195dcd097d1eb070e9776c"
+    },
+    {
+      "path": "assets/logos/auto-at4players.svg",
+      "upstream_path": "_inc/systems/logos/auto-at4players.svg",
+      "sha256": "5fe504c549b44c7ce85f16ebf40b56be4e5b1fbe6ed9081fcc873e7093ad437a"
+    },
+    {
+      "path": "assets/logos/auto-beatemup.svg",
+      "upstream_path": "_inc/systems/logos/auto-beatemup.svg",
+      "sha256": "3bdab1f2d55998401b3509ff1bca0abdf6ff606fe9b2dafe3bc41f46be4ae27f"
+    },
+    {
+      "path": "assets/logos/auto-board.svg",
+      "upstream_path": "_inc/systems/logos/auto-board.svg",
+      "sha256": "c77f6cf7133c871c20445649a9247c68b74a657ee237e4e7c0c115147a55ce16"
+    },
+    {
+      "path": "assets/logos/auto-breakout.svg",
+      "upstream_path": "_inc/systems/logos/auto-breakout.svg",
+      "sha256": "b17b75b221aa341eab99cd0266393fda7bda255c86d0ed76382ba4b58293b523"
+    },
+    {
+      "path": "assets/logos/auto-casino.svg",
+      "upstream_path": "_inc/systems/logos/auto-casino.svg",
+      "sha256": "ad80112fbb7db7449892684e56de5b45708e8349dc08d14c1ebce049eb8a8d61"
+    },
+    {
+      "path": "assets/logos/auto-casual.svg",
+      "upstream_path": "_inc/systems/logos/auto-casual.svg",
+      "sha256": "8f129fe0e2897e514e87e5365d03c7648831835fe13a282dd8ed3d3782561d35"
+    },
+    {
+      "path": "assets/logos/auto-compilation.svg",
+      "upstream_path": "_inc/systems/logos/auto-compilation.svg",
+      "sha256": "e85ebd92216c6d6cdb227d4c89a016923a98b236596864a92e5097448c76e147"
+    },
+    {
+      "path": "assets/logos/auto-demo.svg",
+      "upstream_path": "_inc/systems/logos/auto-demo.svg",
+      "sha256": "3f2a18e059c589b80df2fdfb29bdd73d9f68825327967b057b58751985a67c4d"
+    },
+    {
+      "path": "assets/logos/auto-educational.svg",
+      "upstream_path": "_inc/systems/logos/auto-educational.svg",
+      "sha256": "530d8f70594c797354ff2240dda6b31fda88aa8febe78bfd94ac8c8049ad4062"
+    },
+    {
+      "path": "assets/logos/auto-favorites.svg",
+      "upstream_path": "_inc/systems/logos/auto-favorites.svg",
+      "sha256": "02673767cfd30d3d568c39fabd23d1db79bdedf829b8fa33de82640cc7058aec"
+    },
+    {
+      "path": "assets/logos/auto-fight.svg",
+      "upstream_path": "_inc/systems/logos/auto-fight.svg",
+      "sha256": "23d81089a6d2b2d5c0b261bf4934c3188fb0f613e4e6bc149dffdb69dd50e16a"
+    },
+    {
+      "path": "assets/logos/auto-huntingandfishing.svg",
+      "upstream_path": "_inc/systems/logos/auto-huntingandfishing.svg",
+      "sha256": "37c4e6ba8d6f481b2165fe82cb7bad3da474ddf44cf5a328ac6215e8b6e10481"
+    },
+    {
+      "path": "assets/logos/auto-lastplayed.svg",
+      "upstream_path": "_inc/systems/logos/auto-lastplayed.svg",
+      "sha256": "06cf2dd6292adf475f2cdc1f7a0d7c00ee58cc39c5344235619077a56a33b0b2"
+    },
+    {
+      "path": "assets/logos/auto-lightgun.svg",
+      "upstream_path": "_inc/systems/logos/auto-lightgun.svg",
+      "sha256": "cafd2ff1580b544bdbfc17da27ea00038c87c146197ace2bdc2b36c33e1bab06"
+    },
+    {
+      "path": "assets/logos/auto-musicanddance.svg",
+      "upstream_path": "_inc/systems/logos/auto-musicanddance.svg",
+      "sha256": "9026e77b08b6f8722564df0bdcf05fac8ef1c09fee3e17c096eb27f15cffbddb"
+    },
+    {
+      "path": "assets/logos/auto-neverplayed.svg",
+      "upstream_path": "_inc/systems/logos/auto-neverplayed.svg",
+      "sha256": "4405240d3161d27cb363e56cfcf91dee4d3c958370aa00ea0185d6cabe66e61b"
+    },
+    {
+      "path": "assets/logos/auto-pinball.svg",
+      "upstream_path": "_inc/systems/logos/auto-pinball.svg",
+      "sha256": "8556e08a7216fe428270881c80ff3fc886e54afd1c6c31ef2c3440ba129963bf"
+    },
+    {
+      "path": "assets/logos/auto-platform.svg",
+      "upstream_path": "_inc/systems/logos/auto-platform.svg",
+      "sha256": "394bde14f642bcebc68274c6cf076f5c5353bb19648a4062aec4effede41d140"
+    },
+    {
+      "path": "assets/logos/auto-playingcards.svg",
+      "upstream_path": "_inc/systems/logos/auto-playingcards.svg",
+      "sha256": "345501bb510bccdd24cf1ca444b6d24fa5b40091c3a10a8c2eb31f8ffaf2a1de"
+    },
+    {
+      "path": "assets/logos/auto-puzzle.svg",
+      "upstream_path": "_inc/systems/logos/auto-puzzle.svg",
+      "sha256": "58eba708feb7f7e5c23cd9a825e4be3914fd4ee381bf57861490f9a1e77c2aa4"
+    },
+    {
+      "path": "assets/logos/auto-quiz.svg",
+      "upstream_path": "_inc/systems/logos/auto-quiz.svg",
+      "sha256": "0925ad40326afaa23765c09b58ac8cf51de763383d8e072eabfa625450a10e2d"
+    },
+    {
+      "path": "assets/logos/auto-racedriving.svg",
+      "upstream_path": "_inc/systems/logos/auto-racedriving.svg",
+      "sha256": "58d78063cda0c006bf336d7f084c923e09ddbddc602aacdfb20607d0f00acb79"
+    },
+    {
+      "path": "assets/logos/auto-reflection.svg",
+      "upstream_path": "_inc/systems/logos/auto-reflection.svg",
+      "sha256": "d79f663d4e80d87b4a301ebb3b2de1ee8f7e301b9ebd38a4ae0b3e366d7509b8"
+    },
+    {
+      "path": "assets/logos/auto-retroachievements.svg",
+      "upstream_path": "_inc/systems/logos/auto-retroachievements.svg",
+      "sha256": "df1e7ed0372e6a18785521171a86c2e7c7df041489414511869620f8f0d30145"
+    },
+    {
+      "path": "assets/logos/auto-roleplayings.svg",
+      "upstream_path": "_inc/systems/logos/auto-roleplayings.svg",
+      "sha256": "17b4b51939c7c87b8448e468581fbb00f9b928690482cab6a9b720eb43dfc141"
+    },
+    {
+      "path": "assets/logos/auto-shootemup.svg",
+      "upstream_path": "_inc/systems/logos/auto-shootemup.svg",
+      "sha256": "bc24d3c2da5476f464bda39d05e0828a46db29f71ddc32e3ddf684d07f5e7b90"
+    },
+    {
+      "path": "assets/logos/auto-shooter.svg",
+      "upstream_path": "_inc/systems/logos/auto-shooter.svg",
+      "sha256": "5857471439f6cc6c379253e68d24350fb755c9ee6f17dfb6995d934e76213121"
+    },
+    {
+      "path": "assets/logos/auto-simulation.svg",
+      "upstream_path": "_inc/systems/logos/auto-simulation.svg",
+      "sha256": "107cb316c889190fc2e34551fd7d0a42392bcf8833dd0244fefd30c7fe7ca383"
+    },
+    {
+      "path": "assets/logos/auto-sports.svg",
+      "upstream_path": "_inc/systems/logos/auto-sports.svg",
+      "sha256": "15c2160eae3b76d44ce072d69516b861afa77185dce138316b97fc4132505372"
+    },
+    {
+      "path": "assets/logos/auto-sportswithanimals.svg",
+      "upstream_path": "_inc/systems/logos/auto-sportswithanimals.svg",
+      "sha256": "1247d4edb61d52756aaa0fdd187320b1fefba18e05285cc946e44ac177d7aca9"
+    },
+    {
+      "path": "assets/logos/auto-strategy.svg",
+      "upstream_path": "_inc/systems/logos/auto-strategy.svg",
+      "sha256": "21cca2812c5bf3e1d864ce9b24cedb842190a31382f9770e6d5a48ebb1daf26f"
+    },
+    {
+      "path": "assets/logos/auto-various.svg",
+      "upstream_path": "_inc/systems/logos/auto-various.svg",
+      "sha256": "19a8ed7f78ede751f8aa45e952b06399c5f01bf6206d87730828d6896aa200c0"
+    },
+    {
+      "path": "assets/logos/auto-verticalarcade.svg",
+      "upstream_path": "_inc/systems/logos/auto-verticalarcade.svg",
+      "sha256": "014d9e3facaf760f6c5cab85129891cf8a4506a6b627ccb512b60bb5ec7280a1"
+    },
+    {
+      "path": "assets/logos/auto-wheel.svg",
+      "upstream_path": "_inc/systems/logos/auto-wheel.svg",
+      "sha256": "03a1b9179f9f8a70cd5a367e20f66b96bd1cf1f9e2fba088cd97e1901f33a637"
+    },
+    {
+      "path": "assets/logos/build.svg",
+      "upstream_path": "_inc/systems/logos/build.svg",
+      "sha256": "705cbabe71a36890cb7df54877491518fe7bcbc3c81106719fe9e2f581b49d92"
+    },
+    {
+      "path": "assets/logos/c128.svg",
+      "upstream_path": "_inc/systems/logos/c128.svg",
+      "sha256": "c42c774c6c6f65aa8eeaa172aae5df651246ead04db5fa88e2032c1b9c85d6e6"
+    },
+    {
+      "path": "assets/logos/c16.svg",
+      "upstream_path": "_inc/systems/logos/c16.svg",
+      "sha256": "cd923f5c8e064986f634b90df9cf00a1a7164445dcbbc79aa360043c6b60774b"
+    },
+    {
+      "path": "assets/logos/c64.svg",
+      "upstream_path": "_inc/systems/logos/c64.svg",
+      "sha256": "5e9b482e674a2e79bc69cd1aff70c28c3c0a77bdc843e40e01434946d2dc3e45"
+    },
+    {
+      "path": "assets/logos/cdi.svg",
+      "upstream_path": "_inc/systems/logos/cdi.svg",
+      "sha256": "9f246f5b4789d42f92d0c4ea41f087891f45f90cc74c7c236d809f6224c29f1c"
+    },
+    {
+      "path": "assets/logos/channelf.svg",
+      "upstream_path": "_inc/systems/logos/channelf.svg",
+      "sha256": "e6b140084c1ee2bad65a2e009dcb952ed67e9390779d8aee7a934a0f4f44c9ef"
+    },
+    {
+      "path": "assets/logos/chip-8.svg",
+      "upstream_path": "_inc/systems/logos/chip-8.svg",
+      "sha256": "0c73011a1a50be13e694bb5a8b1fd9fb90390555459a545da1fba2c717384571"
+    },
+    {
+      "path": "assets/logos/chip8.svg",
+      "upstream_path": "_inc/systems/logos/chip8.svg",
+      "sha256": "0c73011a1a50be13e694bb5a8b1fd9fb90390555459a545da1fba2c717384571"
+    },
+    {
+      "path": "assets/logos/colecovision.svg",
+      "upstream_path": "_inc/systems/logos/colecovision.svg",
+      "sha256": "deb54434714972df6ce545ab50675e47c40b783995e08ff1f0dbe184eddea4aa"
+    },
+    {
+      "path": "assets/logos/completed.svg",
+      "upstream_path": "_inc/systems/logos/completed.svg",
+      "sha256": "e0f3fb0c37238fa6c9a74adcc28e02643d4e3d3d2d2cc8939823495597f58d47"
+    },
+    {
+      "path": "assets/logos/cplus4.svg",
+      "upstream_path": "_inc/systems/logos/cplus4.svg",
+      "sha256": "09dcc242e40fed7ecd95ff7d6b1003f2689d34aa0167e20c4c5670dea570fdf5"
+    },
+    {
+      "path": "assets/logos/cps1.svg",
+      "upstream_path": "_inc/systems/logos/cps1.svg",
+      "sha256": "07ff6cfabce4c4beff5ebe0b6c565d825850a50c8b6267b5e63f17aa848e1f76"
+    },
+    {
+      "path": "assets/logos/cps2.svg",
+      "upstream_path": "_inc/systems/logos/cps2.svg",
+      "sha256": "e1ebb521b0e5f97d93130796a1396f394a2a216f2de71d874cb8262184969415"
+    },
+    {
+      "path": "assets/logos/cps3.svg",
+      "upstream_path": "_inc/systems/logos/cps3.svg",
+      "sha256": "7881ca05f127c97f7f81171930b35873fb275ff7893cc31ba7168e3f863075a6"
+    },
+    {
+      "path": "assets/logos/creativision.svg",
+      "upstream_path": "_inc/systems/logos/creativision.svg",
+      "sha256": "842455438d2ca7738ddc33b62afe3e05654b2d2c22064f94f319529aca893135"
+    },
+    {
+      "path": "assets/logos/custom-collections.svg",
+      "upstream_path": "_inc/systems/logos/custom-collections.svg",
+      "sha256": "7f5ecabca74417f0bc342d8f6f35f332fdb42a8a00be1a28610c92cf2fdebed5"
+    },
+    {
+      "path": "assets/logos/daphne.svg",
+      "upstream_path": "_inc/systems/logos/daphne.svg",
+      "sha256": "b05c236e3e6773ffb96bfcd4312b8ebd91d174a13ead03f0cf4ac0c8a5bf78df"
+    },
+    {
+      "path": "assets/logos/doom.svg",
+      "upstream_path": "_inc/systems/logos/doom.svg",
+      "sha256": "4b8cb333a03460b06071e2ac18f07e3bd5f90c9a3ec968a4485fe77f4074c740"
+    },
+    {
+      "path": "assets/logos/dreamcast.svg",
+      "upstream_path": "_inc/systems/logos/dreamcast.svg",
+      "sha256": "6d208e0b6481e194a6f7caeae5ab989f0c85b6724c94fb4edc6da8f2939daa9d"
+    },
+    {
+      "path": "assets/logos/easyrpg.svg",
+      "upstream_path": "_inc/systems/logos/easyrpg.svg",
+      "sha256": "a07c9e31bb353ef3449fec0f4f77dd234d86aa24e4a85b2444622d003a83af19"
+    },
+    {
+      "path": "assets/logos/famicom.svg",
+      "upstream_path": "_inc/systems/logos/famicom.svg",
+      "sha256": "f05ce6f5fd904af5ce44fb1ee04a2b67d2d825e0e773f14f23b2eac8a2e1f431"
+    },
+    {
+      "path": "assets/logos/fbn.svg",
+      "upstream_path": "_inc/systems/logos/fbn.svg",
+      "sha256": "27cfa34243738a015e68e1e7a4b9171d5709401f059da988fe224768950b7233"
+    },
+    {
+      "path": "assets/logos/fbneo.svg",
+      "upstream_path": "_inc/systems/logos/fbneo.svg",
+      "sha256": "27cfa34243738a015e68e1e7a4b9171d5709401f059da988fe224768950b7233"
+    },
+    {
+      "path": "assets/logos/fds.svg",
+      "upstream_path": "_inc/systems/logos/fds.svg",
+      "sha256": "a57213c1ef4a7e1780c1b8d4e18c21c9e0bb9f94aece051cf33807ad6384a4f4"
+    },
+    {
+      "path": "assets/logos/gamate.svg",
+      "upstream_path": "_inc/systems/logos/gamate.svg",
+      "sha256": "24bd722f67f39a02424c270dd24ea39b231868ada53f790a05c64f69989d68ae"
+    },
+    {
+      "path": "assets/logos/gameandwatch.svg",
+      "upstream_path": "_inc/systems/logos/gameandwatch.svg",
+      "sha256": "9ca4fd9b07ce1aa97a6a9967243c48cb9ba42ed1f8f498ec299ac8ee9176f575"
+    },
+    {
+      "path": "assets/logos/gamegear.svg",
+      "upstream_path": "_inc/systems/logos/gamegear.svg",
+      "sha256": "882989382887f1c099516edda8d835aa4943919cbfb755984bb3cf21aeada88c"
+    },
+    {
+      "path": "assets/logos/gamemaster.svg",
+      "upstream_path": "_inc/systems/logos/gamemaster.svg",
+      "sha256": "066bded9528e56c75bf8476f5afb0e63b030ec5413c0bb02eac273a3a9b170b3"
+    },
+    {
+      "path": "assets/logos/gb.svg",
+      "upstream_path": "_inc/systems/logos/gb.svg",
+      "sha256": "ee83809de44c109eed14c3bc1dd7f02ece955e888886e42b207d08833b224bf1"
+    },
+    {
+      "path": "assets/logos/gba.svg",
+      "upstream_path": "_inc/systems/logos/gba.svg",
+      "sha256": "726ef4946105e4cf89437112308e15c9d71afcad8838840cc1bfa6cfaee53787"
+    },
+    {
+      "path": "assets/logos/gbah.svg",
+      "upstream_path": "_inc/systems/logos/gbah.svg",
+      "sha256": "e4882dbf9c4c34091440729832d541ad4df502430fdc74efc2a428444e332f93"
+    },
+    {
+      "path": "assets/logos/gbc.svg",
+      "upstream_path": "_inc/systems/logos/gbc.svg",
+      "sha256": "fdec5840bf2d99e0ec38082ecabf459c90f48240ac30f3bf1140a549ad8e9964"
+    },
+    {
+      "path": "assets/logos/gbch.svg",
+      "upstream_path": "_inc/systems/logos/gbch.svg",
+      "sha256": "15798d0045ee8ff827abb2a66a8b21d38cdae7630bb9f8115d35407ac6c9ce83"
+    },
+    {
+      "path": "assets/logos/gbh.svg",
+      "upstream_path": "_inc/systems/logos/gbh.svg",
+      "sha256": "6dba2c7f6c55fe785e175aad995b01932ca8deb536c07e8b1c80fe489c556567"
+    },
+    {
+      "path": "assets/logos/gc.svg",
+      "upstream_path": "_inc/systems/logos/gc.svg",
+      "sha256": "eb4a68557d0d33ad56f8df46145b14a4a97e8a9742b31187f712882a2a52ca37"
+    },
+    {
+      "path": "assets/logos/genesis.svg",
+      "upstream_path": "_inc/systems/logos/genesis.svg",
+      "sha256": "66df294c9fcdc95903660af3667c9d961dabb4e828b4a39e9ae67f62fbd8f44d"
+    },
+    {
+      "path": "assets/logos/genh.svg",
+      "upstream_path": "_inc/systems/logos/genh.svg",
+      "sha256": "be770f3c035850d9dd2721cce20f143d23bc552a8d9545a2c35dda0a07fa9a6b"
+    },
+    {
+      "path": "assets/logos/ggh.svg",
+      "upstream_path": "_inc/systems/logos/ggh.svg",
+      "sha256": "c03997597eb38765ece9741703cdb64c7925eb0a73a180d0f76078ffaec2b81b"
+    },
+    {
+      "path": "assets/logos/gp32.svg",
+      "upstream_path": "_inc/systems/logos/gp32.svg",
+      "sha256": "1f645c70ffa0b97df75be0f0ecc61511191c4783aab33ffcb4e6d77d74019546"
+    },
+    {
+      "path": "assets/logos/gx4000.svg",
+      "upstream_path": "_inc/systems/logos/gx4000.svg",
+      "sha256": "197b6cd74fc1780c00de3ef1bd724c2abf4add5d65db5154b5e72b13ab698871"
+    },
+    {
+      "path": "assets/logos/imageviewer.svg",
+      "upstream_path": "_inc/systems/logos/imageviewer.svg",
+      "sha256": "68ab4a4bfe5f35e43da4a73939d36e466089d565807af4482856ca317e21716f"
+    },
+    {
+      "path": "assets/logos/intellivision.svg",
+      "upstream_path": "_inc/systems/logos/intellivision.svg",
+      "sha256": "df82bb1e7f5a2672d4451968f4bfc2434c7d157b17fe110d14694a9f7c08f159"
+    },
+    {
+      "path": "assets/logos/j2me.svg",
+      "upstream_path": "_inc/systems/logos/j2me.svg",
+      "sha256": "93fe5eac6e4a61d51a149af82150e4b294d4a5c54994f7ca1e8381f074540080"
+    },
+    {
+      "path": "assets/logos/laserdisc.svg",
+      "upstream_path": "_inc/systems/logos/laserdisc.svg",
+      "sha256": "c5e81b185d00a69f7862452627176d5c07298a3dea1696c78f138d5098dc0652"
+    },
+    {
+      "path": "assets/logos/lcdgames.svg",
+      "upstream_path": "_inc/systems/logos/lcdgames.svg",
+      "sha256": "cd56652c8f0dd8de5218c24f2a5f480b7d1cce5319415c27c15f3e9ae8aa6348"
+    },
+    {
+      "path": "assets/logos/lowresnx.svg",
+      "upstream_path": "_inc/systems/logos/lowresnx.svg",
+      "sha256": "3ba69af6637797768166dd1604502fc10439834f7ee284b6add584e35a1c8676"
+    },
+    {
+      "path": "assets/logos/macintosh.svg",
+      "upstream_path": "_inc/systems/logos/macintosh.svg",
+      "sha256": "c7f14053e5be27a744f96630219589c88d286c9ba8e85de30672b3715eaced9f"
+    },
+    {
+      "path": "assets/logos/mame.svg",
+      "upstream_path": "_inc/systems/logos/mame.svg",
+      "sha256": "437ad943139ab89d29b7714376df3c408a614e9d9d7cbc33bb3f875d403c1742"
+    },
+    {
+      "path": "assets/logos/mastersystem.svg",
+      "upstream_path": "_inc/systems/logos/mastersystem.svg",
+      "sha256": "fadd6fdc85121c1a0ab34dba622cc6fe78117e3095bc4801d2e9ab6a78b918ab"
+    },
+    {
+      "path": "assets/logos/megacd.svg",
+      "upstream_path": "_inc/systems/logos/megacd.svg",
+      "sha256": "e627de93ea30612efe1a63d463392d2cd00a307501846a5df0df539869c18cea"
+    },
+    {
+      "path": "assets/logos/megadrive-japan.svg",
+      "upstream_path": "_inc/systems/logos/megadrive-japan.svg",
+      "sha256": "6bb087ec2896250556153fb6a9f0d7c5ef716a6f85849fcc7495bd4375bab7fd"
+    },
+    {
+      "path": "assets/logos/megadrive.svg",
+      "upstream_path": "_inc/systems/logos/megadrive.svg",
+      "sha256": "3e5c1d3c998600a5f022ca7d671946d66a1c0d68c4c0b96b4854504b34488d99"
+    },
+    {
+      "path": "assets/logos/megadrivejp.svg",
+      "upstream_path": "_inc/systems/logos/megadrivejp.svg",
+      "sha256": "6bb087ec2896250556153fb6a9f0d7c5ef716a6f85849fcc7495bd4375bab7fd"
+    },
+    {
+      "path": "assets/logos/megaduck.svg",
+      "upstream_path": "_inc/systems/logos/megaduck.svg",
+      "sha256": "fe06215dc55e1737dddfb73dbfaa73e671359b007732ab921d0594db4e508578"
+    },
+    {
+      "path": "assets/logos/moonlight.svg",
+      "upstream_path": "_inc/systems/logos/moonlight.svg",
+      "sha256": "4d65aee5cebd8002dec8301baa25ac85af6052cf73fbd5e10619fce8e50d2dfd"
+    },
+    {
+      "path": "assets/logos/moto.svg",
+      "upstream_path": "_inc/systems/logos/moto.svg",
+      "sha256": "473426686b34996670c237e746baa03a3935eb2af8697529a065dcff15283cb1"
+    },
+    {
+      "path": "assets/logos/mplayer.svg",
+      "upstream_path": "_inc/systems/logos/mplayer.svg",
+      "sha256": "db3047061e12924590ad9a0cd69e482ce5a559bf0e8591a596ed0d77ed281cc2"
+    },
+    {
+      "path": "assets/logos/msu-md.svg",
+      "upstream_path": "_inc/systems/logos/msu-md.svg",
+      "sha256": "acf2f6f0bf2e2cf357d69515075373e02f31ae3095e14559bd260267974663fb"
+    },
+    {
+      "path": "assets/logos/msx.svg",
+      "upstream_path": "_inc/systems/logos/msx.svg",
+      "sha256": "89ddbc5fe7173218eb77b3e444de0cf0532734f401afe4231e6acef82fe998bd"
+    },
+    {
+      "path": "assets/logos/msx2.svg",
+      "upstream_path": "_inc/systems/logos/msx2.svg",
+      "sha256": "ee5d2c2074a20db6e0634b43496dd8d0990c0ca0911ee80c3405c305b01e95ab"
+    },
+    {
+      "path": "assets/logos/music.svg",
+      "upstream_path": "_inc/systems/logos/music.svg",
+      "sha256": "00b29999c140e3a1560709d39d03800aedc04eb4d5dd519d8cbc72d4051b11ba"
+    },
+    {
+      "path": "assets/logos/n64.svg",
+      "upstream_path": "_inc/systems/logos/n64.svg",
+      "sha256": "05fe98a5096fb340c451d892740f6511d5bd85f0f70b9491339ddb1ac7b73ab8"
+    },
+    {
+      "path": "assets/logos/naomi.svg",
+      "upstream_path": "_inc/systems/logos/naomi.svg",
+      "sha256": "924df6790bcbb788cdd615345acd75b5b35e43549d2ab5b5942e7664f5435051"
+    },
+    {
+      "path": "assets/logos/nds.svg",
+      "upstream_path": "_inc/systems/logos/nds.svg",
+      "sha256": "593f0162092412c6faaebf30a2f4566db9e013d333f3a01c8a0f8f1e59c82716"
+    },
+    {
+      "path": "assets/logos/neogeo.svg",
+      "upstream_path": "_inc/systems/logos/neogeo.svg",
+      "sha256": "b8d43d1b46ef4944cd790d06633354ee98321f20fc6a9e06c17abea2eb86fb26"
+    },
+    {
+      "path": "assets/logos/neogeocd.svg",
+      "upstream_path": "_inc/systems/logos/neogeocd.svg",
+      "sha256": "30d2e9407dbde7acdf87a9de55390c797cee241ad97757624f4fe43ec9e7e231"
+    },
+    {
+      "path": "assets/logos/nes.svg",
+      "upstream_path": "_inc/systems/logos/nes.svg",
+      "sha256": "20dd606bd4bd3c4e93ea1d76f35d9799bac8ecb97888d44705ec10450100696b"
+    },
+    {
+      "path": "assets/logos/nesh.svg",
+      "upstream_path": "_inc/systems/logos/nesh.svg",
+      "sha256": "e21d822bea4780676ffddd09668637b2b0ed7243ea7a276b3b8fd503c2e68b6c"
+    },
+    {
+      "path": "assets/logos/ngp.svg",
+      "upstream_path": "_inc/systems/logos/ngp.svg",
+      "sha256": "72eb31ae906d41186cafb31ed8fbb9b208ac0311af310aa5ef6ae2710367f40a"
+    },
+    {
+      "path": "assets/logos/ngpc.svg",
+      "upstream_path": "_inc/systems/logos/ngpc.svg",
+      "sha256": "395637d038f3021f1a906bd1b43a6d192575cd88e97cb8cf108207b13ba17400"
+    },
+    {
+      "path": "assets/logos/now-playing.svg",
+      "upstream_path": "_inc/systems/logos/now-playing.svg",
+      "sha256": "21916c4127d1f163166ae590f940e3a8d145a787c38671fdbdb948bb41479e86"
+    },
+    {
+      "path": "assets/logos/odyssey2.svg",
+      "upstream_path": "_inc/systems/logos/odyssey2.svg",
+      "sha256": "b158241dac5deb52f1ae468e527e3db768e96fa4e2ab2cbcaf8bd125ec1e8947"
+    },
+    {
+      "path": "assets/logos/openbor.svg",
+      "upstream_path": "_inc/systems/logos/openbor.svg",
+      "sha256": "bcf3ccdb32e687007c24a6440f10d7af42d4128136a11f0467596a2fd0a7df2c"
+    },
+    {
+      "path": "assets/logos/palm.svg",
+      "upstream_path": "_inc/systems/logos/palm.svg",
+      "sha256": "9edfd2464c784af0eaa0c30cb03ad1fa753cf7105f51b0e645ce4685355da321"
+    },
+    {
+      "path": "assets/logos/pc.svg",
+      "upstream_path": "_inc/systems/logos/pc.svg",
+      "sha256": "dfb4b695fa915153b5e43b71b3b2ea87705d5a3e3d5611ec45a273c657b04bef"
+    },
+    {
+      "path": "assets/logos/pc88.svg",
+      "upstream_path": "_inc/systems/logos/pc88.svg",
+      "sha256": "c841a8da2e2aaf0f94314c2f2470aec0b6e30d8d8e946c8a8c82cabf8b9914f3"
+    },
+    {
+      "path": "assets/logos/pc98.svg",
+      "upstream_path": "_inc/systems/logos/pc98.svg",
+      "sha256": "4f17ea4201295f9a9db96497586df1803a190e3e76df2e5a04325213bba9fa95"
+    },
+    {
+      "path": "assets/logos/pce-cd.svg",
+      "upstream_path": "_inc/systems/logos/pce-cd.svg",
+      "sha256": "c6b6b8f3393786a8fe538950aab4ee00b59ee67faaecbe8a365d75b92bbb6ed1"
+    },
+    {
+      "path": "assets/logos/pcengine.svg",
+      "upstream_path": "_inc/systems/logos/pcengine.svg",
+      "sha256": "bb09b2609bee12669eb8783ba9795b04a5a237ea5bb5e31d522bd0bd1d74c860"
+    },
+    {
+      "path": "assets/logos/pcfx.svg",
+      "upstream_path": "_inc/systems/logos/pcfx.svg",
+      "sha256": "711440763e68c4cb2708f62a4f7091eb6fa06976885bef13ceb2870f27826d46"
+    },
+    {
+      "path": "assets/logos/pet.svg",
+      "upstream_path": "_inc/systems/logos/pet.svg",
+      "sha256": "e26bdc235512c6f49800c69a4ce4e04850f1cb5b14bbeece12ddfa3ec2c124bf"
+    },
+    {
+      "path": "assets/logos/pico-8.svg",
+      "upstream_path": "_inc/systems/logos/pico-8.svg",
+      "sha256": "db683be3b4d4205dd71bff7f8276202a0cffbba6509dae4b37b6f721427ebfeb"
+    },
+    {
+      "path": "assets/logos/pico8.svg",
+      "upstream_path": "_inc/systems/logos/pico8.svg",
+      "sha256": "db683be3b4d4205dd71bff7f8276202a0cffbba6509dae4b37b6f721427ebfeb"
+    },
+    {
+      "path": "assets/logos/pokemini.svg",
+      "upstream_path": "_inc/systems/logos/pokemini.svg",
+      "sha256": "c4d93c4a7b1d9f1329e380bbbfa09181884dd8b261d15b0327f669ab9e471905"
+    },
+    {
+      "path": "assets/logos/ports.svg",
+      "upstream_path": "_inc/systems/logos/ports.svg",
+      "sha256": "b791844ef0eb7f0a6663ad64f39c2735fe17a524bffd06c45c266366d29048d3"
+    },
+    {
+      "path": "assets/logos/psp.svg",
+      "upstream_path": "_inc/systems/logos/psp.svg",
+      "sha256": "22285070bbfe566e332fff705347c24cd9b0c8e8af61b0dfaa0b59e6ade6cf72"
+    },
+    {
+      "path": "assets/logos/pspminis.svg",
+      "upstream_path": "_inc/systems/logos/pspminis.svg",
+      "sha256": "d31738ffc03dea0d917809abc35fa85a2fda465813b029ad8efd66299aae83dc"
+    },
+    {
+      "path": "assets/logos/psvita.svg",
+      "upstream_path": "_inc/systems/logos/psvita.svg",
+      "sha256": "242ec5299bf0a55f003c804f82a900469b9d8531470e4a76264aeed30597c7ec"
+    },
+    {
+      "path": "assets/logos/psx.svg",
+      "upstream_path": "_inc/systems/logos/psx.svg",
+      "sha256": "b80b89649a1e8ad1cdcfdbf8624ef3a7ffb6527a72738074f3921158674abb6d"
+    },
+    {
+      "path": "assets/logos/pv1000.svg",
+      "upstream_path": "_inc/systems/logos/pv1000.svg",
+      "sha256": "f56521a175a1c2a01e0eb05b0e9f90890dea0df934c475bcb84c42cd2e75adeb"
+    },
+    {
+      "path": "assets/logos/satellaview.svg",
+      "upstream_path": "_inc/systems/logos/satellaview.svg",
+      "sha256": "76a78e9a74d329adcdc8166acbb3045a67fb2df39a80b96b8ee8fffe24f20bf0"
+    },
+    {
+      "path": "assets/logos/saturn.svg",
+      "upstream_path": "_inc/systems/logos/saturn.svg",
+      "sha256": "eecbb7bc2c99005a3d6ebc0ddb8e77be0b329774a98cc3f1bbd08261765a2376"
+    },
+    {
+      "path": "assets/logos/scummvm.svg",
+      "upstream_path": "_inc/systems/logos/scummvm.svg",
+      "sha256": "ef81840d4ce3a94912225e38552b1d0233e600f7d01c756c643ccf7e732744cb"
+    },
+    {
+      "path": "assets/logos/scv.svg",
+      "upstream_path": "_inc/systems/logos/scv.svg",
+      "sha256": "d4291fc46e09c05e66b54fb44d415338f09334c36330b937619587439e5129bd"
+    },
+    {
+      "path": "assets/logos/sega32x.svg",
+      "upstream_path": "_inc/systems/logos/sega32x.svg",
+      "sha256": "8c5964daa3e0de672ec226011bca7f852293a44a2bc69ac301f63c7d393fae98"
+    },
+    {
+      "path": "assets/logos/segacd.svg",
+      "upstream_path": "_inc/systems/logos/segacd.svg",
+      "sha256": "9ca8f950f6a8757602d0d50d77da0dd94213000876e6840fd3c4fc9558592e57"
+    },
+    {
+      "path": "assets/logos/segastv.svg",
+      "upstream_path": "_inc/systems/logos/segastv.svg",
+      "sha256": "a5e25459e9a7b01128df62defeded83a3af5fb164a16a4375dfcca6844d498d5"
+    },
+    {
+      "path": "assets/logos/sfc.svg",
+      "upstream_path": "_inc/systems/logos/sfc.svg",
+      "sha256": "af64b8976b1234aa393e4af9657d51dfe18b2d4ede36aa330a2753144b9b45c4"
+    },
+    {
+      "path": "assets/logos/sg-1000.svg",
+      "upstream_path": "_inc/systems/logos/sg-1000.svg",
+      "sha256": "b095990eb55428c9fa1df535ec7e6d65fca46e822a43e470f646dd35715916ad"
+    },
+    {
+      "path": "assets/logos/sgb.svg",
+      "upstream_path": "_inc/systems/logos/sgb.svg",
+      "sha256": "30d8659650fb0ca72f3627f25ec98a2dcb78aab096025e9ae04164dd8cdad942"
+    },
+    {
+      "path": "assets/logos/snes-msu1.svg",
+      "upstream_path": "_inc/systems/logos/snes-msu1.svg",
+      "sha256": "5c5fd9134ba4d36f30875ce73f0e46eeb5ce4e9891868f908f1909c1366fc5cf"
+    },
+    {
+      "path": "assets/logos/snes.svg",
+      "upstream_path": "_inc/systems/logos/snes.svg",
+      "sha256": "12f1335930f60d8917b970af3096caced2fc077b81f9137e3a9ce6fab4fc45f8"
+    },
+    {
+      "path": "assets/logos/snesh.svg",
+      "upstream_path": "_inc/systems/logos/snesh.svg",
+      "sha256": "cc80cf05d7179303d21d254486a4e50756fa3f45a61a24e335c80de4adb1d770"
+    },
+    {
+      "path": "assets/logos/snesmsu1.svg",
+      "upstream_path": "_inc/systems/logos/snesmsu1.svg",
+      "sha256": "5c5fd9134ba4d36f30875ce73f0e46eeb5ce4e9891868f908f1909c1366fc5cf"
+    },
+    {
+      "path": "assets/logos/solarus.svg",
+      "upstream_path": "_inc/systems/logos/solarus.svg",
+      "sha256": "9643e6674625a8e0c7eeeb3440e9586506d084f3e06165c4cb81c0e02f31947a"
+    },
+    {
+      "path": "assets/logos/st-v.svg",
+      "upstream_path": "_inc/systems/logos/st-v.svg",
+      "sha256": "a5e25459e9a7b01128df62defeded83a3af5fb164a16a4375dfcca6844d498d5"
+    },
+    {
+      "path": "assets/logos/stv.svg",
+      "upstream_path": "_inc/systems/logos/stv.svg",
+      "sha256": "a5e25459e9a7b01128df62defeded83a3af5fb164a16a4375dfcca6844d498d5"
+    },
+    {
+      "path": "assets/logos/sufami.svg",
+      "upstream_path": "_inc/systems/logos/sufami.svg",
+      "sha256": "56ad243a3704eccd704fd53176cf2d0f40b3229e436364bbe1738d0f483a9c4e"
+    },
+    {
+      "path": "assets/logos/supergrafx.svg",
+      "upstream_path": "_inc/systems/logos/supergrafx.svg",
+      "sha256": "a7d6bac4bcfbfb1ffe097ef63351bdd0498715906bc4dd1ebf83bd26663f3557"
+    },
+    {
+      "path": "assets/logos/supervision.svg",
+      "upstream_path": "_inc/systems/logos/supervision.svg",
+      "sha256": "ae40af54bf4a0213bcc8eb7c40cd3b38cd6b3b7621f33fe65611dde737a7b854"
+    },
+    {
+      "path": "assets/logos/switch.svg",
+      "upstream_path": "_inc/systems/logos/switch.svg",
+      "sha256": "4f3f9f934e02f6d4d294f81a9658c9b8c4679833998440977d7563fccf2774dc"
+    },
+    {
+      "path": "assets/logos/tg-cd.svg",
+      "upstream_path": "_inc/systems/logos/tg-cd.svg",
+      "sha256": "4f55e50d8b6708e854ed73de77e5d77808ea4e3d450e06560b3fc2d1fe3c63f9"
+    },
+    {
+      "path": "assets/logos/tg16.svg",
+      "upstream_path": "_inc/systems/logos/tg16.svg",
+      "sha256": "c9a924d27001573308a26d3bc1a3caf1def86fa58bf377edfd495b3583f54545"
+    },
+    {
+      "path": "assets/logos/tg16cd.svg",
+      "upstream_path": "_inc/systems/logos/tg16cd.svg",
+      "sha256": "4f55e50d8b6708e854ed73de77e5d77808ea4e3d450e06560b3fc2d1fe3c63f9"
+    },
+    {
+      "path": "assets/logos/thomson.svg",
+      "upstream_path": "_inc/systems/logos/thomson.svg",
+      "sha256": "473426686b34996670c237e746baa03a3935eb2af8697529a065dcff15283cb1"
+    },
+    {
+      "path": "assets/logos/tic80.svg",
+      "upstream_path": "_inc/systems/logos/tic80.svg",
+      "sha256": "5eb97bf44444a5c7a190e14e598af99cdcc3f1146b81e081bd80327047f24c3d"
+    },
+    {
+      "path": "assets/logos/tools.svg",
+      "upstream_path": "_inc/systems/logos/tools.svg",
+      "sha256": "554534ad13a81bf6a5413ec580dafb6aa57bcda156075c41d2e72030d74f6334"
+    },
+    {
+      "path": "assets/logos/uzebox.svg",
+      "upstream_path": "_inc/systems/logos/uzebox.svg",
+      "sha256": "25018e9987d2086fb700b9ef70f0c4f6bd2ece9cab231a4e95fe249896058c13"
+    },
+    {
+      "path": "assets/logos/vectrex.svg",
+      "upstream_path": "_inc/systems/logos/vectrex.svg",
+      "sha256": "83c3578e97ff2510d500b8fabbe39c4fb4aadae0ae2832c742a10ea947cc57b6"
+    },
+    {
+      "path": "assets/logos/vic20.svg",
+      "upstream_path": "_inc/systems/logos/vic20.svg",
+      "sha256": "d72e8efeeb0a5d443224676371e9d4d24dab53fd029ebf087d08130b01b7d52e"
+    },
+    {
+      "path": "assets/logos/videopac.svg",
+      "upstream_path": "_inc/systems/logos/videopac.svg",
+      "sha256": "e3db5fae3cc8496094947a89f8b88964ac230c376554f00b61c39f58a48a3fcd"
+    },
+    {
+      "path": "assets/logos/vircon32.svg",
+      "upstream_path": "_inc/systems/logos/vircon32.svg",
+      "sha256": "20aefb8586913b251d0223559ec45f508f7e2abc5da5466a2c52ecb260ccc8f3"
+    },
+    {
+      "path": "assets/logos/virtualboy.svg",
+      "upstream_path": "_inc/systems/logos/virtualboy.svg",
+      "sha256": "8a126874ab2f2a764099a24b17d169211826c95f06c4c286840e40731b6d8c7d"
+    },
+    {
+      "path": "assets/logos/wasm4.svg",
+      "upstream_path": "_inc/systems/logos/wasm4.svg",
+      "sha256": "82345c9e59e3ff5aadac200a8c96dd40cddbf1b2ac8a84fa0ef14d24cb80be97"
+    },
+    {
+      "path": "assets/logos/wonderswan.svg",
+      "upstream_path": "_inc/systems/logos/wonderswan.svg",
+      "sha256": "f69e3366d1c9d9a94c8af53644345a8e12b9281a9c3982e950c15ed7fc589e6e"
+    },
+    {
+      "path": "assets/logos/wonderswancolor.svg",
+      "upstream_path": "_inc/systems/logos/wonderswancolor.svg",
+      "sha256": "cf04b101117aa25dbf3f10522100a7f2b6da0332036b5c0d10e072d21cdb10c2"
+    },
+    {
+      "path": "assets/logos/x1.svg",
+      "upstream_path": "_inc/systems/logos/x1.svg",
+      "sha256": "f490df5edbb9e52cbcde596e1b22652e3dfdd96ebb0abf6a5c57cfb8e32000fc"
+    },
+    {
+      "path": "assets/logos/x68000.svg",
+      "upstream_path": "_inc/systems/logos/x68000.svg",
+      "sha256": "0bef79f750ef7469403509333c80b39b0a01598652b01db99abdb7a8a02733de"
+    },
+    {
+      "path": "assets/logos/xbox.svg",
+      "upstream_path": "_inc/systems/logos/xbox.svg",
+      "sha256": "c28c8d8fc1a1d336e6cf5079b4e37690c7a5e452390fd0d4ba30e3d9695d587e"
+    },
+    {
+      "path": "assets/logos/zmachine.svg",
+      "upstream_path": "_inc/systems/logos/zmachine.svg",
+      "sha256": "21c9638c046d279c6f19821c53f2d9e8776b30d1e218d1fb045fa165bc64c0ef"
+    },
+    {
+      "path": "assets/logos/zx81.svg",
+      "upstream_path": "_inc/systems/logos/zx81.svg",
+      "sha256": "81dddee823ff9b187926b214e53dc477b0567d8e73e787d9d78536b510b42982"
+    },
+    {
+      "path": "assets/logos/zxspectrum.svg",
+      "upstream_path": "_inc/systems/logos/zxspectrum.svg",
+      "sha256": "9107cf61846984946b5805d382ce2f5bd7325046bcf3a67e3c9c725c3a32f6a3"
+    }
+  ]
+}
