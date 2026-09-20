@@ -25,7 +25,7 @@
     <!-- Keep the logo inside a bounded box.  This is compatible with the GLES2
          renderer used by AmberELEC handhelds even when custom shaders are not
          available in the installed EmulationStation build. -->
-    <image ifSubset="water-effects:animated|still" name="water-logo" extra="true">
+    <image ifSubset="water-effects:animated|animated-soft|animated-water|still" name="water-logo" extra="true">
       <path>${fallbackLogo}</path><path>${logoPath}</path>
       <origin>0.5 0.5</origin><pos>0.5 0.40</pos>
       <maxSize>${logoDisplayMaxWidth} ${logoDisplayMaxHeight}</maxSize>
@@ -33,8 +33,14 @@
       <storyboard ifSubset="water-effects:animated" repeat="forever">
         <animation property="pos" from="0.5 0.40" to="0.5 0.385" duration="2200" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
+      <storyboard ifSubset="water-effects:animated-soft" repeat="forever">
+        <animation property="pos" from="0.5 0.40" to="0.5 0.394" duration="3400" repeat="forever" autoReverse="true" mode="easeInOut"/>
+      </storyboard>
+      <storyboard ifSubset="water-effects:animated-water" repeat="forever">
+        <animation property="pos" from="0.5 0.40" to="0.5 0.388" duration="3000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+      </storyboard>
     </image>
-    <image ifSubset="water-effects:animated|still" name="water-reflection" extra="true">
+    <image ifSubset="water-effects:animated|animated-soft|animated-water|still" name="water-reflection" extra="true">
       <path>${fallbackLogo}</path><path>${logoPath}</path>
       <origin>0.5 0.5</origin><pos>0.5 0.71</pos>
       <maxSize>${logoMaxWidth} ${logoMaxHeight}</maxSize>
@@ -42,6 +48,12 @@
       <gradientType>vertical</gradientType><zIndex>3</zIndex>
       <storyboard ifSubset="water-effects:animated" repeat="forever">
         <animation property="pos" from="0.5 0.71" to="0.5 0.70" duration="2600" repeat="forever" autoReverse="true" mode="easeInOut"/>
+      </storyboard>
+      <storyboard ifSubset="water-effects:animated-soft" repeat="forever">
+        <animation property="pos" from="0.5 0.71" to="0.5 0.705" duration="3900" repeat="forever" autoReverse="true" mode="easeInOut"/>
+      </storyboard>
+      <storyboard ifSubset="water-effects:animated-water" repeat="forever">
+        <animation property="pos" from="0.5 0.71" to="0.5 0.702" duration="2400" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image ifSubset="water-effects:calm" name="water-calm-horizon" extra="true">

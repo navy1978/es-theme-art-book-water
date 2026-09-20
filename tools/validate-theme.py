@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = json.loads((ROOT / 'tools/theme-schema.json').read_text())['elements']
 UNIFORMS = set(re.findall(r'uniform\s+\w+\s+(water\w+)\s*;', (ROOT / 'assets/shaders/water.glsl').read_text()))
 SIZES = [(480, 320), (640, 480), (1920, 1152)]
-MODES = ('animated', 'still', 'calm')
+MODES = ('animated', 'animated-soft', 'animated-water', 'still', 'calm')
 CACHE = {}
 
 
@@ -139,7 +139,7 @@ def main():
     for logo in logos:
         assert xml(logo).tag.endswith('svg'), logo
     cases = 0
-    colors = ('white', 'gold', 'silver', 'neon-blue', 'neon-red', 'matrix-green')
+    colors = ('white', 'gold', 'silver', 'neon-blue', 'neon-red', 'matrix-green', 'ferrari-red', 'ferrari-yellow')
     for system in [p.stem for p in logos] + ['unknown-system']:
         for width, height in SIZES:
             for mode in MODES:
