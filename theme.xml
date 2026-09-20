@@ -6,10 +6,12 @@
   <include>./_inc/palette.xml</include>
   <subset name="water-effects" displayName="Water effects">
     <include name="animated" displayName="Water (animated)">./_inc/options/animated.xml</include>
-    <include name="animated-soft" displayName="Water (soft motion)">./_inc/options/animated-soft.xml</include>
-    <include name="animated-water" displayName="Water (independent reflection)">./_inc/options/animated-water.xml</include>
     <include name="still" displayName="Water (still)">./_inc/options/still.xml</include>
     <include name="calm" displayName="Calm (no shaders)">./_inc/options/calm.xml</include>
+  </subset>
+  <subset name="background-motion" displayName="Background motion">
+    <include name="static" displayName="Static background">./_inc/options/background-static.xml</include>
+    <include name="ambient" displayName="Ambient glow">./_inc/options/background-ambient.xml</include>
   </subset>
   <subset name="water-colors" displayName="Water colors">
     <include name="white" displayName="White">./_inc/colors/white.xml</include>
