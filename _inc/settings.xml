@@ -12,10 +12,10 @@
     <uiTint>FFFFFF</uiTint>
     <uiText>F4F5F8</uiText>
     <uiMuted>A5AFC1</uiMuted>
-    <listFontSize>0.043</listFontSize>
-    <listFontSize if="${screen.height} &lt; 400">0.050</listFontSize>
-    <detailFontSize>0.036</detailFontSize>
-    <detailFontSize if="${screen.height} &lt; 400">0.040</detailFontSize>
+    <listFontSize>0.034</listFontSize>
+    <listFontSize if="${screen.height} &lt; 400">0.040</listFontSize>
+    <detailFontSize>0.033</detailFontSize>
+    <detailFontSize if="${screen.height} &lt; 400">0.037</detailFontSize>
     <logoMaxWidth>0.63</logoMaxWidth>
     <logoMaxHeight>0.17</logoMaxHeight>
     <logoDisplayMaxWidth>0.72</logoDisplayMaxWidth>
