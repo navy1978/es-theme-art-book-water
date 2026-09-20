@@ -45,10 +45,10 @@
       </storyboard>
     </image>
     <image ifSubset="background-motion:ambient" name="water-ambient-glow" extra="true">
-      <path>../assets/images/horizon.svg</path><pos>0 0.43</pos><size>1 0.25</size>
-      <color>${accent}FF</color><opacity>0.18</opacity><zIndex>1</zIndex>
+      <path>../assets/images/horizon.svg</path><pos>0 0.43</pos><size>1 0.30</size>
+      <color>${accent}FF</color><opacity>0.36</opacity><zIndex>1</zIndex>
       <storyboard repeat="forever">
-        <animation property="pos" from="-0.03 0.43" to="0.03 0.43" duration="8000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="pos" from="-0.22 0.40" to="0.22 0.46" duration="7000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image ifSubset="water-effects:calm" name="water-calm-horizon" extra="true">
