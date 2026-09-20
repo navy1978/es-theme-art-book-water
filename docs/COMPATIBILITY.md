@@ -47,10 +47,10 @@ the browser's row-by-row Canvas reflection. ES controls system transitions;
 their exact timing and appearance can differ from the concept. Native text
 shows the actual system name and game count instead of demo-only counters.
 
-The Calm mode intentionally simplifies the water: static reflected logo,
-ambient horizon, no distortion. It is also available when diagnosing shader
-issues. Shader failure does not automatically select Calm; choose it in
-Theme Configuration.
+The Calm mode intentionally simplifies the water to a static reflected logo
+with no distortion. It is also available when diagnosing shader issues.
+Shader failure does not automatically select Calm; choose it in Theme
+Configuration.
 
 ## Hardware checks before calling a release stable
 

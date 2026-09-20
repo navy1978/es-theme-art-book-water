@@ -9,10 +9,6 @@
     <include name="still" displayName="Water (still)">./_inc/options/still.xml</include>
     <include name="calm" displayName="Calm (no shaders)">./_inc/options/calm.xml</include>
   </subset>
-  <subset name="background-motion" displayName="Background motion">
-    <include name="static" displayName="Static background">./_inc/options/background-static.xml</include>
-    <include name="ambient" displayName="Ambient glow">./_inc/options/background-ambient.xml</include>
-  </subset>
   <subset name="water-colors" displayName="Water colors">
     <include name="white" displayName="White">./_inc/colors/white.xml</include>
     <include name="gold" displayName="Gold">./_inc/colors/gold.xml</include>

@@ -26,7 +26,7 @@ Under **UI Settings → Theme Configuration → Water effects**:
 
 | Setting | Behavior |
 | --- | --- |
-| Water (animated) | Floating logo, fading reflection, ambient light and entry ripple; requires custom GLSL image shaders and storyboards. |
+| Water (animated) | Floating logo, fading reflection and entry ripple; requires custom GLSL image shaders and storyboards. |
 | Water (still) | Same shader scene with no continuous movement or entry ripple. |
 | Calm (no shaders) | Standard image components, static logo and reflection; no custom shader or ongoing animation. |
 

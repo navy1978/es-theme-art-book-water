@@ -140,16 +140,14 @@ def main():
         assert xml(logo).tag.endswith('svg'), logo
     cases = 0
     colors = ('white', 'gold', 'silver', 'neon-blue', 'neon-red', 'neon-green', 'neon-yellow')
-    backgrounds = ('static', 'ambient')
     for system in [p.stem for p in logos] + ['unknown-system']:
         for width, height in SIZES:
             for mode in MODES:
                 for color in colors:
-                  for background in backgrounds:
                     variables = {'themePath': str(ROOT), 'system.theme': system, 'system.fullName': system,
                                  'screen.width': width, 'screen.height': height}
                     views = load(ROOT / 'theme.xml', variables,
-                                 {'water-effects': mode, 'water-colors': color, 'background-motion': background})
+                                 {'water-effects': mode, 'water-colors': color})
                     assert {'system', 'basic', 'detailed', 'video', 'menu'} <= views
                     cases += 1
     print(f'Validated {cases} system/screen/effect combinations, {len(logos)} logos and upstream hashes.')

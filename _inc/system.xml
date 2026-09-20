@@ -47,23 +47,6 @@
         <animation property="pos" from="0.5 0.71" to="0.5 0.70" duration="2600" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
-    <!-- A very subtle highlight crosses the selected system logo once every
-         thirty seconds.  It uses a plain image animation for GLES2 devices. -->
-    <image ifSubset="water-effects:animated" name="water-logo-sheen" extra="true">
-      <path>../assets/images/logo-sheen.svg</path>
-      <origin>0.5 0.5</origin><pos>0.18 0.40</pos><size>0.12 0.21</size>
-      <color>${uiTint}70</color><zIndex>4</zIndex>
-      <storyboard ifSubset="water-effects:animated" repeat="forever">
-        <animation property="pos" from="0.18 0.40" to="0.82 0.40" begin="29500" duration="500" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image ifSubset="background-motion:static|ambient" name="water-ambient-glow" extra="true">
-      <path>../assets/images/white.svg</path><pos>0 0.30</pos><size>1 0.40</size>
-      <color>${accent}55</color><zIndex>1</zIndex>
-      <storyboard ifSubset="background-motion:ambient" repeat="forever">
-        <animation property="pos" from="-0.22 0.40" to="0.22 0.46" duration="7000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
     <image ifSubset="water-effects:calm" name="water-calm-horizon" extra="true">
       <path>../assets/images/horizon.svg</path><pos>0 0.43</pos><size>1 0.25</size>
       <color>${accent}55</color><zIndex>2</zIndex>

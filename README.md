@@ -1,7 +1,7 @@
 # Art Book Water
 
-A minimalist **AmberELEC** theme with floating console logos, water reflections
-and soft ambient lighting, designed for RG351 and RG552 handhelds.
+A minimalist **AmberELEC** theme with floating console logos and water
+reflections, designed for RG351 and RG552 handhelds.
 
 **Early development build.** Native theme files and checks are included, but
 the theme has not yet been validated on an actual handheld. This project is
@@ -17,7 +17,7 @@ handheld screenshot; EmulationStation adds the text and navigation controls.*
 - Floating system logos, with no character artwork behind them.
 - Fading, vertically compressed reflections on a fixed water surface.
 - A brief ripple when entering a system, followed by gentle idle motion.
-- Per-system ambient colors and crossfades controlled by EmulationStation.
+- Per-system colors and crossfades controlled by EmulationStation.
 - Layouts that fit **3:2**, **4:3** and **5:3** screens.
 - **Basic**, **Detailed** and **Video** game lists with readable typography.
 - **Animated**, **Still** and **Calm (no shaders)** modes.
