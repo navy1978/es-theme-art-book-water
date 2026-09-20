@@ -48,8 +48,8 @@
       </storyboard>
     </image>
     <image ifSubset="background-motion:static|ambient" name="water-ambient-glow" extra="true">
-      <path>../assets/images/ambient-glow.svg</path><pos>0 0</pos><size>1 1</size>
-      <color>${accent}FF</color><opacity>0.30</opacity><zIndex>1</zIndex>
+      <path>../assets/images/white.svg</path><pos>0 0.30</pos><size>1 0.40</size>
+      <color>${accent}55</color><zIndex>1</zIndex>
       <storyboard ifSubset="background-motion:ambient" repeat="forever">
         <animation property="pos" from="-0.22 0.40" to="0.22 0.46" duration="7000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
