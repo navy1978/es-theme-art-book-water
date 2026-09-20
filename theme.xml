@@ -19,9 +19,8 @@
     <include name="silver" displayName="Silver">./_inc/colors/silver.xml</include>
     <include name="neon-blue" displayName="Neon blue">./_inc/colors/neon-blue.xml</include>
     <include name="neon-red" displayName="Neon red">./_inc/colors/neon-red.xml</include>
-    <include name="matrix-green" displayName="Matrix green">./_inc/colors/matrix-green.xml</include>
-    <include name="ferrari-red" displayName="Ferrari red">./_inc/colors/ferrari-red.xml</include>
-    <include name="ferrari-yellow" displayName="Ferrari yellow">./_inc/colors/ferrari-yellow.xml</include>
+    <include name="neon-green" displayName="Neon green">./_inc/colors/neon-green.xml</include>
+    <include name="neon-yellow" displayName="Neon yellow">./_inc/colors/neon-yellow.xml</include>
   </subset>
   <include>./_inc/system.xml</include>
   <include>./_inc/gamelist.xml</include>
