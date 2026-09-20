@@ -25,7 +25,7 @@
       <color>${background}</color><zIndex>0</zIndex>
     </image>
     <clock name="clock-position-test">
-      <pos>0.060 0.024</pos><size>0.22 0</size><alignment>left</alignment><verticalAlignment>top</verticalAlignment><lineSpacing>1.5</lineSpacing><multiLine>false</multiLine>
+      <pos>0.060 0.016</pos><size>0.22 0</size><alignment>left</alignment><verticalAlignment>top</verticalAlignment><lineSpacing>1.5</lineSpacing><multiLine>false</multiLine>
       <fontPath>${fontBold}</fontPath><fontSize>0.034</fontSize><color>${uiText}</color><zIndex>10</zIndex>
     </clock>
     <image name="clock-icon" extra="true">
@@ -36,7 +36,7 @@
     <image name="water-top-status-panel" extra="true">
       <path>${themePath}/assets/images/panel-white.png</path>
       <origin>0 0</origin><pos>0 0</pos><size>1 0.155</size>
-      <tile>true</tile><color>${statusPanel}E6</color><autoFade>false</autoFade><zIndex>4</zIndex>
+      <tile>false</tile><color>${statusPanel}E6</color><colorEnd>${statusPanel}00</colorEnd><gradientType>vertical</gradientType><autoFade>false</autoFade><zIndex>4</zIndex>
     </image>
     <text if="${system.collection} &lt; 1 &amp;&amp; ${system.name} != 'tools' &amp;&amp; ${system.manufacturer} != '' &amp;&amp; ${system.manufacturer} != 'Various'" name="system-metadata" extra="true">
       <pos>0.12 0.21</pos><size>0.76 0.055</size><text>{system:manufacturer} · {system:releaseYear}</text>
@@ -99,7 +99,7 @@
     <image name="water-help-panel" extra="true">
       <path>${themePath}/assets/images/panel-white.png</path>
       <origin>0 0</origin><pos>0 0.845</pos><size>1 0.155</size>
-      <tile>true</tile><color>${statusPanel}E6</color><autoFade>false</autoFade><zIndex>4</zIndex>
+      <tile>false</tile><color>${statusPanel}00</color><colorEnd>${statusPanel}E6</colorEnd><gradientType>vertical</gradientType><autoFade>false</autoFade><zIndex>4</zIndex>
     </image>
     <text if="${global.cheevos.username} != ''" name="retroachievements-status" extra="true">
       <pos>0.02 0.095</pos><size>0.25 0.030</size><alignment>left</alignment>
