@@ -33,12 +33,18 @@ def resolve(text, variables):
 def allowed(node, variables, modes):
     condition = node.get('if')
     if condition:
-        match = re.fullmatch(r"\$\{([^}]+)\}\s*(==|<)\s*(.+)", condition)
+        match = re.fullmatch(r"\$\{([^}]+)\}\s*(==|!=|<)\s*(.+)", condition)
         assert match, f'Unsupported condition in validator: {condition}'
         lhs = variables[match[1]]
         rhs = match[3].strip()
         rhs = rhs[1:-1] if rhs.startswith("'") else float(rhs)
-        if not (str(lhs) == str(rhs) if match[2] == '==' else float(lhs) < rhs):
+        if match[2] == '==':
+            passes = str(lhs) == str(rhs)
+        elif match[2] == '!=':
+            passes = str(lhs) != str(rhs)
+        else:
+            passes = float(lhs) < rhs
+        if not passes:
             return False
     subset = node.get('ifSubset')
     if subset:
@@ -145,6 +151,8 @@ def main():
             for mode in MODES:
                 for color in colors:
                     variables = {'themePath': str(ROOT), 'system.theme': system, 'system.fullName': system,
+                                 'system.manufacturer': '' if system == 'unknown-system' else 'Test',
+                                 'system.collection': '0',
                                  'screen.width': width, 'screen.height': height}
                     views = load(ROOT / 'theme.xml', variables,
                                  {'water-effects': mode, 'water-colors': color})

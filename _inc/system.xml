@@ -29,9 +29,14 @@
       <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path>
       <color>${background}</color><zIndex>0</zIndex>
     </image>
-    <text name="water-brand" extra="true">
-      <pos>0.05 0.018</pos><size>0.45 0.045</size><text>› ${system.fullName}</text>
+    <text if="${system.collection} &lt; 1" name="water-brand" extra="true">
+      <pos>0.05 0.018</pos><size>0.45 0.045</size><text>› {system:manufacturer} · {system:releaseYear}</text>
       <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><forceUppercase>true</forceUppercase><color>${uiText}</color><zIndex>10</zIndex>
+    </text>
+    <text name="network-ip" extra="true">
+      <pos>0.72 0.085</pos><size>0.25 0.030</size><alignment>right</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+      <text>{global:ip}</text>
     </text>
     <!-- Keep the logo inside a bounded box.  This is compatible with the GLES2
          renderer used by AmberELEC handhelds even when custom shaders are not
