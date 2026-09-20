@@ -139,7 +139,7 @@ def main():
     for logo in logos:
         assert xml(logo).tag.endswith('svg'), logo
     cases = 0
-    colors = ('white', 'gold', 'silver', 'neon-blue')
+    colors = ('white', 'gold', 'silver', 'neon-blue', 'neon-red', 'matrix-green')
     for system in [p.stem for p in logos] + ['unknown-system']:
         for width, height in SIZES:
             for mode in MODES:
