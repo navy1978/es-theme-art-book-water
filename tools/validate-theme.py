@@ -155,6 +155,7 @@ def main():
                                  'system.manufacturer': '' if system == 'unknown-system' else 'Test',
                                  'system.name': system,
                                  'system.collection': '0',
+                                 'global.cheevos.username': '',
                                  'screen.width': width, 'screen.height': height}
                     views = load(ROOT / 'theme.xml', variables,
                                  {'water-effects': mode, 'water-colors': color})

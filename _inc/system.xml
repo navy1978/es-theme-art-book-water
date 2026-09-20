@@ -4,13 +4,8 @@
     <batteryIndicator name="batteryIndicator">
       <color>${uiText}</color>
     </batteryIndicator>
-    <image name="clock-icon">
-      <path>../assets/images/clock.svg</path><pos>0.852 0.925</pos><size>0.020 0.030</size>
-      <color>${uiTint}</color>
-    </image>
     <text name="clock">
-      <pos>0.878 0.918</pos><size>0.10 0.045</size><alignment>right</alignment>
-      <fontPath>${fontRegular}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color>
+      <visible>false</visible>
     </text>
   </view>
   <view name="system" extraTransition="fade" extraTransitionSpeed="460">
@@ -29,8 +24,20 @@
       <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path>
       <color>${background}</color><zIndex>0</zIndex>
     </image>
-    <text if="${system.collection} &lt; 1 &amp;&amp; ${system.name} != 'tools' &amp;&amp; ${system.manufacturer} != '' &amp;&amp; ${system.manufacturer} != 'Various'" name="water-brand" extra="true">
-      <pos>0.05 0.018</pos><size>0.45 0.045</size><text>› {system:manufacturer} · {system:releaseYear}</text>
+    <clock name="clock-position-test">
+      <pos>0.060 0.024</pos><size>0.22 0</size><alignment>left</alignment><verticalAlignment>top</verticalAlignment><lineSpacing>1.5</lineSpacing><multiLine>false</multiLine>
+      <fontPath>${fontBold}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+    </clock>
+    <image name="clock-icon" extra="true">
+      <path>${themePath}/assets/images/clock.svg</path>
+      <pos>0.016 0.020</pos><size>0 0.052</size>
+      <color>${uiText}</color><autoFade>false</autoFade><zIndex>10</zIndex>
+    </image>
+    <rectangle name="top-status-rule">
+      <pos>0.03 0.175</pos><size>0.94 0.004</size><color>${accent}99</color><zIndex>4</zIndex>
+    </rectangle>
+    <text if="${system.collection} &lt; 1 &amp;&amp; ${system.name} != 'tools' &amp;&amp; ${system.manufacturer} != '' &amp;&amp; ${system.manufacturer} != 'Various'" name="system-metadata" extra="true">
+      <pos>0.12 0.21</pos><size>0.76 0.055</size><text>{system:manufacturer} · {system:releaseYear}</text>
       <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><forceUppercase>true</forceUppercase><color>${uiText}</color><zIndex>10</zIndex>
     </text>
     <text name="network-ip" extra="true">
@@ -84,8 +91,16 @@
       <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}</color><zIndex>10</zIndex>
     </text>
     <text name="systemInfo">
-      <pos>0.12 0.83</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
       <fontPath>${fontRegular}</fontPath><fontSize>0.032</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
+    </text>
+    <rectangle name="help-rule">
+      <pos>0.03 0.87</pos><size>0.94 0.004</size><color>${accent}99</color><zIndex>4</zIndex>
+    </rectangle>
+    <text if="${global.cheevos.username} != ''" name="retroachievements-status" extra="true">
+      <pos>0.02 0.095</pos><size>0.25 0.030</size><alignment>left</alignment>
+      <fontPath>${fontBold}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+      <text>★ RA - {global:cheevosUser}</text>
     </text>
   </view>
   <view name="system,basic,detailed,video">
