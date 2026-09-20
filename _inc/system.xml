@@ -29,7 +29,7 @@
       <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path>
       <color>${background}</color><zIndex>0</zIndex>
     </image>
-    <text if="${system.collection} &lt; 1" name="water-brand" extra="true">
+    <text if="${system.collection} &lt; 1 &amp;&amp; ${system.name} != 'tools' &amp;&amp; ${system.manufacturer} != '' &amp;&amp; ${system.manufacturer} != 'Various'" name="water-brand" extra="true">
       <pos>0.05 0.018</pos><size>0.45 0.045</size><text>› {system:manufacturer} · {system:releaseYear}</text>
       <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><forceUppercase>true</forceUppercase><color>${uiText}</color><zIndex>10</zIndex>
     </text>
