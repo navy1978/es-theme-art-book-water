@@ -10,6 +10,7 @@
     <include name="calm" displayName="Calm (no shaders)">./_inc/options/calm.xml</include>
   </subset>
   <subset name="water-colors" displayName="Water colors">
+    <include name="per-system" displayName="Color per system">./_inc/colors/per-system.xml</include>
     <include name="white" displayName="White">./_inc/colors/white.xml</include>
     <include name="gold" displayName="Gold">./_inc/colors/gold.xml</include>
     <include name="silver" displayName="Silver">./_inc/colors/silver.xml</include>

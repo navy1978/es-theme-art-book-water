@@ -3,6 +3,7 @@
   <view name="screen">
     <batteryIndicator name="batteryIndicator">
       <color>${uiText}</color>
+      <visible ifSubset="water-colors:per-system">false</visible>
     </batteryIndicator>
     <text name="clock">
       <visible>false</visible>
@@ -93,8 +94,20 @@
       <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}</color><zIndex>10</zIndex>
     </text>
     <text name="systemInfo">
+      <visible ifSubset="water-colors:per-system">false</visible>
       <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
       <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
+    </text>
+    <text ifSubset="water-colors:per-system" name="water-game-count" extra="true">
+      <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
+      <text>{system:total} GAMES</text>
+      <visible>{system:total} != 1</visible>
+    </text>
+    <text ifSubset="water-colors:per-system" name="water-game-count-single" extra="true">
+      <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
+      <text>1 GAME</text><visible>{system:total} == 1</visible>
     </text>
     <image name="water-help-panel" extra="true">
       <path>${themePath}/assets/images/panel-white.png</path>
@@ -106,6 +119,19 @@
       <fontPath>${fontBold}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
       <text>★ RA - {global:cheevosUser}</text>
     </text>
+  </view>
+  <view ifSubset="water-colors:per-system" name="system,basic,detailed,video">
+    <networkIcon name="water-network">
+      <networkIcon>:/network.svg</networkIcon><planemodeIcon>:/plane.svg</planemodeIcon>
+      <pos>0.825 0.025</pos><size>0.038 0.050</size><color>${uiText}</color><zIndex>10</zIndex>
+    </networkIcon>
+    <batteryIcon name="water-battery">
+      <pos>0.870 0.031</pos><size>0.040 0.038</size><color>${uiText}</color><zIndex>10</zIndex>
+    </batteryIcon>
+    <batteryText name="water-battery-percent">
+      <pos>0.914 0.022</pos><size>0.062 0.050</size><alignment>right</alignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+    </batteryText>
   </view>
   <view name="system,basic,detailed,video">
     <helpsystem name="help">

@@ -1,0 +1,771 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Fixed palette per logo; interleave hues so related names remain distinct. -->
+  <variables>
+    <uiTint>35D7FF</uiTint><uiText>9AF0FF</uiText><uiMuted>79CFE2</uiMuted><statusPanel>143A49</statusPanel><accent>35D7FF</accent>
+  </variables>
+  <variables if="${system.theme} == '3do'">
+    <uiTint>FF3838</uiTint><uiText>FFB2B2</uiText>
+    <uiMuted>CC8585</uiMuted><statusPanel>381919</statusPanel><accent>FF3838</accent>
+  </variables>
+  <variables if="${system.theme} == '3ds'">
+    <uiTint>3872FF</uiTint><uiText>B2C9FF</uiText>
+    <uiMuted>859ACC</uiMuted><statusPanel>192238</statusPanel><accent>3872FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'adam'">
+    <uiTint>ADFF38</uiTint><uiText>DFFFB2</uiText>
+    <uiMuted>AECC85</uiMuted><statusPanel>2B3819</statusPanel><accent>ADFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'advision'">
+    <uiTint>FF38E7</uiTint><uiText>FFB2F6</uiText>
+    <uiMuted>CC85C3</uiMuted><statusPanel>381934</statusPanel><accent>FF38E7</accent>
+  </variables>
+  <variables if="${system.theme} == 'amiga'">
+    <uiTint>38FFDD</uiTint><uiText>B2FFF2</uiText>
+    <uiMuted>85CCC0</uiMuted><statusPanel>193833</statusPanel><accent>38FFDD</accent>
+  </variables>
+  <variables if="${system.theme} == 'amigacd32'">
+    <uiTint>FFA238</uiTint><uiText>FFDBB2</uiText>
+    <uiMuted>CCAB85</uiMuted><statusPanel>382A19</statusPanel><accent>FFA238</accent>
+  </variables>
+  <variables if="${system.theme} == 'amstradcpc'">
+    <uiTint>6838FF</uiTint><uiText>C5B2FF</uiText>
+    <uiMuted>9685CC</uiMuted><statusPanel>211938</statusPanel><accent>6838FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'arcade'">
+    <uiTint>43FF38</uiTint><uiText>B7FFB2</uiText>
+    <uiMuted>88CC85</uiMuted><statusPanel>1B3819</statusPanel><accent>43FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'arcadia'">
+    <uiTint>FF387D</uiTint><uiText>FFB2CD</uiText>
+    <uiMuted>CC859D</uiMuted><statusPanel>381924</statusPanel><accent>FF387D</accent>
+  </variables>
+  <variables if="${system.theme} == 'arduboy'">
+    <uiTint>38B7FF</uiTint><uiText>B2E3FF</uiText>
+    <uiMuted>85B2CC</uiMuted><statusPanel>192D38</statusPanel><accent>38B7FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'astrocade'">
+    <uiTint>F1FF38</uiTint><uiText>FAFFB2</uiText>
+    <uiMuted>C7CC85</uiMuted><statusPanel>363819</statusPanel><accent>F1FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'atari2600'">
+    <uiTint>D238FF</uiTint><uiText>EEB2FF</uiText>
+    <uiMuted>BC85CC</uiMuted><statusPanel>311938</statusPanel><accent>D238FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'atari5200'">
+    <uiTint>38FF98</uiTint><uiText>B2FFD7</uiText>
+    <uiMuted>85CCA7</uiMuted><statusPanel>193828</statusPanel><accent>38FF98</accent>
+  </variables>
+  <variables if="${system.theme} == 'atari7800'">
+    <uiTint>FF5E38</uiTint><uiText>FFC1B2</uiText>
+    <uiMuted>CC9285</uiMuted><statusPanel>381F19</statusPanel><accent>FF5E38</accent>
+  </variables>
+  <variables if="${system.theme} == 'atari800'">
+    <uiTint>384DFF</uiTint><uiText>B2BBFF</uiText>
+    <uiMuted>858CCC</uiMuted><statusPanel>191C38</statusPanel><accent>384DFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'atarijaguar'">
+    <uiTint>87FF38</uiTint><uiText>D1FFB2</uiText>
+    <uiMuted>A1CC85</uiMuted><statusPanel>263819</statusPanel><accent>87FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'atarilynx'">
+    <uiTint>FF38C2</uiTint><uiText>FFB2E7</uiText>
+    <uiMuted>CC85B6</uiMuted><statusPanel>38192F</statusPanel><accent>FF38C2</accent>
+  </variables>
+  <variables if="${system.theme} == 'atarist'">
+    <uiTint>38FCFF</uiTint><uiText>B2FEFF</uiText>
+    <uiMuted>85CBCC</uiMuted><statusPanel>193838</statusPanel><accent>38FCFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'atomiswave'">
+    <uiTint>FFC838</uiTint><uiText>FFEAB2</uiText>
+    <uiMuted>CCB885</uiMuted><statusPanel>383019</statusPanel><accent>FFC838</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-action'">
+    <uiTint>8D38FF</uiTint><uiText>D3B2FF</uiText>
+    <uiMuted>A385CC</uiMuted><statusPanel>261938</statusPanel><accent>8D38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-adult'">
+    <uiTint>38FF53</uiTint><uiText>B2FFBD</uiText>
+    <uiMuted>85CC8E</uiMuted><statusPanel>19381D</statusPanel><accent>38FF53</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-adventure'">
+    <uiTint>FF3857</uiTint><uiText>FFB2BF</uiText>
+    <uiMuted>CC8590</uiMuted><statusPanel>38191E</statusPanel><accent>FF3857</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-allgames'">
+    <uiTint>3892FF</uiTint><uiText>B2D5FF</uiText>
+    <uiMuted>85A5CC</uiMuted><statusPanel>192738</statusPanel><accent>3892FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-asiaticboard'">
+    <uiTint>CCFF38</uiTint><uiText>EBFFB2</uiText>
+    <uiMuted>BACC85</uiMuted><statusPanel>303819</statusPanel><accent>CCFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-at2players'">
+    <uiTint>F838FF</uiTint><uiText>FCB2FF</uiText>
+    <uiMuted>C985CC</uiMuted><statusPanel>371938</statusPanel><accent>F838FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-at4players'">
+    <uiTint>38FFBD</uiTint><uiText>B2FFE6</uiText>
+    <uiMuted>85CCB4</uiMuted><statusPanel>19382E</statusPanel><accent>38FFBD</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-beatemup'">
+    <uiTint>FF8338</uiTint><uiText>FFCFB2</uiText>
+    <uiMuted>CCA085</uiMuted><statusPanel>382519</statusPanel><accent>FF8338</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-board'">
+    <uiTint>4938FF</uiTint><uiText>B9B2FF</uiText>
+    <uiMuted>8B85CC</uiMuted><statusPanel>1C1938</statusPanel><accent>4938FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-breakout'">
+    <uiTint>62FF38</uiTint><uiText>C3FFB2</uiText>
+    <uiMuted>94CC85</uiMuted><statusPanel>203819</statusPanel><accent>62FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-casino'">
+    <uiTint>FF389C</uiTint><uiText>FFB2D9</uiText>
+    <uiMuted>CC85A8</uiMuted><statusPanel>381929</statusPanel><accent>FF389C</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-casual'">
+    <uiTint>38D6FF</uiTint><uiText>B2EFFF</uiText>
+    <uiMuted>85BDCC</uiMuted><statusPanel>193238</statusPanel><accent>38D6FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-compilation'">
+    <uiTint>FFED38</uiTint><uiText>FFF8B2</uiText>
+    <uiMuted>CCC685</uiMuted><statusPanel>383519</statusPanel><accent>FFED38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-demo'">
+    <uiTint>B338FF</uiTint><uiText>E2B2FF</uiText>
+    <uiMuted>B185CC</uiMuted><statusPanel>2C1938</statusPanel><accent>B338FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-educational'">
+    <uiTint>38FF79</uiTint><uiText>B2FFCB</uiText>
+    <uiMuted>85CC9C</uiMuted><statusPanel>193823</statusPanel><accent>38FF79</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-favorites'">
+    <uiTint>FF3E38</uiTint><uiText>FFB5B2</uiText>
+    <uiMuted>CC8785</uiMuted><statusPanel>381A19</statusPanel><accent>FF3E38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-fight'">
+    <uiTint>386CFF</uiTint><uiText>B2C7FF</uiText>
+    <uiMuted>8597CC</uiMuted><statusPanel>192138</statusPanel><accent>386CFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-huntingandfishing'">
+    <uiTint>A6FF38</uiTint><uiText>DDFFB2</uiText>
+    <uiMuted>ACCC85</uiMuted><statusPanel>2A3819</statusPanel><accent>A6FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-lastplayed'">
+    <uiTint>FF38E1</uiTint><uiText>FFB2F3</uiText>
+    <uiMuted>CC85C1</uiMuted><statusPanel>381933</statusPanel><accent>FF38E1</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-lightgun'">
+    <uiTint>38FFE3</uiTint><uiText>B2FFF4</uiText>
+    <uiMuted>85CCC2</uiMuted><statusPanel>193834</statusPanel><accent>38FFE3</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-musicanddance'">
+    <uiTint>FFA938</uiTint><uiText>FFDEB2</uiText>
+    <uiMuted>CCAD85</uiMuted><statusPanel>382B19</statusPanel><accent>FFA938</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-neverplayed'">
+    <uiTint>6E38FF</uiTint><uiText>C7B2FF</uiText>
+    <uiMuted>9885CC</uiMuted><statusPanel>221938</statusPanel><accent>6E38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-pinball'">
+    <uiTint>3CFF38</uiTint><uiText>B4FFB2</uiText>
+    <uiMuted>86CC85</uiMuted><statusPanel>1A3819</statusPanel><accent>3CFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-platform'">
+    <uiTint>FF3877</uiTint><uiText>FFB2CB</uiText>
+    <uiMuted>CC859B</uiMuted><statusPanel>381923</statusPanel><accent>FF3877</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-playingcards'">
+    <uiTint>38B1FF</uiTint><uiText>B2E1FF</uiText>
+    <uiMuted>85B0CC</uiMuted><statusPanel>192C38</statusPanel><accent>38B1FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-puzzle'">
+    <uiTint>EBFF38</uiTint><uiText>F7FFB2</uiText>
+    <uiMuted>C5CC85</uiMuted><statusPanel>353819</statusPanel><accent>EBFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-quiz'">
+    <uiTint>D838FF</uiTint><uiText>F0B2FF</uiText>
+    <uiMuted>BE85CC</uiMuted><statusPanel>321938</statusPanel><accent>D838FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-racedriving'">
+    <uiTint>38FF9E</uiTint><uiText>B2FFDA</uiText>
+    <uiMuted>85CCA9</uiMuted><statusPanel>193829</statusPanel><accent>38FF9E</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-reflection'">
+    <uiTint>FF6438</uiTint><uiText>FFC3B2</uiText>
+    <uiMuted>CC9485</uiMuted><statusPanel>382019</statusPanel><accent>FF6438</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-retroachievements'">
+    <uiTint>3847FF</uiTint><uiText>B2B8FF</uiText>
+    <uiMuted>858ACC</uiMuted><statusPanel>191C38</statusPanel><accent>3847FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-roleplayings'">
+    <uiTint>81FF38</uiTint><uiText>CFFFB2</uiText>
+    <uiMuted>9FCC85</uiMuted><statusPanel>253819</statusPanel><accent>81FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-shootemup'">
+    <uiTint>FF38BB</uiTint><uiText>FFB2E5</uiText>
+    <uiMuted>CC85B4</uiMuted><statusPanel>38192E</statusPanel><accent>FF38BB</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-shooter'">
+    <uiTint>38F6FF</uiTint><uiText>B2FBFF</uiText>
+    <uiMuted>85C9CC</uiMuted><statusPanel>193738</statusPanel><accent>38F6FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-simulation'">
+    <uiTint>FFCE38</uiTint><uiText>FFECB2</uiText>
+    <uiMuted>CCBA85</uiMuted><statusPanel>383119</statusPanel><accent>FFCE38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-sports'">
+    <uiTint>9438FF</uiTint><uiText>D6B2FF</uiText>
+    <uiMuted>A585CC</uiMuted><statusPanel>271938</statusPanel><accent>9438FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-sportswithanimals'">
+    <uiTint>38FF59</uiTint><uiText>B2FFBF</uiText>
+    <uiMuted>85CC91</uiMuted><statusPanel>19381E</statusPanel><accent>38FF59</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-strategy'">
+    <uiTint>FF3851</uiTint><uiText>FFB2BC</uiText>
+    <uiMuted>CC858E</uiMuted><statusPanel>38191D</statusPanel><accent>FF3851</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-various'">
+    <uiTint>388BFF</uiTint><uiText>B2D3FF</uiText>
+    <uiMuted>85A3CC</uiMuted><statusPanel>192638</statusPanel><accent>388BFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-verticalarcade'">
+    <uiTint>C6FF38</uiTint><uiText>E9FFB2</uiText>
+    <uiMuted>B7CC85</uiMuted><statusPanel>2F3819</statusPanel><accent>C6FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'auto-wheel'">
+    <uiTint>FE38FF</uiTint><uiText>FFB2FF</uiText>
+    <uiMuted>CC85CC</uiMuted><statusPanel>381938</statusPanel><accent>FE38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'build'">
+    <uiTint>38FFC4</uiTint><uiText>B2FFE8</uiText>
+    <uiMuted>85CCB7</uiMuted><statusPanel>19382F</statusPanel><accent>38FFC4</accent>
+  </variables>
+  <variables if="${system.theme} == 'c128'">
+    <uiTint>FF8938</uiTint><uiText>FFD2B2</uiText>
+    <uiMuted>CCA285</uiMuted><statusPanel>382619</statusPanel><accent>FF8938</accent>
+  </variables>
+  <variables if="${system.theme} == 'c16'">
+    <uiTint>4F38FF</uiTint><uiText>BBB2FF</uiText>
+    <uiMuted>8D85CC</uiMuted><statusPanel>1D1938</statusPanel><accent>4F38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'c64'">
+    <uiTint>5CFF38</uiTint><uiText>C0FFB2</uiText>
+    <uiMuted>91CC85</uiMuted><statusPanel>1F3819</statusPanel><accent>5CFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'cdi'">
+    <uiTint>FF3896</uiTint><uiText>FFB2D7</uiText>
+    <uiMuted>CC85A6</uiMuted><statusPanel>381928</statusPanel><accent>FF3896</accent>
+  </variables>
+  <variables if="${system.theme} == 'channelf'">
+    <uiTint>38D0FF</uiTint><uiText>B2EDFF</uiText>
+    <uiMuted>85BBCC</uiMuted><statusPanel>193138</statusPanel><accent>38D0FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'chip-8'">
+    <uiTint>FFF438</uiTint><uiText>FFFBB2</uiText>
+    <uiMuted>CCC885</uiMuted><statusPanel>383619</statusPanel><accent>FFF438</accent>
+  </variables>
+  <variables if="${system.theme} == 'chip8'">
+    <uiTint>B938FF</uiTint><uiText>E4B2FF</uiText>
+    <uiMuted>B385CC</uiMuted><statusPanel>2D1938</statusPanel><accent>B938FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'colecovision'">
+    <uiTint>38FF7F</uiTint><uiText>B2FFCE</uiText>
+    <uiMuted>85CC9E</uiMuted><statusPanel>193824</statusPanel><accent>38FF7F</accent>
+  </variables>
+  <variables if="${system.theme} == 'completed'">
+    <uiTint>FF4538</uiTint><uiText>FFB7B2</uiText>
+    <uiMuted>CC8985</uiMuted><statusPanel>381B19</statusPanel><accent>FF4538</accent>
+  </variables>
+  <variables if="${system.theme} == 'cplus4'">
+    <uiTint>3866FF</uiTint><uiText>B2C4FF</uiText>
+    <uiMuted>8595CC</uiMuted><statusPanel>192038</statusPanel><accent>3866FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'cps1'">
+    <uiTint>A0FF38</uiTint><uiText>DBFFB2</uiText>
+    <uiMuted>AACC85</uiMuted><statusPanel>293819</statusPanel><accent>A0FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'cps2'">
+    <uiTint>FF38DB</uiTint><uiText>FFB2F1</uiText>
+    <uiMuted>CC85BF</uiMuted><statusPanel>381932</statusPanel><accent>FF38DB</accent>
+  </variables>
+  <variables if="${system.theme} == 'cps3'">
+    <uiTint>38FFE9</uiTint><uiText>B2FFF7</uiText>
+    <uiMuted>85CCC4</uiMuted><statusPanel>193835</statusPanel><accent>38FFE9</accent>
+  </variables>
+  <variables if="${system.theme} == 'creativision'">
+    <uiTint>FFAF38</uiTint><uiText>FFE0B2</uiText>
+    <uiMuted>CCAF85</uiMuted><statusPanel>382C19</statusPanel><accent>FFAF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'custom-collections'">
+    <uiTint>7438FF</uiTint><uiText>CAB2FF</uiText>
+    <uiMuted>9A85CC</uiMuted><statusPanel>231938</statusPanel><accent>7438FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'daphne'">
+    <uiTint>38FF3A</uiTint><uiText>B2FFB3</uiText>
+    <uiMuted>85CC85</uiMuted><statusPanel>19381A</statusPanel><accent>38FF3A</accent>
+  </variables>
+  <variables if="${system.theme} == 'doom'">
+    <uiTint>FF3870</uiTint><uiText>FFB2C8</uiText>
+    <uiMuted>CC8599</uiMuted><statusPanel>381922</statusPanel><accent>FF3870</accent>
+  </variables>
+  <variables if="${system.theme} == 'dreamcast'">
+    <uiTint>38ABFF</uiTint><uiText>B2DFFF</uiText>
+    <uiMuted>85AECC</uiMuted><statusPanel>192B38</statusPanel><accent>38ABFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'easyrpg'">
+    <uiTint>E5FF38</uiTint><uiText>F5FFB2</uiText>
+    <uiMuted>C3CC85</uiMuted><statusPanel>343819</statusPanel><accent>E5FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'famicom'">
+    <uiTint>DF38FF</uiTint><uiText>F3B2FF</uiText>
+    <uiMuted>C085CC</uiMuted><statusPanel>331938</statusPanel><accent>DF38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'fbn'">
+    <uiTint>38FFA4</uiTint><uiText>B2FFDC</uiText>
+    <uiMuted>85CCAB</uiMuted><statusPanel>19382A</statusPanel><accent>38FFA4</accent>
+  </variables>
+  <variables if="${system.theme} == 'fbneo'">
+    <uiTint>FF6A38</uiTint><uiText>FFC6B2</uiText>
+    <uiMuted>CC9785</uiMuted><statusPanel>382119</statusPanel><accent>FF6A38</accent>
+  </variables>
+  <variables if="${system.theme} == 'fds'">
+    <uiTint>3840FF</uiTint><uiText>B2B6FF</uiText>
+    <uiMuted>8588CC</uiMuted><statusPanel>191B38</statusPanel><accent>3840FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'gamate'">
+    <uiTint>7BFF38</uiTint><uiText>CCFFB2</uiText>
+    <uiMuted>9DCC85</uiMuted><statusPanel>243819</statusPanel><accent>7BFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'gameandwatch'">
+    <uiTint>FF38B5</uiTint><uiText>FFB2E3</uiText>
+    <uiMuted>CC85B1</uiMuted><statusPanel>38192D</statusPanel><accent>FF38B5</accent>
+  </variables>
+  <variables if="${system.theme} == 'gamegear'">
+    <uiTint>38EFFF</uiTint><uiText>B2F9FF</uiText>
+    <uiMuted>85C6CC</uiMuted><statusPanel>193638</statusPanel><accent>38EFFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'gamemaster'">
+    <uiTint>FFD438</uiTint><uiText>FFEFB2</uiText>
+    <uiMuted>CCBD85</uiMuted><statusPanel>383119</statusPanel><accent>FFD438</accent>
+  </variables>
+  <variables if="${system.theme} == 'gb'">
+    <uiTint>9A38FF</uiTint><uiText>D8B2FF</uiText>
+    <uiMuted>A885CC</uiMuted><statusPanel>281938</statusPanel><accent>9A38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'gba'">
+    <uiTint>38FF60</uiTint><uiText>B2FFC2</uiText>
+    <uiMuted>85CC93</uiMuted><statusPanel>19381F</statusPanel><accent>38FF60</accent>
+  </variables>
+  <variables if="${system.theme} == 'gbah'">
+    <uiTint>FF384B</uiTint><uiText>FFB2BA</uiText>
+    <uiMuted>CC858B</uiMuted><statusPanel>38191C</statusPanel><accent>FF384B</accent>
+  </variables>
+  <variables if="${system.theme} == 'gbc'">
+    <uiTint>3885FF</uiTint><uiText>B2D0FF</uiText>
+    <uiMuted>85A0CC</uiMuted><statusPanel>192538</statusPanel><accent>3885FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'gbch'">
+    <uiTint>BFFF38</uiTint><uiText>E7FFB2</uiText>
+    <uiMuted>B5CC85</uiMuted><statusPanel>2E3819</statusPanel><accent>BFFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'gbh'">
+    <uiTint>FF38FA</uiTint><uiText>FFB2FD</uiText>
+    <uiMuted>CC85CA</uiMuted><statusPanel>381937</statusPanel><accent>FF38FA</accent>
+  </variables>
+  <variables if="${system.theme} == 'gc'">
+    <uiTint>38FFCA</uiTint><uiText>B2FFEB</uiText>
+    <uiMuted>85CCB9</uiMuted><statusPanel>193830</statusPanel><accent>38FFCA</accent>
+  </variables>
+  <variables if="${system.theme} == 'genesis'">
+    <uiTint>FF9038</uiTint><uiText>FFD4B2</uiText>
+    <uiMuted>CCA485</uiMuted><statusPanel>382719</statusPanel><accent>FF9038</accent>
+  </variables>
+  <variables if="${system.theme} == 'genh'">
+    <uiTint>5538FF</uiTint><uiText>BEB2FF</uiText>
+    <uiMuted>8F85CC</uiMuted><statusPanel>1E1938</statusPanel><accent>5538FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'ggh'">
+    <uiTint>55FF38</uiTint><uiText>BEFFB2</uiText>
+    <uiMuted>8FCC85</uiMuted><statusPanel>1E3819</statusPanel><accent>55FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'gp32'">
+    <uiTint>FF3890</uiTint><uiText>FFB2D4</uiText>
+    <uiMuted>CC85A4</uiMuted><statusPanel>381927</statusPanel><accent>FF3890</accent>
+  </variables>
+  <variables if="${system.theme} == 'gx4000'">
+    <uiTint>38CAFF</uiTint><uiText>B2EBFF</uiText>
+    <uiMuted>85B9CC</uiMuted><statusPanel>193038</statusPanel><accent>38CAFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'imageviewer'">
+    <uiTint>FFFA38</uiTint><uiText>FFFDB2</uiText>
+    <uiMuted>CCCA85</uiMuted><statusPanel>383719</statusPanel><accent>FFFA38</accent>
+  </variables>
+  <variables if="${system.theme} == 'intellivision'">
+    <uiTint>BF38FF</uiTint><uiText>E7B2FF</uiText>
+    <uiMuted>B585CC</uiMuted><statusPanel>2E1938</statusPanel><accent>BF38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'j2me'">
+    <uiTint>38FF85</uiTint><uiText>B2FFD0</uiText>
+    <uiMuted>85CCA0</uiMuted><statusPanel>193825</statusPanel><accent>38FF85</accent>
+  </variables>
+  <variables if="${system.theme} == 'laserdisc'">
+    <uiTint>FF4B38</uiTint><uiText>FFBAB2</uiText>
+    <uiMuted>CC8B85</uiMuted><statusPanel>381C19</statusPanel><accent>FF4B38</accent>
+  </variables>
+  <variables if="${system.theme} == 'lcdgames'">
+    <uiTint>3860FF</uiTint><uiText>B2C2FF</uiText>
+    <uiMuted>8593CC</uiMuted><statusPanel>191F38</statusPanel><accent>3860FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'lowresnx'">
+    <uiTint>9AFF38</uiTint><uiText>D8FFB2</uiText>
+    <uiMuted>A8CC85</uiMuted><statusPanel>283819</statusPanel><accent>9AFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'macintosh'">
+    <uiTint>FF38D4</uiTint><uiText>FFB2EF</uiText>
+    <uiMuted>CC85BD</uiMuted><statusPanel>381931</statusPanel><accent>FF38D4</accent>
+  </variables>
+  <variables if="${system.theme} == 'mame'">
+    <uiTint>38FFEF</uiTint><uiText>B2FFF9</uiText>
+    <uiMuted>85CCC6</uiMuted><statusPanel>193836</statusPanel><accent>38FFEF</accent>
+  </variables>
+  <variables if="${system.theme} == 'mastersystem'">
+    <uiTint>FFB538</uiTint><uiText>FFE3B2</uiText>
+    <uiMuted>CCB185</uiMuted><statusPanel>382D19</statusPanel><accent>FFB538</accent>
+  </variables>
+  <variables if="${system.theme} == 'megacd'">
+    <uiTint>7B38FF</uiTint><uiText>CCB2FF</uiText>
+    <uiMuted>9D85CC</uiMuted><statusPanel>241938</statusPanel><accent>7B38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'megadrive'">
+    <uiTint>38FF40</uiTint><uiText>B2FFB6</uiText>
+    <uiMuted>85CC88</uiMuted><statusPanel>19381B</statusPanel><accent>38FF40</accent>
+  </variables>
+  <variables if="${system.theme} == 'megadrive-japan'">
+    <uiTint>FF386A</uiTint><uiText>FFB2C6</uiText>
+    <uiMuted>CC8597</uiMuted><statusPanel>381921</statusPanel><accent>FF386A</accent>
+  </variables>
+  <variables if="${system.theme} == 'megadrivejp'">
+    <uiTint>38A4FF</uiTint><uiText>B2DCFF</uiText>
+    <uiMuted>85ABCC</uiMuted><statusPanel>192A38</statusPanel><accent>38A4FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'megaduck'">
+    <uiTint>DFFF38</uiTint><uiText>F3FFB2</uiText>
+    <uiMuted>C0CC85</uiMuted><statusPanel>333819</statusPanel><accent>DFFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'moonlight'">
+    <uiTint>E538FF</uiTint><uiText>F5B2FF</uiText>
+    <uiMuted>C385CC</uiMuted><statusPanel>341938</statusPanel><accent>E538FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'moto'">
+    <uiTint>38FFAB</uiTint><uiText>B2FFDF</uiText>
+    <uiMuted>85CCAE</uiMuted><statusPanel>19382B</statusPanel><accent>38FFAB</accent>
+  </variables>
+  <variables if="${system.theme} == 'mplayer'">
+    <uiTint>FF7038</uiTint><uiText>FFC8B2</uiText>
+    <uiMuted>CC9985</uiMuted><statusPanel>382219</statusPanel><accent>FF7038</accent>
+  </variables>
+  <variables if="${system.theme} == 'msu-md'">
+    <uiTint>383AFF</uiTint><uiText>B2B3FF</uiText>
+    <uiMuted>8585CC</uiMuted><statusPanel>191A38</statusPanel><accent>383AFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'msx'">
+    <uiTint>74FF38</uiTint><uiText>CAFFB2</uiText>
+    <uiMuted>9ACC85</uiMuted><statusPanel>233819</statusPanel><accent>74FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'msx2'">
+    <uiTint>FF38AF</uiTint><uiText>FFB2E0</uiText>
+    <uiMuted>CC85AF</uiMuted><statusPanel>38192C</statusPanel><accent>FF38AF</accent>
+  </variables>
+  <variables if="${system.theme} == 'music'">
+    <uiTint>38E9FF</uiTint><uiText>B2F7FF</uiText>
+    <uiMuted>85C4CC</uiMuted><statusPanel>193538</statusPanel><accent>38E9FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'n64'">
+    <uiTint>FFDB38</uiTint><uiText>FFF1B2</uiText>
+    <uiMuted>CCBF85</uiMuted><statusPanel>383219</statusPanel><accent>FFDB38</accent>
+  </variables>
+  <variables if="${system.theme} == 'naomi'">
+    <uiTint>A038FF</uiTint><uiText>DBB2FF</uiText>
+    <uiMuted>AA85CC</uiMuted><statusPanel>291938</statusPanel><accent>A038FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'nds'">
+    <uiTint>38FF66</uiTint><uiText>B2FFC4</uiText>
+    <uiMuted>85CC95</uiMuted><statusPanel>193820</statusPanel><accent>38FF66</accent>
+  </variables>
+  <variables if="${system.theme} == 'neogeo'">
+    <uiTint>FF3845</uiTint><uiText>FFB2B7</uiText>
+    <uiMuted>CC8589</uiMuted><statusPanel>38191B</statusPanel><accent>FF3845</accent>
+  </variables>
+  <variables if="${system.theme} == 'neogeocd'">
+    <uiTint>387FFF</uiTint><uiText>B2CEFF</uiText>
+    <uiMuted>859ECC</uiMuted><statusPanel>192438</statusPanel><accent>387FFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'nes'">
+    <uiTint>B9FF38</uiTint><uiText>E4FFB2</uiText>
+    <uiMuted>B3CC85</uiMuted><statusPanel>2D3819</statusPanel><accent>B9FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'nesh'">
+    <uiTint>FF38F4</uiTint><uiText>FFB2FB</uiText>
+    <uiMuted>CC85C8</uiMuted><statusPanel>381936</statusPanel><accent>FF38F4</accent>
+  </variables>
+  <variables if="${system.theme} == 'ngp'">
+    <uiTint>38FFD0</uiTint><uiText>B2FFED</uiText>
+    <uiMuted>85CCBB</uiMuted><statusPanel>193831</statusPanel><accent>38FFD0</accent>
+  </variables>
+  <variables if="${system.theme} == 'ngpc'">
+    <uiTint>FF9638</uiTint><uiText>FFD7B2</uiText>
+    <uiMuted>CCA685</uiMuted><statusPanel>382819</statusPanel><accent>FF9638</accent>
+  </variables>
+  <variables if="${system.theme} == 'now-playing'">
+    <uiTint>5C38FF</uiTint><uiText>C0B2FF</uiText>
+    <uiMuted>9185CC</uiMuted><statusPanel>1F1938</statusPanel><accent>5C38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'odyssey2'">
+    <uiTint>4FFF38</uiTint><uiText>BBFFB2</uiText>
+    <uiMuted>8DCC85</uiMuted><statusPanel>1D3819</statusPanel><accent>4FFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'openbor'">
+    <uiTint>FF3889</uiTint><uiText>FFB2D2</uiText>
+    <uiMuted>CC85A2</uiMuted><statusPanel>381926</statusPanel><accent>FF3889</accent>
+  </variables>
+  <variables if="${system.theme} == 'palm'">
+    <uiTint>38C4FF</uiTint><uiText>B2E8FF</uiText>
+    <uiMuted>85B7CC</uiMuted><statusPanel>192F38</statusPanel><accent>38C4FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'pc'">
+    <uiTint>FEFF38</uiTint><uiText>FFFFB2</uiText>
+    <uiMuted>CCCC85</uiMuted><statusPanel>383819</statusPanel><accent>FEFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'pc88'">
+    <uiTint>C638FF</uiTint><uiText>E9B2FF</uiText>
+    <uiMuted>B785CC</uiMuted><statusPanel>2F1938</statusPanel><accent>C638FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'pc98'">
+    <uiTint>38FF8B</uiTint><uiText>B2FFD3</uiText>
+    <uiMuted>85CCA3</uiMuted><statusPanel>193826</statusPanel><accent>38FF8B</accent>
+  </variables>
+  <variables if="${system.theme} == 'pce-cd'">
+    <uiTint>FF5138</uiTint><uiText>FFBCB2</uiText>
+    <uiMuted>CC8E85</uiMuted><statusPanel>381D19</statusPanel><accent>FF5138</accent>
+  </variables>
+  <variables if="${system.theme} == 'pcengine'">
+    <uiTint>3859FF</uiTint><uiText>B2BFFF</uiText>
+    <uiMuted>8591CC</uiMuted><statusPanel>191E38</statusPanel><accent>3859FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'pcfx'">
+    <uiTint>94FF38</uiTint><uiText>D6FFB2</uiText>
+    <uiMuted>A5CC85</uiMuted><statusPanel>273819</statusPanel><accent>94FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'pet'">
+    <uiTint>FF38CE</uiTint><uiText>FFB2EC</uiText>
+    <uiMuted>CC85BA</uiMuted><statusPanel>381931</statusPanel><accent>FF38CE</accent>
+  </variables>
+  <variables if="${system.theme} == 'pico-8'">
+    <uiTint>38FFF6</uiTint><uiText>B2FFFB</uiText>
+    <uiMuted>85CCC9</uiMuted><statusPanel>193837</statusPanel><accent>38FFF6</accent>
+  </variables>
+  <variables if="${system.theme} == 'pico8'">
+    <uiTint>FFBB38</uiTint><uiText>FFE5B2</uiText>
+    <uiMuted>CCB485</uiMuted><statusPanel>382E19</statusPanel><accent>FFBB38</accent>
+  </variables>
+  <variables if="${system.theme} == 'pokemini'">
+    <uiTint>8138FF</uiTint><uiText>CFB2FF</uiText>
+    <uiMuted>9F85CC</uiMuted><statusPanel>251938</statusPanel><accent>8138FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'ports'">
+    <uiTint>38FF47</uiTint><uiText>B2FFB8</uiText>
+    <uiMuted>85CC8A</uiMuted><statusPanel>19381C</statusPanel><accent>38FF47</accent>
+  </variables>
+  <variables if="${system.theme} == 'psp'">
+    <uiTint>FF3864</uiTint><uiText>FFB2C3</uiText>
+    <uiMuted>CC8594</uiMuted><statusPanel>381920</statusPanel><accent>FF3864</accent>
+  </variables>
+  <variables if="${system.theme} == 'pspminis'">
+    <uiTint>389EFF</uiTint><uiText>B2DAFF</uiText>
+    <uiMuted>85A9CC</uiMuted><statusPanel>192938</statusPanel><accent>389EFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'psvita'">
+    <uiTint>D8FF38</uiTint><uiText>F0FFB2</uiText>
+    <uiMuted>BECC85</uiMuted><statusPanel>323819</statusPanel><accent>D8FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'psx'">
+    <uiTint>EB38FF</uiTint><uiText>F7B2FF</uiText>
+    <uiMuted>C585CC</uiMuted><statusPanel>351938</statusPanel><accent>EB38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'pv1000'">
+    <uiTint>38FFB1</uiTint><uiText>B2FFE1</uiText>
+    <uiMuted>85CCB0</uiMuted><statusPanel>19382C</statusPanel><accent>38FFB1</accent>
+  </variables>
+  <variables if="${system.theme} == 'satellaview'">
+    <uiTint>FF7738</uiTint><uiText>FFCBB2</uiText>
+    <uiMuted>CC9B85</uiMuted><statusPanel>382319</statusPanel><accent>FF7738</accent>
+  </variables>
+  <variables if="${system.theme} == 'saturn'">
+    <uiTint>3C38FF</uiTint><uiText>B4B2FF</uiText>
+    <uiMuted>8685CC</uiMuted><statusPanel>1A1938</statusPanel><accent>3C38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'scummvm'">
+    <uiTint>6EFF38</uiTint><uiText>C7FFB2</uiText>
+    <uiMuted>98CC85</uiMuted><statusPanel>223819</statusPanel><accent>6EFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'scv'">
+    <uiTint>FF38A9</uiTint><uiText>FFB2DE</uiText>
+    <uiMuted>CC85AD</uiMuted><statusPanel>38192B</statusPanel><accent>FF38A9</accent>
+  </variables>
+  <variables if="${system.theme} == 'sega32x'">
+    <uiTint>38E3FF</uiTint><uiText>B2F4FF</uiText>
+    <uiMuted>85C2CC</uiMuted><statusPanel>193438</statusPanel><accent>38E3FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'segacd'">
+    <uiTint>FFE138</uiTint><uiText>FFF3B2</uiText>
+    <uiMuted>CCC185</uiMuted><statusPanel>383319</statusPanel><accent>FFE138</accent>
+  </variables>
+  <variables if="${system.theme} == 'segastv'">
+    <uiTint>A638FF</uiTint><uiText>DDB2FF</uiText>
+    <uiMuted>AC85CC</uiMuted><statusPanel>2A1938</statusPanel><accent>A638FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'sfc'">
+    <uiTint>38FF6C</uiTint><uiText>B2FFC7</uiText>
+    <uiMuted>85CC97</uiMuted><statusPanel>193821</statusPanel><accent>38FF6C</accent>
+  </variables>
+  <variables if="${system.theme} == 'sg-1000'">
+    <uiTint>FF383E</uiTint><uiText>FFB2B5</uiText>
+    <uiMuted>CC8587</uiMuted><statusPanel>38191A</statusPanel><accent>FF383E</accent>
+  </variables>
+  <variables if="${system.theme} == 'sgb'">
+    <uiTint>3879FF</uiTint><uiText>B2CBFF</uiText>
+    <uiMuted>859CCC</uiMuted><statusPanel>192338</statusPanel><accent>3879FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'snes'">
+    <uiTint>B3FF38</uiTint><uiText>E2FFB2</uiText>
+    <uiMuted>B1CC85</uiMuted><statusPanel>2C3819</statusPanel><accent>B3FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'snes-msu1'">
+    <uiTint>FF38ED</uiTint><uiText>FFB2F8</uiText>
+    <uiMuted>CC85C6</uiMuted><statusPanel>381935</statusPanel><accent>FF38ED</accent>
+  </variables>
+  <variables if="${system.theme} == 'snesh'">
+    <uiTint>38FFD6</uiTint><uiText>B2FFEF</uiText>
+    <uiMuted>85CCBD</uiMuted><statusPanel>193832</statusPanel><accent>38FFD6</accent>
+  </variables>
+  <variables if="${system.theme} == 'snesmsu1'">
+    <uiTint>FF9C38</uiTint><uiText>FFD9B2</uiText>
+    <uiMuted>CCA885</uiMuted><statusPanel>382919</statusPanel><accent>FF9C38</accent>
+  </variables>
+  <variables if="${system.theme} == 'solarus'">
+    <uiTint>6238FF</uiTint><uiText>C3B2FF</uiText>
+    <uiMuted>9485CC</uiMuted><statusPanel>201938</statusPanel><accent>6238FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'st-v'">
+    <uiTint>49FF38</uiTint><uiText>B9FFB2</uiText>
+    <uiMuted>8BCC85</uiMuted><statusPanel>1C3819</statusPanel><accent>49FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'stv'">
+    <uiTint>FF3883</uiTint><uiText>FFB2CF</uiText>
+    <uiMuted>CC85A0</uiMuted><statusPanel>381925</statusPanel><accent>FF3883</accent>
+  </variables>
+  <variables if="${system.theme} == 'sufami'">
+    <uiTint>38BDFF</uiTint><uiText>B2E6FF</uiText>
+    <uiMuted>85B4CC</uiMuted><statusPanel>192E38</statusPanel><accent>38BDFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'supergrafx'">
+    <uiTint>F8FF38</uiTint><uiText>FCFFB2</uiText>
+    <uiMuted>C9CC85</uiMuted><statusPanel>373819</statusPanel><accent>F8FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'supervision'">
+    <uiTint>CC38FF</uiTint><uiText>EBB2FF</uiText>
+    <uiMuted>BA85CC</uiMuted><statusPanel>301938</statusPanel><accent>CC38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'switch'">
+    <uiTint>38FF92</uiTint><uiText>B2FFD5</uiText>
+    <uiMuted>85CCA5</uiMuted><statusPanel>193827</statusPanel><accent>38FF92</accent>
+  </variables>
+  <variables if="${system.theme} == 'tg-cd'">
+    <uiTint>FF5738</uiTint><uiText>FFBFB2</uiText>
+    <uiMuted>CC9085</uiMuted><statusPanel>381E19</statusPanel><accent>FF5738</accent>
+  </variables>
+  <variables if="${system.theme} == 'tg16'">
+    <uiTint>3853FF</uiTint><uiText>B2BDFF</uiText>
+    <uiMuted>858ECC</uiMuted><statusPanel>191D38</statusPanel><accent>3853FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'tg16cd'">
+    <uiTint>8DFF38</uiTint><uiText>D3FFB2</uiText>
+    <uiMuted>A3CC85</uiMuted><statusPanel>263819</statusPanel><accent>8DFF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'thomson'">
+    <uiTint>FF38C8</uiTint><uiText>FFB2EA</uiText>
+    <uiMuted>CC85B8</uiMuted><statusPanel>381930</statusPanel><accent>FF38C8</accent>
+  </variables>
+  <variables if="${system.theme} == 'tic80'">
+    <uiTint>38FFFC</uiTint><uiText>B2FFFE</uiText>
+    <uiMuted>85CCCB</uiMuted><statusPanel>193838</statusPanel><accent>38FFFC</accent>
+  </variables>
+  <variables if="${system.theme} == 'tools'">
+    <uiTint>FFC238</uiTint><uiText>FFE7B2</uiText>
+    <uiMuted>CCB685</uiMuted><statusPanel>382F19</statusPanel><accent>FFC238</accent>
+  </variables>
+  <variables if="${system.theme} == 'uzebox'">
+    <uiTint>8738FF</uiTint><uiText>D1B2FF</uiText>
+    <uiMuted>A185CC</uiMuted><statusPanel>261938</statusPanel><accent>8738FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'vectrex'">
+    <uiTint>38FF4D</uiTint><uiText>B2FFBB</uiText>
+    <uiMuted>85CC8C</uiMuted><statusPanel>19381C</statusPanel><accent>38FF4D</accent>
+  </variables>
+  <variables if="${system.theme} == 'vic20'">
+    <uiTint>FF385E</uiTint><uiText>FFB2C1</uiText>
+    <uiMuted>CC8592</uiMuted><statusPanel>38191F</statusPanel><accent>FF385E</accent>
+  </variables>
+  <variables if="${system.theme} == 'videopac'">
+    <uiTint>3898FF</uiTint><uiText>B2D7FF</uiText>
+    <uiMuted>85A7CC</uiMuted><statusPanel>192838</statusPanel><accent>3898FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'vircon32'">
+    <uiTint>D2FF38</uiTint><uiText>EEFFB2</uiText>
+    <uiMuted>BCCC85</uiMuted><statusPanel>313819</statusPanel><accent>D2FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'virtualboy'">
+    <uiTint>F138FF</uiTint><uiText>FAB2FF</uiText>
+    <uiMuted>C785CC</uiMuted><statusPanel>361938</statusPanel><accent>F138FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'wasm4'">
+    <uiTint>38FFB7</uiTint><uiText>B2FFE3</uiText>
+    <uiMuted>85CCB2</uiMuted><statusPanel>19382D</statusPanel><accent>38FFB7</accent>
+  </variables>
+  <variables if="${system.theme} == 'wonderswan'">
+    <uiTint>FF7D38</uiTint><uiText>FFCDB2</uiText>
+    <uiMuted>CC9D85</uiMuted><statusPanel>382419</statusPanel><accent>FF7D38</accent>
+  </variables>
+  <variables if="${system.theme} == 'wonderswancolor'">
+    <uiTint>4338FF</uiTint><uiText>B7B2FF</uiText>
+    <uiMuted>8885CC</uiMuted><statusPanel>1B1938</statusPanel><accent>4338FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'x1'">
+    <uiTint>68FF38</uiTint><uiText>C5FFB2</uiText>
+    <uiMuted>96CC85</uiMuted><statusPanel>213819</statusPanel><accent>68FF38</accent>
+  </variables>
+  <variables if="${system.theme} == 'x68000'">
+    <uiTint>FF38A2</uiTint><uiText>FFB2DB</uiText>
+    <uiMuted>CC85AB</uiMuted><statusPanel>38192A</statusPanel><accent>FF38A2</accent>
+  </variables>
+  <variables if="${system.theme} == 'xbox'">
+    <uiTint>38DDFF</uiTint><uiText>B2F2FF</uiText>
+    <uiMuted>85C0CC</uiMuted><statusPanel>193338</statusPanel><accent>38DDFF</accent>
+  </variables>
+  <variables if="${system.theme} == 'zmachine'">
+    <uiTint>FFE738</uiTint><uiText>FFF6B2</uiText>
+    <uiMuted>CCC385</uiMuted><statusPanel>383419</statusPanel><accent>FFE738</accent>
+  </variables>
+  <variables if="${system.theme} == 'zx81'">
+    <uiTint>AD38FF</uiTint><uiText>DFB2FF</uiText>
+    <uiMuted>AE85CC</uiMuted><statusPanel>2B1938</statusPanel><accent>AD38FF</accent>
+  </variables>
+  <variables if="${system.theme} == 'zxspectrum'">
+    <uiTint>38FF72</uiTint><uiText>B2FFC9</uiText>
+    <uiMuted>85CC9A</uiMuted><statusPanel>193822</statusPanel><accent>38FF72</accent>
+  </variables>
+</theme>

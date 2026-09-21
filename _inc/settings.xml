@@ -5,7 +5,7 @@
     <fontBold>${themePath}/assets/fonts/Oxygen-Bold.ttf</fontBold>
     <logoPath>${themePath}/assets/logos/${system.theme}.svg</logoPath>
     <fallbackLogo>${themePath}/assets/images/fallback.svg</fallbackLogo>
-    <background>0B0E16</background>
+    <background>000000</background>
     <foreground>F4F5F8</foreground>
     <muted>A5AFC1</muted>
     <accent>43ACFF</accent>
