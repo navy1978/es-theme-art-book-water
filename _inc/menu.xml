@@ -10,4 +10,10 @@
       <menuText name="menufooter"><fontPath>${fontRegular}</fontPath><fontSize>0.025</fontSize><color>${uiMuted}</color></menuText>
       <menuTextSmall name="menutextsmall"><fontPath>${fontRegular}</fontPath><fontSize>0.025</fontSize><color>${uiMuted}</color></menuTextSmall>
   </view>
+  <view ifSubset="water-colors:per-system" name="menu">
+    <menuText name="menutext"><color>FFFFFF</color><selectedColor>FFFFFF</selectedColor></menuText>
+    <menuText name="menutitle"><color>FFFFFF</color></menuText>
+    <menuText name="menufooter"><color>FFFFFF</color></menuText>
+    <menuTextSmall name="menutextsmall"><color>FFFFFF</color></menuTextSmall>
+  </view>
 </theme>

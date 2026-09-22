@@ -40,7 +40,7 @@
       <tile>false</tile><color>${statusPanel}E6</color><colorEnd>${statusPanel}00</colorEnd><gradientType>vertical</gradientType><autoFade>false</autoFade><zIndex>4</zIndex>
     </image>
     <text if="${system.collection} &lt; 1 &amp;&amp; ${system.name} != 'tools' &amp;&amp; ${system.manufacturer} != '' &amp;&amp; ${system.manufacturer} != 'Various'" name="system-metadata" extra="true">
-      <pos>0.12 0.21</pos><size>0.76 0.055</size><text>{system:manufacturer} · {system:releaseYear}</text>
+      <pos>0.12 0.21</pos><size>0.76 0.055</size><alignment>center</alignment><text>{system:manufacturer} · {system:releaseYear}</text>
       <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><forceUppercase>true</forceUppercase><color>${uiText}</color><zIndex>10</zIndex>
     </text>
     <text name="network-ip" extra="true">
@@ -95,17 +95,17 @@
     </text>
     <text name="systemInfo">
       <visible ifSubset="water-colors:per-system">false</visible>
-      <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <pos>0.12 0.535</pos><size>0.76 0.05</size><alignment>center</alignment>
       <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
     </text>
     <text ifSubset="water-colors:per-system" name="water-game-count" extra="true">
-      <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <pos>0.12 0.535</pos><size>0.76 0.05</size><alignment>center</alignment>
       <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
       <text>{system:total} GAMES</text>
       <visible>{system:total} != 1</visible>
     </text>
     <text ifSubset="water-colors:per-system" name="water-game-count-single" extra="true">
-      <pos>0.12 0.62</pos><size>0.76 0.05</size><alignment>center</alignment>
+      <pos>0.12 0.535</pos><size>0.76 0.05</size><alignment>center</alignment>
       <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
       <text>1 GAME</text><visible>{system:total} == 1</visible>
     </text>
@@ -138,5 +138,20 @@
       <pos>0.04 0.95</pos><origin>0 0.5</origin><fontPath>${fontRegular}</fontPath>
       <fontSize>0.036</fontSize><textColor>${uiText}</textColor><iconColor>${uiText}</iconColor>
     </helpsystem>
+  </view>
+  <!-- Per-system colors stay in the central scene; status chrome stays neutral and fixed. -->
+  <view ifSubset="water-colors:per-system" name="system">
+    <clock name="clock-position-test" extra="static"><color>FFFFFF</color></clock>
+    <image name="clock-icon" extra="static"><color>FFFFFF</color></image>
+    <text name="network-ip" extra="static"><color>FFFFFF</color></text>
+    <text if="${global.cheevos.username} != ''" name="retroachievements-status" extra="static"><color>FFFFFF</color></text>
+    <image name="water-top-status-panel" extra="static"><color>252525E6</color><colorEnd>25252500</colorEnd></image>
+    <image name="water-help-panel" extra="static"><color>25252500</color><colorEnd>252525E6</colorEnd></image>
+  </view>
+  <view ifSubset="water-colors:per-system" name="system,basic,detailed,video">
+    <networkIcon name="water-network" extra="static"><color>FFFFFF</color></networkIcon>
+    <batteryIcon name="water-battery" extra="static"><color>FFFFFF</color></batteryIcon>
+    <batteryText name="water-battery-percent" extra="static"><color>FFFFFF</color></batteryText>
+    <helpsystem name="help"><textColor>FFFFFF</textColor><iconColor>FFFFFF</iconColor></helpsystem>
   </view>
 </theme>
