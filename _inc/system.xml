@@ -25,16 +25,16 @@
       <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path>
       <color>${background}</color><zIndex>0</zIndex>
     </image>
-    <clock name="clock-position-test">
+    <clock name="clock-position-test" extra="static">
       <pos>0.060 0.016</pos><size>0.22 0</size><alignment>left</alignment><verticalAlignment>top</verticalAlignment><lineSpacing>1.5</lineSpacing><multiLine>false</multiLine>
       <fontPath>${fontBold}</fontPath><fontSize>0.034</fontSize><color>${uiText}</color><zIndex>10</zIndex>
     </clock>
-    <image name="clock-icon" extra="true">
+    <image name="clock-icon" extra="static">
       <path>${themePath}/assets/images/clock.svg</path>
       <pos>0.016 0.020</pos><size>0 0.052</size>
       <color>${uiText}</color><autoFade>false</autoFade><zIndex>10</zIndex>
     </image>
-    <image name="water-top-status-panel" extra="true">
+    <image name="water-top-status-panel" extra="static">
       <path>${themePath}/assets/images/panel-white.png</path>
       <origin>0 0</origin><pos>0 0</pos><size>1 0.155</size>
       <tile>false</tile><color>${statusPanel}E6</color><colorEnd>${statusPanel}00</colorEnd><gradientType>vertical</gradientType><autoFade>false</autoFade><zIndex>4</zIndex>
@@ -43,7 +43,7 @@
       <pos>0.12 0.21</pos><size>0.76 0.055</size><alignment>center</alignment><text>{system:manufacturer} · {system:releaseYear}</text>
       <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><forceUppercase>true</forceUppercase><color>${uiText}</color><zIndex>10</zIndex>
     </text>
-    <text name="network-ip" extra="true">
+    <text name="network-ip" extra="static">
       <pos>0.72 0.085</pos><size>0.25 0.030</size><alignment>right</alignment>
       <fontPath>${fontRegular}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
       <text>{global:ip}</text>
@@ -109,12 +109,12 @@
       <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
       <text>1 GAME</text><visible>{system:total} == 1</visible>
     </text>
-    <image name="water-help-panel" extra="true">
+    <image name="water-help-panel" extra="static">
       <path>${themePath}/assets/images/panel-white.png</path>
       <origin>0 0</origin><pos>0 0.845</pos><size>1 0.155</size>
       <tile>false</tile><color>${statusPanel}00</color><colorEnd>${statusPanel}E6</colorEnd><gradientType>vertical</gradientType><autoFade>false</autoFade><zIndex>4</zIndex>
     </image>
-    <text if="${global.cheevos.username} != ''" name="retroachievements-status" extra="true">
+    <text if="${global.cheevos.username} != ''" name="retroachievements-status" extra="static">
       <pos>0.02 0.095</pos><size>0.25 0.030</size><alignment>left</alignment>
       <fontPath>${fontBold}</fontPath><fontSize>0.030</fontSize><color>${uiText}</color><zIndex>10</zIndex>
       <text>★ RA - {global:cheevosUser}</text>
