@@ -7,7 +7,7 @@ reflections, designed for RG351 and RG552 handhelds.
 the theme has not yet been validated on an actual handheld. This project is
 independent of AmberELEC and is inspired by Art Book Next.
 
-![Native water shader preview](preview/native-dreamcast.png)
+![Art Book Water on AmberELEC](preview/art-book-water-rg351mp.png)
 
 *The actual theme shader rendered in a browser at 480×320. This is not a
 handheld screenshot; EmulationStation adds the text and navigation controls.*

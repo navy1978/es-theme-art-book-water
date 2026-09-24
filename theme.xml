@@ -11,20 +11,24 @@
   </subset>
   <subset name="water-colors" displayName="Water colors">
     <include name="per-system" displayName="Color per system">./_inc/colors/per-system.xml</include>
+    <include name="neon-yellow" displayName="Neon yellow">./_inc/colors/neon-yellow.xml</include>
     <include name="white" displayName="White">./_inc/colors/white.xml</include>
     <include name="gold" displayName="Gold">./_inc/colors/gold.xml</include>
     <include name="silver" displayName="Silver">./_inc/colors/silver.xml</include>
     <include name="neon-blue" displayName="Neon blue">./_inc/colors/neon-blue.xml</include>
     <include name="neon-red" displayName="Neon red">./_inc/colors/neon-red.xml</include>
     <include name="neon-green" displayName="Neon green">./_inc/colors/neon-green.xml</include>
-    <include name="neon-yellow" displayName="Neon yellow">./_inc/colors/neon-yellow.xml</include>
   </subset>
   <subset name="water-background" displayName="Background">
+    <include name="ambient" displayName="Ambient">./_inc/options/background-ambient.xml</include>
     <include name="static" displayName="Static">./_inc/options/background-static.xml</include>
     <include name="ambient-still" displayName="Ambient (still preview)">./_inc/options/background-ambient.xml</include>
-    <include name="ambient" displayName="Ambient">./_inc/options/background-ambient.xml</include>
   </subset>
   <include>./_inc/system.xml</include>
   <include>./_inc/gamelist.xml</include>
   <include>./_inc/menu.xml</include>
+  <subset name="water-show-ip" displayName="Show IP address">
+    <include name="yes" displayName="Yes">./_inc/options/ip-visible.xml</include>
+    <include name="no" displayName="No">./_inc/options/ip-hidden.xml</include>
+  </subset>
 </theme>

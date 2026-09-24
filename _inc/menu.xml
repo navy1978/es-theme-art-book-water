@@ -2,6 +2,10 @@
   <formatVersion>7</formatVersion>
   <view name="menu">
     <menuBackground name="menubg"><color>141A26</color></menuBackground>
+    <menuTextEdit name="menutextedit">
+      <active>${themePath}/assets/images/textinput-active.svg</active>
+      <inactive>${themePath}/assets/images/textinput-inactive.svg</inactive>
+    </menuTextEdit>
     <menuText name="menutext">
       <fontPath>${fontBold}</fontPath><fontSize>0.035</fontSize><color>${uiText}</color>
       <separatorColor>2B3547</separatorColor><selectedColor>FFFFFF</selectedColor><selectorColor>304660</selectorColor>
