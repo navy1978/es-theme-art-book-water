@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Art Book Water. See LICENSE.md and CREDITS.md. -->
+
 <theme defaultTransition="fade">
   <formatVersion>7</formatVersion>
+
+  <!-- Global settings -->
   <include>./_inc/settings.xml</include>
   <include>./_inc/palette.xml</include>
+
+  <!-- Theme options -->
   <subset name="water-effects" displayName="Water effects">
     <include name="animated" displayName="Water (animated)">./_inc/options/animated.xml</include>
     <include name="still" displayName="Water (still)">./_inc/options/still.xml</include>
     <include name="calm" displayName="Calm (no shaders)">./_inc/options/calm.xml</include>
   </subset>
+
   <subset name="water-colors" displayName="Water colors">
     <include name="per-system" displayName="Color per system">./_inc/colors/per-system.xml</include>
     <include name="neon-yellow" displayName="Neon yellow">./_inc/colors/neon-yellow.xml</include>
@@ -19,16 +25,21 @@
     <include name="neon-red" displayName="Neon red">./_inc/colors/neon-red.xml</include>
     <include name="neon-green" displayName="Neon green">./_inc/colors/neon-green.xml</include>
   </subset>
+
   <subset name="water-background" displayName="Background">
     <include name="ambient" displayName="Ambient">./_inc/options/background-ambient.xml</include>
     <include name="static" displayName="Static">./_inc/options/background-static.xml</include>
     <include name="ambient-still" displayName="Ambient (still preview)">./_inc/options/background-ambient.xml</include>
   </subset>
-  <include>./_inc/system.xml</include>
-  <include>./_inc/gamelist.xml</include>
-  <include>./_inc/menu.xml</include>
+
   <subset name="water-show-ip" displayName="Show IP address">
     <include name="yes" displayName="Yes">./_inc/options/ip-visible.xml</include>
     <include name="no" displayName="No">./_inc/options/ip-hidden.xml</include>
   </subset>
+
+  <!-- Theme views -->
+  <include>./_inc/system.xml</include>
+  <include>./_inc/gamelist.xml</include>
+  <include>./_inc/menu.xml</include>
+
 </theme>
