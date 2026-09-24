@@ -161,14 +161,14 @@
   <view if="${screen.width} &gt; 1000" name="system,basic,detailed,video">
     <networkIcon name="water-network" extra="static">
       <networkIcon>:/network.svg</networkIcon><planemodeIcon>:/plane.svg</planemodeIcon>
-      <origin>0.5 0.5</origin><pos>0.847 0.048</pos><size>0 0.056</size><color>${uiText}</color><zIndex>10</zIndex>
+      <origin>0.5 0.5</origin><pos>0.825 0.048</pos><size>0 0.052</size><color>${uiText}</color><zIndex>10</zIndex>
     </networkIcon>
     <batteryIcon name="water-battery" extra="static">
-      <origin>0.5 0.5</origin><pos>0.890 0.048</pos><size>0 0.066</size><color>${uiText}</color><zIndex>10</zIndex>
+      <origin>0.5 0.5</origin><pos>0.880 0.048</pos><size>0 0.056</size><color>${uiText}</color><zIndex>10</zIndex>
     </batteryIcon>
     <batteryText name="water-battery-percent" extra="static">
-      <pos>0.917 0.022</pos><size>0.059 0.050</size><alignment>right</alignment>
-      <fontPath>${fontRegular}</fontPath><fontSize>0.036</fontSize><color>${uiText}</color><zIndex>10</zIndex>
+      <pos>0.908 0.016</pos><size>0.068 0.064</size><alignment>right</alignment><verticalAlignment>center</verticalAlignment>
+      <fontPath>${fontBold}</fontPath><fontSize>0.034</fontSize><color>${uiText}</color><zIndex>10</zIndex>
     </batteryText>
   </view>
   <view if="${screen.width} &gt; 1000" ifSubset="water-colors:per-system" name="system,basic,detailed,video">
@@ -176,16 +176,19 @@
     <batteryIcon name="water-battery" extra="static"><color>FFFFFF</color></batteryIcon>
     <batteryText name="water-battery-percent" extra="static"><color>FFFFFF</color></batteryText>
   </view>
-  <!-- RG552 status text uses the same font and size as the help bar. -->
+  <!-- RG552: keep the same visual grid and hierarchy used by the smaller handhelds. -->
   <view if="${screen.width} &gt; 1000" name="system">
     <clock name="clock-position-test" extra="static">
-      <pos>0.052 0.019</pos><fontPath>${fontRegular}</fontPath><fontSize>0.036</fontSize>
+      <pos>0.060 0.016</pos><size>0.22 0.064</size><alignment>left</alignment><verticalAlignment>center</verticalAlignment>
+      <fontPath>${fontBold}</fontPath><fontSize>0.034</fontSize>
     </clock>
     <text name="network-ip" extra="static">
-      <fontPath>${fontRegular}</fontPath><fontSize>0.036</fontSize><pos>0.72 0.085</pos><size>0.25 0.050</size><verticalAlignment>center</verticalAlignment>
+      <pos>0.72 0.092</pos><size>0.25 0.030</size><alignment>right</alignment><verticalAlignment>center</verticalAlignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.026</fontSize>
     </text>
     <text name="retroachievements-status" extra="static" if="${global.cheevos.username} != ''">
-      <fontPath>${fontRegular}</fontPath><fontSize>0.036</fontSize><pos>0.02 0.085</pos><size>0.45 0.050</size><verticalAlignment>center</verticalAlignment>
+      <pos>0.02 0.092</pos><size>0.35 0.030</size><alignment>left</alignment><verticalAlignment>center</verticalAlignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.026</fontSize>
     </text>
   </view>
 </theme>
