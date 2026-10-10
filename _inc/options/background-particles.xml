@@ -2,111 +2,70 @@
   <formatVersion>7</formatVersion>
   <view ifSubset="water-particles:on" name="system,basic,detailed,video">
     <!-- Reuse one soft texture; particles stay behind the logo and game list. -->
-    <image name="water-particle-01,water-particle-02,water-particle-03,water-particle-04,water-particle-05,water-particle-06,water-particle-07,water-particle-08,water-particle-09,water-particle-10,water-particle-11,water-particle-12,water-particle-13,water-particle-14" extra="true">
+    <image name="water-particle-01,water-particle-02,water-particle-03,water-particle-04,water-particle-06,water-particle-08,water-particle-09,water-particle-14" extra="true">
       <path>${themePath}/assets/images/ambient-glow.png</path>
       <origin>0.5 0.5</origin>
-      <color>${uiTint}FF</color>
+      <color>${uiTint}B3</color>
+      <linearSmooth>true</linearSmooth>
       <autoFade>false</autoFade><zIndex>1.5</zIndex>
     </image>
-    <!-- Start invisible; introduce one particle every two seconds, up to 14.
+    <!-- Start invisible; introduce one particle every two seconds, up to 8.
          Each fades in once while the drift repeats continuously. -->
     <!-- A zero width preserves circular particles on every screen ratio. -->
     <image name="water-particle-01" extra="true">
-      <pos>0.08 0.24</pos><size>0 0.026</size><opacity>0</opacity>
+      <pos>0.227 0.331</pos><size>0 0.026</size><opacity>0</opacity>
       <storyboard repeat="forever">
         <animation property="opacity" from="0" to="0.48" begin="500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.08 0.24" to="0.16 0.46" duration="14000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="pos" from="0.227 0.331" to="0.279 0.474" duration="14000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-02" extra="true">
-      <pos>0.18 0.71</pos><size>0 0.036</size><opacity>0</opacity>
+      <pos>0.292 0.6365</pos><size>0 0.036</size><opacity>0</opacity>
       <storyboard repeat="forever">
         <animation property="opacity" from="0" to="0.40" begin="8500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.18 0.71" to="0.11 0.48" duration="18000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="pos" from="0.292 0.6365" to="0.2465 0.487" duration="18000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-03" extra="true">
-      <pos>0.25 0.38</pos><size>0 0.060</size><opacity>0</opacity>
+      <pos>0.3375 0.422</pos><size>0 0.060</size><opacity>0</opacity>
       <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.26" begin="18500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.25 0.38" to="0.34 0.20" duration="22000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="opacity" from="0" to="0.26" begin="12500" duration="3500" mode="easeInOut"/>
+        <animation property="pos" from="0.3375 0.422" to="0.396 0.305" duration="22000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-04" extra="true">
-      <pos>0.35 0.81</pos><size>0 0.030</size><opacity>0</opacity>
+      <pos>0.4025 0.7015</pos><size>0 0.030</size><opacity>0</opacity>
       <storyboard repeat="forever">
         <animation property="opacity" from="0" to="0.50" begin="4500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.35 0.81" to="0.43 0.56" duration="16000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image name="water-particle-05" extra="true">
-      <pos>0.46 0.22</pos><size>0 0.080</size><opacity>0</opacity>
-      <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.22" begin="24500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.46 0.22" to="0.39 0.43" duration="24000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="pos" from="0.4025 0.7015" to="0.4545 0.539" duration="16000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-06" extra="true">
-      <pos>0.54 0.65</pos><size>0 0.044</size><opacity>0</opacity>
+      <pos>0.526 0.5975</pos><size>0 0.044</size><opacity>0</opacity>
       <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.34" begin="14500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.54 0.65" to="0.62 0.84" duration="19000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image name="water-particle-07" extra="true">
-      <pos>0.64 0.30</pos><size>0 0.024</size><opacity>0</opacity>
-      <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.54" begin="10500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.64 0.30" to="0.72 0.51" duration="13000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="opacity" from="0" to="0.34" begin="10500" duration="3500" mode="easeInOut"/>
+        <animation property="pos" from="0.526 0.5975" to="0.578 0.721" duration="19000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-08" extra="true">
-      <pos>0.72 0.77</pos><size>0 0.054</size><opacity>0</opacity>
+      <pos>0.643 0.6755</pos><size>0 0.054</size><opacity>0</opacity>
       <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.28" begin="22500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.72 0.77" to="0.65 0.57" duration="21000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="opacity" from="0" to="0.28" begin="14500" duration="3500" mode="easeInOut"/>
+        <animation property="pos" from="0.643 0.6755" to="0.5975 0.5455" duration="21000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-09" extra="true">
-      <pos>0.84 0.42</pos><size>0 0.038</size><opacity>0</opacity>
+      <pos>0.721 0.448</pos><size>0 0.038</size><opacity>0</opacity>
       <storyboard repeat="forever">
         <animation property="opacity" from="0" to="0.42" begin="6500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.84 0.42" to="0.76 0.23" duration="17000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image name="water-particle-10" extra="true">
-      <pos>0.91 0.69</pos><size>0 0.062</size><opacity>0</opacity>
-      <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.25" begin="16500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.91 0.69" to="0.83 0.50" duration="23000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image name="water-particle-11" extra="true">
-      <pos>0.06 0.84</pos><size>0 0.032</size><opacity>0</opacity>
-      <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.44" begin="12500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.06 0.84" to="0.13 0.64" duration="15000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image name="water-particle-12" extra="true">
-      <pos>0.32 0.56</pos><size>0 0.078</size><opacity>0</opacity>
-      <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.20" begin="26500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.32 0.56" to="0.24 0.76" duration="25000" repeat="forever" autoReverse="true" mode="easeInOut"/>
-      </storyboard>
-    </image>
-    <image name="water-particle-13" extra="true">
-      <pos>0.78 0.60</pos><size>0 0.046</size><opacity>0</opacity>
-      <storyboard repeat="forever">
-        <animation property="opacity" from="0" to="0.32" begin="20500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.78 0.60" to="0.89 0.81" duration="20000" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="pos" from="0.721 0.448" to="0.669 0.3245" duration="17000" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
     <image name="water-particle-14" extra="true">
-      <pos>0.92 0.19</pos><size>0 0.028</size><opacity>0</opacity>
+      <pos>0.773 0.2985</pos><size>0 0.028</size><opacity>0</opacity>
       <storyboard repeat="forever">
         <animation property="opacity" from="0" to="0.46" begin="2500" duration="3500" mode="easeInOut"/>
-        <animation property="pos" from="0.92 0.19" to="0.85 0.36" duration="16500" repeat="forever" autoReverse="true" mode="easeInOut"/>
+        <animation property="pos" from="0.773 0.2985" to="0.7275 0.409" duration="16500" repeat="forever" autoReverse="true" mode="easeInOut"/>
       </storyboard>
     </image>
   </view>
