@@ -32,6 +32,11 @@
     <include name="ambient-still" displayName="Ambient (still preview)">./_inc/options/background-ambient.xml</include>
   </subset>
 
+  <subset name="water-particles" displayName="Background particles">
+    <include name="on" displayName="On">./_inc/options/background-particles.xml</include>
+    <include name="off" displayName="Off">./_inc/options/background-particles.xml</include>
+  </subset>
+
   <subset name="water-show-ip" displayName="Show IP address">
     <include name="yes" displayName="Yes">./_inc/options/ip-visible.xml</include>
     <include name="no" displayName="No">./_inc/options/ip-hidden.xml</include>
