@@ -5,7 +5,8 @@
       <pos>0 0</pos><size>1 1</size><path>../assets/images/white.svg</path><color>${background}</color><zIndex>0</zIndex>
     </image>
     <image name="water-list-rule" extra="true">
-      <pos>0.05 0.137</pos><size>0.90 0.003</size><path>../assets/images/white.svg</path><color>${accent}66</color><zIndex>1</zIndex>
+      <pos>0.05 0.137</pos><size>0.90 0.002</size><path>${themePath}/assets/images/panel-white.png</path>
+      <color>${uiTint}66</color><colorEnd>${uiTint}00</colorEnd><gradientType>horizontal</gradientType><zIndex>1</zIndex>
     </image>
     <image name="logo"><visible>false</visible></image>
     <text name="logoText"><visible>false</visible></text>
@@ -17,13 +18,23 @@
       <scrollSound>${themePath}/assets/sounds/water-navigation.wav</scrollSound>
       <pos>0.05 0.19</pos><size>0.90 0.68</size><fontPath>${fontRegular}</fontPath><fontSize>${listFontSize}</fontSize>
       <alignment>left</alignment><horizontalMargin>0.018</horizontalMargin><lineSpacing>1.45</lineSpacing>
-      <primaryColor>${uiMuted}</primaryColor><secondaryColor>${accent}</secondaryColor>
-      <selectedColor>${uiText}</selectedColor><selectorColor>${accent}35</selectorColor>
-      <selectorColorEnd>${accent}18</selectorColorEnd><zIndex>20</zIndex>
+      <primaryColor>${uiMuted}</primaryColor><secondaryColor>${uiTint}</secondaryColor>
+      <selectedColor>${uiText}</selectedColor><selectorColor>${uiTint}38</selectorColor>
+      <selectorColorEnd>${uiTint}08</selectorColorEnd><zIndex>20</zIndex>
     </textlist>
   </view>
   <view name="detailed,video">
     <textlist name="gamelist"><size>0.47 0.68</size></textlist>
+    <image name="water-art-light" extra="true">
+      <path>${themePath}/assets/images/ambient-glow.png</path>
+      <origin>0.5 0.5</origin><pos>0.755 0.50</pos><size>0.43 0.30</size>
+      <color>${uiTint}20</color><linearSmooth>true</linearSmooth><autoFade>false</autoFade><zIndex>2</zIndex>
+    </image>
+    <image name="water-list-divider" extra="true">
+      <path>${themePath}/assets/images/panel-white.png</path>
+      <pos>0.535 0.21</pos><size>0.0015 0.62</size>
+      <color>${uiTint}20</color><colorEnd>${uiTint}00</colorEnd><gradientType>vertical</gradientType><zIndex>2</zIndex>
+    </image>
     <text name="md_name"><visible>false</visible></text>
     <image name="md_image"><pos>0.755 0.385</pos><origin>0.5 0.5</origin><maxSize>0.39 0.38</maxSize><zIndex>10</zIndex></image>
     <text name="md_description">

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="rim">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="0.70" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="0.75"/>
+      <stop offset="0.90" stop-color="#fff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="highlight">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="url(#rim)"/>
+  <circle cx="21" cy="17" r="5" fill="url(#highlight)"/>
+</svg>

@@ -42,7 +42,7 @@
     </image>
     <text if="${system.collection} &lt; 1 &amp;&amp; ${system.name} != 'tools' &amp;&amp; ${system.manufacturer} != '' &amp;&amp; ${system.manufacturer} != 'Various'" name="system-metadata" extra="true">
       <pos>0.12 0.21</pos><size>0.76 0.055</size><alignment>center</alignment><text>{system:manufacturer} · {system:releaseYear}</text>
-      <fontPath>${fontBold}</fontPath><fontSize>0.033</fontSize><forceUppercase>true</forceUppercase><color>${uiText}</color><zIndex>10</zIndex>
+      <fontPath>${fontBold}</fontPath><fontSize>0.030</fontSize><forceUppercase>true</forceUppercase><color>${uiMuted}</color><zIndex>10</zIndex>
     </text>
     <text name="network-ip" extra="static">
       <pos>0.72 0.092</pos><size>0.25 0.030</size><alignment>right</alignment>
@@ -78,6 +78,38 @@
         <animation property="offsetY" from="-0.0075" to="-0.015" begin="1650" duration="350" mode="easeOut"/>
       </storyboard>
     </control>
+    <!-- A quiet waterline anchors the floating logo and its reflection. -->
+    <image ifSubset="water-effects:animated|still" name="water-surface-light" extra="true">
+      <path>${themePath}/assets/images/ambient-glow.png</path>
+      <origin>0.5 0.5</origin><pos>0.5 0.625</pos><size>0.64 0.12</size>
+      <color>${uiTint}38</color><opacity>0.75</opacity>
+      <linearSmooth>true</linearSmooth><autoFade>false</autoFade><zIndex>2</zIndex>
+      <opacity ifSubset="water-effects:animated">0</opacity>
+      <storyboard ifSubset="water-effects:animated" repeat="forever" repeatAt="1650">
+        <animation property="opacity" from="0" to="0.75" begin="600" duration="1050" mode="easeOut"/>
+        <animation property="opacity" from="0.75" to="1" begin="1650" duration="3600" mode="easeInOut"/>
+        <animation property="opacity" from="1" to="0.75" begin="5250" duration="3600" mode="easeInOut"/>
+      </storyboard>
+    </image>
+    <image ifSubset="water-effects:animated|still" name="water-line-left" extra="true">
+      <path>${themePath}/assets/images/panel-white.png</path>
+      <origin>1 0.5</origin><pos>0.5 0.613</pos><size>0.245 0.002</size>
+      <color>${uiTint}00</color><colorEnd>${uiTint}64</colorEnd>
+      <gradientType>horizontal</gradientType><autoFade>false</autoFade><zIndex>2.5</zIndex>
+    </image>
+    <image ifSubset="water-effects:animated|still" name="water-line-right" extra="true">
+      <path>${themePath}/assets/images/panel-white.png</path>
+      <origin>0 0.5</origin><pos>0.5 0.613</pos><size>0.245 0.002</size>
+      <color>${uiTint}64</color><colorEnd>${uiTint}00</colorEnd>
+      <gradientType>horizontal</gradientType><autoFade>false</autoFade><zIndex>2.5</zIndex>
+    </image>
+    <control ifSubset="water-effects:animated" name="water-line-left,water-line-right">
+      <size>0.025 0.002</size><opacity>0</opacity>
+      <storyboard>
+        <animation property="size" from="0.025 0.002" to="0.245 0.002" begin="500" duration="900" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" begin="500" duration="650" mode="easeOut"/>
+      </storyboard>
+    </control>
     <image ifSubset="water-effects:calm" name="water-calm-horizon" extra="true">
       <path>../assets/images/horizon.svg</path><pos>0 0.43</pos><size>1 0.25</size>
       <color>${accent}55</color><zIndex>2</zIndex>
@@ -95,11 +127,11 @@
     </image>
     <text name="water-left" extra="true">
       <pos>0.04 0.355</pos><size>0.06 0.09</size><text>‹</text><alignment>center</alignment>
-      <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}</color><zIndex>10</zIndex>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}99</color><zIndex>10</zIndex>
     </text>
     <text name="water-right" extra="true">
       <pos>0.90 0.355</pos><size>0.06 0.09</size><text>›</text><alignment>center</alignment>
-      <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}</color><zIndex>10</zIndex>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.075</fontSize><color>${uiTint}99</color><zIndex>10</zIndex>
     </text>
     <text name="systemInfo">
       <visible ifSubset="water-colors:per-system">false</visible>
@@ -117,6 +149,12 @@
       <fontPath>${fontRegular}</fontPath><fontSize>0.038</fontSize><color>${uiMuted}</color><zIndex>10</zIndex>
       <text>1 GAME</text><visible>{system:total} == 1</visible>
     </text>
+    <control ifSubset="water-effects:animated" name="systemInfo,water-game-count,water-game-count-single,water-left,water-right">
+      <opacity>0</opacity>
+      <storyboard>
+        <animation property="opacity" from="0" to="1" begin="360" duration="440" mode="easeOut"/>
+      </storyboard>
+    </control>
     <image name="water-help-panel" extra="static">
       <path>${themePath}/assets/images/panel-white.png</path>
       <origin>0 0</origin><pos>0 0.845</pos><size>1 0.155</size>
