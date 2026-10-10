@@ -118,8 +118,8 @@
       <color>${uiTint}FF</color>
       <opacity>0.65</opacity><autoFade>false</autoFade><zIndex>30</zIndex>
       <storyboard>
-        <animation property="size" from="2.4 2.4" to="0.015 0.015" duration="1500" mode="easeInOut"/>
-        <animation property="opacity" from="0.65" to="0" begin="480" duration="1020" mode="easeInOut"/>
+        <animation property="size" from="2.4 2.4" to="0.015 0.015" duration="750" mode="easeInOut"/>
+        <animation property="opacity" from="0.65" to="0" begin="240" duration="510" mode="easeInOut"/>
       </storyboard>
     </image>
   </view>

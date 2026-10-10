@@ -17,6 +17,7 @@
       <logoSize>0.01 0.01</logoSize><logoScale>1</logoScale>
       <maxLogoCount>1</maxLogoCount><defaultTransition>fade</defaultTransition>
       <transitionSpeed>460</transitionSpeed><systemInfoDelay>0</systemInfoDelay>
+      <scrollSound>${themePath}/assets/sounds/water-navigation.wav</scrollSound>
       <zIndex>-1</zIndex>
     </carousel>
     <image name="logo"><path>${fallbackLogo}</path><color>FFFFFF00</color></image>
@@ -66,12 +67,15 @@
       <gradientType>vertical</gradientType><zIndex>3</zIndex>
     </image>
     <control ifSubset="water-effects:animated" name="water-logo,water-reflection">
-      <!-- One shared motion keeps the logo and its reflection in phase. -->
-      <storyboard repeat="forever">
-        <animation property="offsetY" from="-0.015" to="-0.0075" duration="350" mode="easeIn"/>
-        <animation property="offsetY" from="-0.0075" to="0" begin="350" duration="350" mode="easeOut"/>
-        <animation property="offsetY" from="0" to="-0.0075" begin="700" duration="350" mode="easeIn"/>
-        <animation property="offsetY" from="-0.0075" to="-0.015" begin="1050" duration="350" mode="easeOut"/>
+      <!-- Zoom once with the glow, then keep the logo and reflection in phase. -->
+      <offsetY>-0.015</offsetY>
+      <storyboard repeat="forever" repeatAt="600">
+        <animation property="scale" from="1" to="1.12" begin="0" duration="300" mode="easeInOut"/>
+        <animation property="scale" from="1.12" to="1" begin="300" duration="300" mode="easeInOut"/>
+        <animation property="offsetY" from="-0.015" to="-0.0075" begin="600" duration="350" mode="easeIn"/>
+        <animation property="offsetY" from="-0.0075" to="0" begin="950" duration="350" mode="easeOut"/>
+        <animation property="offsetY" from="0" to="-0.0075" begin="1300" duration="350" mode="easeIn"/>
+        <animation property="offsetY" from="-0.0075" to="-0.015" begin="1650" duration="350" mode="easeOut"/>
       </storyboard>
     </control>
     <image ifSubset="water-effects:calm" name="water-calm-horizon" extra="true">
