@@ -59,13 +59,21 @@
       <maxSize>${logoDisplayMaxWidth} ${logoDisplayMaxHeight}</maxSize>
       <color>${uiTint}FF</color><autoFade>false</autoFade><zIndex>3</zIndex>
     </image>
-    <image ifSubset="water-effects:animated|still" name="water-reflection" extra="true">
-      <path>${fallbackLogo}</path><path>${logoPath}</path>
+    <container ifSubset="water-effects:animated|still" name="water-reflection" extra="true">
       <origin>0.5 0.5</origin><pos>0.5 0.71</pos>
-      <maxSize>${logoMaxWidth} ${logoMaxHeight}</maxSize>
-      <flipY>true</flipY><color>${uiTint}45</color><colorEnd>${uiTint}00</colorEnd>
-      <gradientType>vertical</gradientType><zIndex>3</zIndex>
-    </image>
+      <size>${logoMaxWidth} ${logoMaxHeight}</size><zIndex>3</zIndex>
+      <!-- Fade the image independently of the shared logo/reflection motion. -->
+      <image name="water-reflection-image">
+        <path>${fallbackLogo}</path><path>${logoPath}</path>
+        <origin>0.5 0.5</origin><pos>0.5 0.5</pos><maxSize>1 1</maxSize>
+        <flipY>true</flipY><color>${uiTint}45</color><colorEnd>${uiTint}00</colorEnd>
+        <gradientType>vertical</gradientType>
+        <opacity ifSubset="water-effects:animated">0</opacity>
+        <storyboard ifSubset="water-effects:animated">
+          <animation property="opacity" from="0" to="1" begin="1400" duration="1500" mode="easeInOut"/>
+        </storyboard>
+      </image>
+    </container>
     <control ifSubset="water-effects:animated" name="water-logo,water-reflection">
       <!-- Zoom once with the glow, then keep the logo and reflection in phase. -->
       <offsetY>-0.015</offsetY>

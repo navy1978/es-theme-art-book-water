@@ -1,0 +1,26 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <view ifSubset="water-show-arch:yes" name="system">
+    <text name="water-architecture" extra="static">
+      <pos>0.30 0.016</pos><size>0.38 0.064</size>
+      <alignment>center</alignment><verticalAlignment>center</verticalAlignment>
+      <fontPath>${fontBold}</fontPath><fontSize>0.030</fontSize>
+      <color>${uiText}</color><color ifSubset="water-colors:per-system">FFFFFF</color>
+      <text>{global:architecture}</text><emptyTextDefaults>false</emptyTextDefaults><zIndex>10</zIndex>
+    </text>
+    <image name="water-architecture-line-left" extra="static">
+      <path>${themePath}/assets/images/panel-white.png</path>
+      <origin>1 0.5</origin><pos>0.49 0.083</pos><size>0.13 0.002</size>
+      <color>${uiText}00</color><colorEnd>${uiText}FF</colorEnd>
+      <color ifSubset="water-colors:per-system">FFFFFF00</color><colorEnd ifSubset="water-colors:per-system">FFFFFFFF</colorEnd>
+      <gradientType>horizontal</gradientType><autoFade>false</autoFade><zIndex>10</zIndex>
+    </image>
+    <image name="water-architecture-line-right" extra="static">
+      <path>${themePath}/assets/images/panel-white.png</path>
+      <origin>0 0.5</origin><pos>0.49 0.083</pos><size>0.13 0.002</size>
+      <color>${uiText}FF</color><colorEnd>${uiText}00</colorEnd>
+      <color ifSubset="water-colors:per-system">FFFFFFFF</color><colorEnd ifSubset="water-colors:per-system">FFFFFF00</colorEnd>
+      <gradientType>horizontal</gradientType><autoFade>false</autoFade><zIndex>10</zIndex>
+    </image>
+  </view>
+</theme>

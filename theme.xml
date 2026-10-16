@@ -42,6 +42,11 @@
     <include name="no" displayName="No">./_inc/options/ip-hidden.xml</include>
   </subset>
 
+  <subset name="water-show-arch" displayName="Show architecture">
+    <include name="no" displayName="No">./_inc/options/architecture.xml</include>
+    <include name="yes" displayName="Yes">./_inc/options/architecture.xml</include>
+  </subset>
+
   <!-- Theme views -->
   <include>./_inc/system.xml</include>
   <include>./_inc/gamelist.xml</include>
