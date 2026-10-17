@@ -19,6 +19,12 @@
   revision `c34e9cf3f6a22afbb47266fe89db4379513d1f03`.
   `tools/theme-schema.json` records its theme property names and types for
   validation; it does not bundle the EmulationStation application.
+- **System descriptions:** ES-DE system-metadata contributors,
+  https://gitlab.com/es-de/themes/system-metadata,
+  revision `ba503c99106c34e26550ab0c178939d65fdddb0c` (CC BY-NC-SA 2.0).
+  Descriptions are shortened; aliases reuse the corresponding system entry.
+  Additional factual summaries and collection labels are by navy1978.
+  Source links are recorded in `docs/system-description-sources.json`.
 
 `docs/upstream/assets.json` records original paths and SHA-256 hashes for
 the imported SVGs, fonts and upstream README. The browser preview uses copies

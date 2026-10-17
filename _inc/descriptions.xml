@@ -1,0 +1,1740 @@
+<?xml version='1.0' encoding='utf-8'?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+    <waterSystemDescription>Browse the games and content in this section.</waterSystemDescription>
+    <waterDescriptionWidth>22.602539</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == '3do'">
+    <waterSystemDescription>The 3DO Interactive Multiplayer (often called simply 3DO) is a video game console originally produced by Panasonic in 1993. Further renditions of the hardware were released in 1994 by Sanyo and Goldstar.</waterSystemDescription>
+    <waterDescriptionWidth>93.909668</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == '3ds'">
+    <waterSystemDescription>The Nintendo 3DS, abbreviated to 3DS, is a portable game console produced by Nintendo. It is capable of displaying stereoscopic 3D effects without the use of 3D glasses or additional accessories.</waterSystemDescription>
+    <waterDescriptionWidth>89.952637</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'adam'">
+    <waterSystemDescription>The Coleco Adam is a home computer and expansion device for the ColecoVision by American toy and video game manufacturer Coleco. The Adam was an attempt to follow on the success of the company's ColecoVision video game console.</waterSystemDescription>
+    <waterDescriptionWidth>109.469727</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'advision'">
+    <waterSystemDescription>Entex introduced the Adventure Vision in 1982 as a tabletop console with interchangeable cartridges. A moving mirror and red LEDs create its unusual display, and its small library consists of four arcade conversions.</waterSystemDescription>
+    <waterDescriptionWidth>97.964355</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'amiga'">
+    <waterSystemDescription>The Amiga is a family of personal computers marketed by Commodore in the 1980s and 1990s. The first model was launched in 1985 as a high-end home computer and became popular for its graphical, audio and multi-tasking abilities.</waterSystemDescription>
+    <waterDescriptionWidth>106.151367</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'amigacd32'">
+    <waterSystemDescription>The Amiga CD32, styled "CD32" and code-named "Spellbound", is the first 32-bit home video game console released in western Europe, Australia, Canada and Brazil. It was first announced at the Science Museum in London on July 16, 1993, and was released in September of the same year.</waterSystemDescription>
+    <waterDescriptionWidth>130.476562</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'amstradcpc'">
+    <waterSystemDescription>The Amstrad Colour Personal Computer, better known as the Amstrad CPC, is a series of 8-bit home computers designed by Amstrad. The first models were released in April 1984 in Europe at a retail price ranging from £199 to £299, depending on the package bought.</waterSystemDescription>
+    <waterDescriptionWidth>120.907227</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'arcade'">
+    <waterSystemDescription>An arcade game or coin-op is a coin-operated entertainment machine typically installed in public businesses such as restaurants, bars and amusement arcades. Most arcade games are video games, pinball machines, electro-mechanical games, redemption games or merchandisers.</waterSystemDescription>
+    <waterDescriptionWidth>127.531250</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'arcadia'">
+    <waterSystemDescription>The Arcadia 2001 is a second-generation 8-bit home video game console released by Emerson Radio in May 1982 for a price of US$ 99, several months before the release of ColecoVision. It was discontinued only 18 months later, with a total of 35 games having been released.</waterSystemDescription>
+    <waterDescriptionWidth>124.761719</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'arduboy'">
+    <waterSystemDescription>The Arduboy is a handheld game console with open source software, based on the Arduino hardware platform.</waterSystemDescription>
+    <waterDescriptionWidth>51.538574</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'astrocade'">
+    <waterSystemDescription>The Bally Astrocade (also known as Bally Arcade or initially as Bally ABA-1000) is a second-generation home video game console and simple computer system designed by a team at Midway, at that time the videogame division of Bally. It was originally announced as the "Bally Home Library Computer" in October 1977 and initially made available for mail order in December 1977.</waterSystemDescription>
+    <waterDescriptionWidth>171.061035</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atari2600'">
+    <waterSystemDescription>The Atari Video Computer System (VCS), later named the Atari 2600, is a second generation (1976–1992) home video game console developed and distributed by Atari, Inc. It was released on September 11, 1977 in North America at a retail price of $199.</waterSystemDescription>
+    <waterDescriptionWidth>113.713379</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atari5200'">
+    <waterSystemDescription>The Atari 5200 SuperSystem, commonly known as the Atari 5200, is a second generation (1976–1992) video game console developed and distributed by Atari, Inc. It was released in November 1982 in North America at a retail price of $269.</waterSystemDescription>
+    <waterDescriptionWidth>108.417969</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atari7800'">
+    <waterSystemDescription>The Atari 7800 Pro System, commonly known as the Atari 7800, is a third generation (1983-2003) video game console developed and distributed by Atari Corporation. It was released in May 1986 in North America at a retail price of $79.95.</waterSystemDescription>
+    <waterDescriptionWidth>108.216309</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atari800'">
+    <waterSystemDescription>The Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. in 1979 as the Atari 400 and Atari 800 and manufactured until 1992. All of the machines in the family are technically similar and differ primarily in packaging.</waterSystemDescription>
+    <waterDescriptionWidth>107.927734</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atarijaguar'">
+    <waterSystemDescription>The Atari Jaguar is a fifth generation (1993–2005) video game console developed and distributed by Atari Corporation. It was released in November 1993 in North America at a retail price of $249.99.</waterSystemDescription>
+    <waterDescriptionWidth>90.193359</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atarilynx'">
+    <waterSystemDescription>The Atari Lynx, usually just referred to as Lynx, is a fourth generation (1987-2004) handheld video game console developed in partnership with Epyx, Inc. and distributed by the Atari Corporation. It was released in September 1989 in North America at a retail price of $149.95.</waterSystemDescription>
+    <waterDescriptionWidth>123.708496</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atarist'">
+    <waterSystemDescription>The Atari ST is a line of home computers from Atari Corporation and the successor to the Atari 8-bit family. The initial model, the 520ST, saw limited release in April–June 1985 and was widely available in July.</waterSystemDescription>
+    <waterDescriptionWidth>94.368164</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'atomiswave'">
+    <waterSystemDescription>The Atomiswave is a custom arcade system board and cabinet from Sammy Corporation. It is based on Sega's NAOMI system board (thus it's common to see the "Sega" logo on its boot up screen).</waterSystemDescription>
+    <waterDescriptionWidth>89.563477</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-action'">
+    <waterSystemDescription>Action games built around timing, movement and quick reactions.</waterSystemDescription>
+    <waterDescriptionWidth>31.440430</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-adult'">
+    <waterSystemDescription>Games categorized for adult audiences in your library.</waterSystemDescription>
+    <waterDescriptionWidth>26.140625</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-adventure'">
+    <waterSystemDescription>Explore worlds, follow stories and solve problems in this adventure collection.</waterSystemDescription>
+    <waterDescriptionWidth>37.060547</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-allgames'">
+    <waterSystemDescription>Browse games from all of your systems together in a single library.</waterSystemDescription>
+    <waterDescriptionWidth>31.914062</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-asiaticboard'">
+    <waterSystemDescription>Traditional Asian board games and related digital adaptations.</waterSystemDescription>
+    <waterDescriptionWidth>30.057617</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-at2players'">
+    <waterSystemDescription>Games grouped for two-player play, ready to enjoy with another player.</waterSystemDescription>
+    <waterDescriptionWidth>34.027832</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-at4players'">
+    <waterSystemDescription>Games grouped for four-player play and shared multiplayer sessions.</waterSystemDescription>
+    <waterDescriptionWidth>32.913574</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-beatemup'">
+    <waterSystemDescription>Fight through waves of opponents in these arcade-style beat em up games.</waterSystemDescription>
+    <waterDescriptionWidth>35.610352</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-board'">
+    <waterSystemDescription>Digital board games featuring familiar rules, strategic moves and tabletop challenges.</waterSystemDescription>
+    <waterDescriptionWidth>40.461426</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-breakout'">
+    <waterSystemDescription>Break bricks and keep the ball in play in these paddle-and-ball games.</waterSystemDescription>
+    <waterDescriptionWidth>33.365234</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-casino'">
+    <waterSystemDescription>Casino-style games and digital versions of familiar games of chance.</waterSystemDescription>
+    <waterDescriptionWidth>32.630859</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-casual'">
+    <waterSystemDescription>Accessible games suited to relaxed play and short sessions.</waterSystemDescription>
+    <waterDescriptionWidth>28.698242</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-compilation'">
+    <waterSystemDescription>Game compilations and releases that bring several titles together.</waterSystemDescription>
+    <waterDescriptionWidth>31.573730</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-demo'">
+    <waterSystemDescription>Demos and showcases collected from your game library.</waterSystemDescription>
+    <waterDescriptionWidth>27.388672</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-educational'">
+    <waterSystemDescription>Educational games combining learning, practice and play.</waterSystemDescription>
+    <waterDescriptionWidth>27.874512</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-favorites'">
+    <waterSystemDescription>Quickly find the games you marked as favorites, regardless of their original system.</waterSystemDescription>
+    <waterDescriptionWidth>39.222656</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-fight'">
+    <waterSystemDescription>Face opponents in fighting games focused on moves, timing and head-to-head battles.</waterSystemDescription>
+    <waterDescriptionWidth>40.754395</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-huntingandfishing'">
+    <waterSystemDescription>Hunting and fishing games featuring outdoor pursuits and sporting challenges.</waterSystemDescription>
+    <waterDescriptionWidth>37.251465</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-lastplayed'">
+    <waterSystemDescription>Return to the games you played most recently, collected across your systems.</waterSystemDescription>
+    <waterDescriptionWidth>36.776855</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-lightgun'">
+    <waterSystemDescription>Shooting games designed around aiming at targets with a light gun.</waterSystemDescription>
+    <waterDescriptionWidth>32.395508</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-musicanddance'">
+    <waterSystemDescription>Music, dance and rhythm games where keeping time is part of the challenge.</waterSystemDescription>
+    <waterDescriptionWidth>36.267578</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-neverplayed'">
+    <waterSystemDescription>Discover games in your library that have not yet been played.</waterSystemDescription>
+    <waterDescriptionWidth>29.417969</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-pinball'">
+    <waterSystemDescription>Digital pinball tables with ramps, bumpers and score-chasing action.</waterSystemDescription>
+    <waterDescriptionWidth>32.667480</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-platform'">
+    <waterSystemDescription>Run, jump and navigate obstacles in this platform game collection.</waterSystemDescription>
+    <waterDescriptionWidth>31.803711</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-playingcards'">
+    <waterSystemDescription>Playing-card games, from familiar tabletop rules to digital variations.</waterSystemDescription>
+    <waterDescriptionWidth>32.778320</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-puzzle'">
+    <waterSystemDescription>Puzzles and logic games that reward observation, planning and problem solving.</waterSystemDescription>
+    <waterDescriptionWidth>38.148926</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-quiz'">
+    <waterSystemDescription>Quiz and trivia games that put your knowledge to the test.</waterSystemDescription>
+    <waterDescriptionWidth>27.985840</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-racedriving'">
+    <waterSystemDescription>Racing and driving games featuring vehicles, circuits and the pursuit of faster times.</waterSystemDescription>
+    <waterDescriptionWidth>39.355469</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-reflection'">
+    <waterSystemDescription>Thinking games centered on careful decisions and mental challenges.</waterSystemDescription>
+    <waterDescriptionWidth>33.106934</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-retroachievements'">
+    <waterSystemDescription>Browse games grouped by the RetroAchievements collection in your library.</waterSystemDescription>
+    <waterDescriptionWidth>36.016113</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-roleplayings'">
+    <waterSystemDescription>Role-playing games featuring character progression, quests and worlds to explore.</waterSystemDescription>
+    <waterDescriptionWidth>39.085449</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-shootemup'">
+    <waterSystemDescription>Arcade shooting games filled with enemy formations, projectiles and score challenges.</waterSystemDescription>
+    <waterDescriptionWidth>40.760742</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-shooter'">
+    <waterSystemDescription>Shooting games focused on aiming, combat and surviving the action.</waterSystemDescription>
+    <waterDescriptionWidth>32.870605</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-simulation'">
+    <waterSystemDescription>Simulation games that recreate activities, machines and virtual environments.</waterSystemDescription>
+    <waterDescriptionWidth>36.707520</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-sports'">
+    <waterSystemDescription>Sports games covering competitive events and familiar athletic disciplines.</waterSystemDescription>
+    <waterDescriptionWidth>35.464355</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-sportswithanimals'">
+    <waterSystemDescription>Sports and competitive events involving animals.</waterSystemDescription>
+    <waterDescriptionWidth>24.021973</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-strategy'">
+    <waterSystemDescription>Strategy games where planning and resource management shape the outcome.</waterSystemDescription>
+    <waterDescriptionWidth>37.608887</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-various'">
+    <waterSystemDescription>Games grouped under miscellaneous categories in your library.</waterSystemDescription>
+    <waterDescriptionWidth>30.282715</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-verticalarcade'">
+    <waterSystemDescription>Arcade games grouped for their vertically oriented screens.</waterSystemDescription>
+    <waterDescriptionWidth>28.519043</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'auto-wheel'">
+    <waterSystemDescription>Driving games grouped for use with steering-wheel controls.</waterSystemDescription>
+    <waterDescriptionWidth>29.122070</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'build'">
+    <waterSystemDescription>Build is the game engine created by Ken Silverman and used by Duke Nukem 3D and other classic shooters. Its sector-based worlds and sprite characters brought detailed, interactive environments to 1990s PC games.</waterSystemDescription>
+    <waterDescriptionWidth>98.760742</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'c128'">
+    <waterSystemDescription>Introduced in 1985, the Commodore 128 expanded on the C64 with 128 KB of memory and an additional 80-column display mode. It can run its own software, most C64 programs and CP/M applications through a separate Z80 processor.</waterSystemDescription>
+    <waterDescriptionWidth>107.423340</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'c16'">
+    <waterSystemDescription>The Commodore 16 arrived in 1984 as an affordable home computer with 16 KB of RAM. It belongs to the same family as the Plus/4, with TED graphics and sound, but runs a different software library from the Commodore 64.</waterSystemDescription>
+    <waterDescriptionWidth>101.757812</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'c64'">
+    <waterSystemDescription>The Commodore 64 is an 8-bit home computer introduced in January 1982 by Commodore International. It is listed in the Guinness World Records as the highest-selling single computer model of all time, with independent estimates placing the number sold between 10 and 17 million units.</waterSystemDescription>
+    <waterDescriptionWidth>130.634766</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'cdi'">
+    <waterSystemDescription>The Philips CD-i (Compact Disc Interactive) is an interactive multimedia CD player developed and marketed by Royal Philips Electronics N.V. This category of device was created to provide more functionality than an audio CD player or game console, but at a lower price than a personal computer with CD-ROM drive at the time.</waterSystemDescription>
+    <waterDescriptionWidth>147.846191</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'channelf'">
+    <waterSystemDescription>The Fairchild Channel F is a home video game console released by Fairchild Semiconductor in November 1976.</waterSystemDescription>
+    <waterDescriptionWidth>51.198242</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'chip-8'">
+    <waterSystemDescription>Joseph Weisbecker designed CHIP-8 to make small games easier to write for early microcomputers. Its simple virtual machine spread from systems such as the COSMAC VIP to many later computers, consoles and handheld devices.</waterSystemDescription>
+    <waterDescriptionWidth>105.041016</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'chip8'">
+    <waterSystemDescription>Joseph Weisbecker designed CHIP-8 to make small games easier to write for early microcomputers. Its simple virtual machine spread from systems such as the COSMAC VIP to many later computers, consoles and handheld devices.</waterSystemDescription>
+    <waterDescriptionWidth>105.041016</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'colecovision'">
+    <waterSystemDescription>The ColecoVision is a second generation (1976–1992) home video game console developed and distributed by Coleco Industries. It was released in August 1982 in North America at a retail price of $175.</waterSystemDescription>
+    <waterDescriptionWidth>91.336426</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'completed'">
+    <waterSystemDescription>Keep the games you have finished together and revisit your completed adventures.</waterSystemDescription>
+    <waterDescriptionWidth>39.043945</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'cplus4'">
+    <waterSystemDescription>The Commodore Plus/4 is a home computer released by Commodore International in 1984. The "Plus/4" name refers to the four-application ROM-resident office suite (word processor, spreadsheet, database, and graphing); it was billed as "the productivity computer with software built in".</waterSystemDescription>
+    <waterDescriptionWidth>130.609375</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'cps1'">
+    <waterSystemDescription>The CP System (CPシステム, shīpī shisutemu, CPS for short) is an arcade system board developed by Capcom that ran game software stored on removable daughterboards. More than two dozen arcade titles were released for CPS-1, before Capcom shifted game development over to its successor, the CP System II.</waterSystemDescription>
+    <waterDescriptionWidth>139.996582</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'cps2'">
+    <waterSystemDescription>The CP System II (CPシステムII, shīpī shisutemu tsū) or CPS-2 is an arcade system board that Capcom first used in 1993 for Super Street Fighter II. It was the successor to their previous CP System and Capcom Power System Changer arcade hardware and was succeeded by the CP System III hardware in 1996, of which the CPS-2 would outlive by over four years.</waterSystemDescription>
+    <waterDescriptionWidth>160.186523</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'cps3'">
+    <waterSystemDescription>The CP System III (CPシステムIII, shīpī shisutemu surī) or CPS-3 is an arcade system board that was first used by Capcom in 1996 with the arcade game Red Earth. It was the second successor to the CP System arcade hardware, following the CP System II.</waterSystemDescription>
+    <waterDescriptionWidth>112.390137</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'creativision'">
+    <waterSystemDescription>The Video Technology CreatiVision is a hybrid computer and home video game console introduced by VTech in 1981 and released in 1982 during the Second generation of video game consoles. It was built by the Finnish company Salora.</waterSystemDescription>
+    <waterDescriptionWidth>106.871582</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'custom-collections'">
+    <waterSystemDescription>Organize games from different systems into your own custom collections.</waterSystemDescription>
+    <waterDescriptionWidth>35.043945</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'daphne'">
+    <waterSystemDescription>Daphne is an arcade emulator application that emulates a variety of laserdisc video games with the intent of preserving these games and making the play experience as faithful to the originals as possible. The developer calls Daphne the "First Ever Multiple Arcade Laserdisc Emulator" ("FEMALE").</waterSystemDescription>
+    <waterDescriptionWidth>134.018555</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'doom'">
+    <waterSystemDescription>Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell.</waterSystemDescription>
+    <waterDescriptionWidth>102.953613</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'dreamcast'">
+    <waterSystemDescription>The Dreamcast is a home video game console released by Sega on November 27, 1998 in Japan, September 9, 1999 in North America, and October 14, 1999 in Europe. It was the first in the sixth generation of video game consoles, preceding Sony's PlayStation 2, Nintendo's GameCube, and Microsoft's Xbox.</waterSystemDescription>
+    <waterDescriptionWidth>138.565918</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'easyrpg'">
+    <waterSystemDescription>EasyRPG is a free, open source engine to create RPG games, aiming to be also compatible with all RPG Maker 2000 and RPG Maker 2003 games. RPG Maker 2000/2003 games tend to have mechanics and visuals similar to 16-bit JRPGs, though custom scripts can be made by the creators to modify how the game feels and looks.</waterSystemDescription>
+    <waterDescriptionWidth>148.637695</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'famicom'">
+    <waterSystemDescription>The Nintendo Entertainment System is an 8-bit video game console that was released by Nintendo in North America during 1985, in Europe during 1986 and Australia in 1987.</waterSystemDescription>
+    <waterDescriptionWidth>79.333984</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'fbn'">
+    <waterSystemDescription>FinalBurn Neo is a Multiple Arcade Emulator most popular for emulating Neo-Geo, Capcom, Konami, and Cave games. It is developed by the FinalBurn team and originated from FinalBurn by Dave and old MAME versions.</waterSystemDescription>
+    <waterDescriptionWidth>100.489258</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'fbneo'">
+    <waterSystemDescription>FinalBurn Neo is a Multiple Arcade Emulator most popular for emulating Neo-Geo, Capcom, Konami, and Cave games. It is developed by the FinalBurn team and originated from FinalBurn by Dave and old MAME versions.</waterSystemDescription>
+    <waterDescriptionWidth>100.489258</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'fds'">
+    <waterSystemDescription>The Family Computer Disk System, sometimes shortened as the Famicom Disk System or simply the Disk System, and abbreviated as the FDS or FCD, is a peripheral for Nintendo's Family Computer home video game console, released in Japan on February 21, 1986. It uses proprietary floppy disks called "Disk Cards" for data storage.</waterSystemDescription>
+    <waterDescriptionWidth>150.094238</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gamate'">
+    <waterSystemDescription>The Gamate, known as 超級小子 (pinyin: chāojí xiǎozi, literally "Super Boy") in Taiwan and 超级神童 (pinyin: chāojí shéntóng, literally "Super Child Prodigy") in China, is a handheld game console manufactured by Bit Corporation in the early 1990s, and released in Australia, some parts of Europe, Asia (Taiwan and China), Argentina, and the United States.</waterSystemDescription>
+    <waterDescriptionWidth>154.827148</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gameandwatch'">
+    <waterSystemDescription>The Game &amp; Watch brand is a series of handheld electronic games developed, manufactured, released and marketed by Nintendo from 1980 to 1991. Created by game designer Gunpei Yokoi, the product derived its name from its featuring a single game as well as a clock on a LCD screen.</waterSystemDescription>
+    <waterDescriptionWidth>130.139160</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gamegear'">
+    <waterSystemDescription>The Game Gear is an 8-bit fourth generation handheld game console released by Sega on October 6, 1990 in Japan, in April 1991 throughout North America and Europe, and during 1992 in Australia. The Game Gear primarily competed with Nintendo's Game Boy, the Atari Lynx, and NEC's TurboExpress.</waterSystemDescription>
+    <waterDescriptionWidth>136.033203</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gamemaster'">
+    <waterSystemDescription>The Game Master is a handheld game console manufactured by Hartung, and designed to compete with the Nintendo Game Boy. In Germany, it was marketed by Hartung itself, while in the UK it was released as the Systema 2000 by the already well-established maker of cheap LCD games Systema.</waterSystemDescription>
+    <waterDescriptionWidth>135.515625</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gb'">
+    <waterSystemDescription>The Game Boy is an 8-bit handheld video game console developed and manufactured by Nintendo. It was released in Japan on April 21, 1989, in North America in August 1989, and in Europe in 1990.</waterSystemDescription>
+    <waterDescriptionWidth>89.667969</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gba'">
+    <waterSystemDescription>The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in mainland China on June 8, 2004 (iQue Player).</waterSystemDescription>
+    <waterDescriptionWidth>159.324707</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gbah'">
+    <waterSystemDescription>Fan-made modifications of Game Boy Advance games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>61.196289</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gbc'">
+    <waterSystemDescription>The Game Boy Color, (abbreviated as GBC) is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy.</waterSystemDescription>
+    <waterDescriptionWidth>117.339355</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gbch'">
+    <waterSystemDescription>Fan-made modifications of Game Boy Color games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>59.782715</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gbh'">
+    <waterSystemDescription>Fan-made modifications of Game Boy games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>57.088379</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gc'">
+    <waterSystemDescription>The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and is the successor to their previous console, the Nintendo 64.</waterSystemDescription>
+    <waterDescriptionWidth>131.926270</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'genesis'">
+    <waterSystemDescription>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System.</waterSystemDescription>
+    <waterDescriptionWidth>116.678223</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'genh'">
+    <waterSystemDescription>Fan-made modifications of Mega Drive and Genesis games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>63.412598</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'ggh'">
+    <waterSystemDescription>Fan-made modifications of Game Gear games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>57.529785</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gp32'">
+    <waterSystemDescription>Game Park released the GP32 in South Korea in 2001. This handheld uses SmartMedia cards instead of dedicated game cartridges and became a platform for independent software, homebrew games and emulation alongside its commercial releases.</waterSystemDescription>
+    <waterDescriptionWidth>113.219727</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'gx4000'">
+    <waterSystemDescription>The Amstrad GX4000, commonly known as the GX4000, is a third generation (1983-2003) video game console developed and distributed by Amstrad. It was released in September of 1990 in Europe at a retail price of £99.99.</waterSystemDescription>
+    <waterDescriptionWidth>101.939453</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'imageviewer'">
+    <waterSystemDescription>Browse and display pictures stored on your device.</waterSystemDescription>
+    <waterDescriptionWidth>24.776367</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'intellivision'">
+    <waterSystemDescription>The Mattel Intellivision is a second generation (1976–1992) home video game console developed and distributed by Mattel Electronics. It was released in summer 1979 in North America at a retail price of $299.</waterSystemDescription>
+    <waterDescriptionWidth>94.997070</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'j2me'">
+    <waterSystemDescription>Java Platform, Micro Edition or Java ME is a computing platform for development and deployment of portable code for embedded and mobile devices (micro-controllers, sensors, gateways, mobile phones, personal digital assistants, TV set-top boxes, printers). Java ME was formerly known as Java 2 Platform, Micro Edition or J2ME.</waterSystemDescription>
+    <waterDescriptionWidth>149.785645</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'laserdisc'">
+    <waterSystemDescription>LaserDisc arcade games use pre-recorded video, either in combination with overlaid sprites or simply as sections of video controllable by the player. The first major LaserDisc game was Sega's Astron Belt, released in 1983.</waterSystemDescription>
+    <waterDescriptionWidth>100.802246</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'lcdgames'">
+    <waterSystemDescription>Handheld electronic games are very small, portable devices for playing interactive electronic games, often miniaturized versions of video games. The controls, display and speakers are all part of a single unit.</waterSystemDescription>
+    <waterDescriptionWidth>94.705078</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'lowresnx'">
+    <waterSystemDescription>LowRes NX was inspired by real 8-bit and 16-bit systems and simulates chips for graphics, sound and I/O, which actually work like classic hardware. It supports hardware sprites as well as hardware parallax scrolling, and even offers vertical blank and raster interrupts to create authentic retro effects.</waterSystemDescription>
+    <waterDescriptionWidth>135.646973</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'macintosh'">
+    <waterSystemDescription>The Macintosh (mainly Mac since 1998) is a family of personal computers designed, manufactured, and sold by Apple Inc. (originally as Apple Computer, Inc.) since January 1984. The original Macintosh is the first successful mass-market all-in-one desktop personal computer to have featured a graphical user interface, built-in screen, and mouse.</waterSystemDescription>
+    <waterDescriptionWidth>155.388672</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'mame'">
+    <waterSystemDescription>MAME (formerly an acronym of Multiple Arcade Machine Emulator) is a free and open-source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. Its intention is to preserve gaming history by preventing vintage games from being lost or forgotten.</waterSystemDescription>
+    <waterDescriptionWidth>149.057617</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'mastersystem'">
+    <waterSystemDescription>The Sega Master System is a third-generation 8-bit home video game console manufactured by Sega. It was originally a remodeled export version of the Sega Mark III, the third iteration of the SG-1000 series of consoles, which was released in Japan in 1985 and featured enhanced graphical capabilities over its predecessors.</waterSystemDescription>
+    <waterDescriptionWidth>146.548340</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'megacd'">
+    <waterSystemDescription>The Sega CD, released as the Mega-CD in most regions outside North America and Brazil, is a CD-ROM accessory for the Mega Drive/Genesis designed and produced by Sega as part of the fourth generation of video game consoles. It was released on December 12, 1991 in Japan, October 15, 1992 in North America, and April 2, 1993 in Europe.</waterSystemDescription>
+    <waterDescriptionWidth>154.129395</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'megadrive'">
+    <waterSystemDescription>The Mega Drive is a 16-bit fourth-generation home video game console developed and sold by Sega. It's Sega's third console and the successor to the Master System.</waterSystemDescription>
+    <waterDescriptionWidth>76.031250</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'megadrive-japan'">
+    <waterSystemDescription>The Mega Drive is a 16-bit fourth-generation home video game console developed and sold by Sega. It's Sega's third console and the successor to the Master System.</waterSystemDescription>
+    <waterDescriptionWidth>76.031250</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'megadrivejp'">
+    <waterSystemDescription>The Mega Drive is a 16-bit fourth-generation home video game console developed and sold by Sega. It's Sega's third console and the successor to the Master System.</waterSystemDescription>
+    <waterDescriptionWidth>76.031250</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'megaduck'">
+    <waterSystemDescription>The Welback Holdings Mega Duck, usually just referred to as Mega Duck, is a fourth generation (1987-2004) handheld video game console developed and distributed by Welback Holdings, but marketed under different names like Creatronic, Videojet, Cougar USA, and Hartung. It was released in August 1993 in Netherlands at a retail price of fl 129 as the Creatronic Mega Duck.</waterSystemDescription>
+    <waterDescriptionWidth>170.077148</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'moonlight'">
+    <waterSystemDescription>Moonlight (formerly Limelight) is an open source implementation of NVIDIA's GameStream protocol. We implemented the protocol used by the NVIDIA Shield and wrote a set of 3rd party clients.</waterSystemDescription>
+    <waterDescriptionWidth>88.792969</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'moto'">
+    <waterSystemDescription>The Thomson MOTO line of computers were a series of 8-bit computers sold in the 1980s by French electronics company Thomson, which has been nationalized in 1982. The MOTO computers became an integral part of the French Government's plan informatique pour tous (IPT) to make computers widespread throughout France by bringing computers and programming classes to French school children.</waterSystemDescription>
+    <waterDescriptionWidth>182.507324</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'mplayer'">
+    <waterSystemDescription>Watch video files from your local media library.</waterSystemDescription>
+    <waterDescriptionWidth>23.149902</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'msu-md'">
+    <waterSystemDescription>MSU-MD adds CD audio playback to specially adapted Mega Drive and Genesis games. The driver lets a game select, pause and loop music tracks through Mega-CD hardware or a compatible implementation.</waterSystemDescription>
+    <waterDescriptionWidth>95.107422</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'msx'">
+    <waterSystemDescription>MSX is a standardized home computer architecture, announced by Microsoft and ASCII Corporation on June 16, 1983. It was initially conceived by Microsoft as a product for the Eastern sector, and jointly marketed by Kazuhiko Nishi, then vice-president at Microsoft and director at ASCII Corporation.</waterSystemDescription>
+    <waterDescriptionWidth>134.660645</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'msx2'">
+    <waterSystemDescription>MSX is a standardized home computer architecture, announced by Microsoft and ASCII Corporation on June 16, 1983. It was initially conceived by Microsoft as a product for the Eastern sector, and jointly marketed by Kazuhiko Nishi, then vice-president at Microsoft and director at ASCII Corporation.</waterSystemDescription>
+    <waterDescriptionWidth>134.660645</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'music'">
+    <waterSystemDescription>Listen to the music stored in your local media library.</waterSystemDescription>
+    <waterDescriptionWidth>25.648438</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'n64'">
+    <waterSystemDescription>Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America, March 1997 in Europe and Australia, September 1997 in France and December 1997 in Brazil. As part of the fifth generation of gaming, the N64 competed primarily with the PlayStation and the Sega Saturn.</waterSystemDescription>
+    <waterDescriptionWidth>145.195312</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'naomi'">
+    <waterSystemDescription>The NAOMI (New Arcade Operation Machine Idea) is an arcade system released by Sega in 1998. It was designed as a successor to Sega Model 3 hardware, using a similar architecture to the Sega Dreamcast.</waterSystemDescription>
+    <waterDescriptionWidth>94.447754</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'nds'">
+    <waterSystemDescription>The Nintendo DS or simply, DS, is a 32-bit dual-screen handheld game console developed and released by Nintendo. The device went on sale in North America on November 21, 2004.</waterSystemDescription>
+    <waterDescriptionWidth>83.719727</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'neogeo'">
+    <waterSystemDescription>The Advanced Entertainment System (AES), originally known just as the Neo Geo, is the first video game console in the family. The hardware features comparatively colorful 2D graphics.</waterSystemDescription>
+    <waterDescriptionWidth>84.679688</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'neogeocd'">
+    <waterSystemDescription>The Neo Geo CD (Japanese: ネオジオCD, Hepburn: Neo Jio Shī Dī) is the second home video game console of SNK Corporation's Neo Geo family, released in September 9, 1994, four years after its cartridge-based equivalent. This is the same platform, converted to the cheaper CD format retailing at $49 to $79 per title, compared to the $300 cartridges.</waterSystemDescription>
+    <waterDescriptionWidth>156.979980</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'nes'">
+    <waterSystemDescription>The Nintendo Entertainment System is an 8-bit video game console that was released by Nintendo in North America during 1985, in Europe during 1986 and Australia in 1987.</waterSystemDescription>
+    <waterDescriptionWidth>79.333984</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'nesh'">
+    <waterSystemDescription>Fan-made modifications of NES games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>54.366699</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'ngp'">
+    <waterSystemDescription>The Neo Geo Pocket is a monochrome handheld game console released by SNK. It was the company's first handheld system and is part of the Neo Geo family.</waterSystemDescription>
+    <waterDescriptionWidth>72.759277</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'ngpc'">
+    <waterSystemDescription>The Neo Geo Pocket Color is a 16-bit color handheld video game console manufactured by SNK. It is a successor to SNK's monochrome Neo Geo Pocket handheld which debuted in 1998 in Japan, with the Color being fully backward compatible.</waterSystemDescription>
+    <waterDescriptionWidth>110.095703</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'now-playing'">
+    <waterSystemDescription>Keep together the games you are currently working through in your backlog.</waterSystemDescription>
+    <waterDescriptionWidth>36.091797</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'odyssey2'">
+    <waterSystemDescription>The Magnavox Odyssey 2 is a second generation (1976–1992) home video game console developed and distributed by Magnavox. It was released in February 1979 in North America at a retail price of $179.</waterSystemDescription>
+    <waterDescriptionWidth>92.902344</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'openbor'">
+    <waterSystemDescription>Beats of Rage is a fan-made tribute game to Sega's Streets of Rage series. It supplants the original graphics and characters with resources taken from The King of Fighters series, albeit with tongue-in-cheek renames.</waterSystemDescription>
+    <waterDescriptionWidth>97.963867</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'palm'">
+    <waterSystemDescription>The PalmPilot Personal and PalmPilot Professional are the second generation of Palm PDA devices produced by Palm Inc (then a subsidiary of U.S. Robotics, later 3Com).</waterSystemDescription>
+    <waterDescriptionWidth>77.470215</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pc'">
+    <waterSystemDescription>The IBM Personal Computer (model 5150, commonly known as the IBM PC) is the first microcomputer released in the IBM PC model line and the basis for the IBM PC compatible de facto standard. Released on August 12, 1981, it was created by a team of engineers and designers directed by Don Estridge in Boca Raton, Florida.</waterSystemDescription>
+    <waterDescriptionWidth>147.231934</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pc88'">
+    <waterSystemDescription>The PC-8800 series (Japanese: PC-8800シリーズ, Hepburn: Pī Shī Hassen Happyaku Shirīzu), commonly shortened to PC-88, are a brand of Zilog Z80-based 8-bit home computers released by Nippon Electric Company (NEC) in 1981 and primarily sold in Japan.</waterSystemDescription>
+    <waterDescriptionWidth>114.792480</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pc98'">
+    <waterSystemDescription>The NEC PC-9800 was line of personal computers developed in 1982 in Japan by NEC Corporation based on IBM, aimed exclusively at the Japanese market. The first model was a 16-bit architecture with an Intel 8086 processor clocked at 5 MHz and 128 KB of RAM.</waterSystemDescription>
+    <waterDescriptionWidth>119.177246</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pce-cd'">
+    <waterSystemDescription>The CD-ROM² (pronounced CD-ROM-ROM) is an add-on attachment for the PC Engine that was released in Japan on December 4, 1988. The add-on allows the core versions of the console to play PC Engine games in CD-ROM format in addition to standard HuCards.</waterSystemDescription>
+    <waterDescriptionWidth>120.351562</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pcengine'">
+    <waterSystemDescription>The PC Engine is a 16-bit fourth-generation home video game console designed by Hudson Soft and sold by NEC Home Electronics. It was released in Japan in 1987 and in North America in 1989.</waterSystemDescription>
+    <waterDescriptionWidth>88.107422</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pcfx'">
+    <waterSystemDescription>The PC-FX is a 32-bit home video game console developed by both NEC and Hudson Soft and released in Japan in 1994. Powered by an NEC V810 CPU and using CD-ROMs, the PC-FX was intended as the successor to the PC Engine and its international counterpart the TurboGrafx-16, two successful video game consoles from the late 1980s.</waterSystemDescription>
+    <waterDescriptionWidth>153.344238</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pet'">
+    <waterSystemDescription>The PET launched Commodore into the personal computer market in 1977. Early models combined a keyboard, monochrome monitor, cassette drive and BASIC in one case, and the family found a lasting place in schools and businesses.</waterSystemDescription>
+    <waterDescriptionWidth>106.913574</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pico-8'">
+    <waterSystemDescription>PICO-8 is a virtual machine and game engine created by Lexaloffle Games. It is a fantasy video game console that mimics the limited graphical and sound capabilities of 8-bit systems of the 1980s.</waterSystemDescription>
+    <waterDescriptionWidth>89.188965</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pico8'">
+    <waterSystemDescription>PICO-8 is a virtual machine and game engine created by Lexaloffle Games. It is a fantasy video game console that mimics the limited graphical and sound capabilities of 8-bit systems of the 1980s.</waterSystemDescription>
+    <waterDescriptionWidth>89.188965</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pokemini'">
+    <waterSystemDescription>The Pokémon Mini is a handheld game console that was designed and manufactured by Nintendo and themed around the Pokémon media franchise. It is the smallest game system with interchangeable cartridges ever produced by Nintendo, weighing just under two and a half ounces (70 grams).</waterSystemDescription>
+    <waterDescriptionWidth>133.900391</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'ports'">
+    <waterSystemDescription>Play games adapted to run directly on your device, including classic PC titles and independent releases.</waterSystemDescription>
+    <waterDescriptionWidth>48.267578</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'psp'">
+    <waterSystemDescription>The PlayStation Portable (PSP) is a handheld game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on December 12, 2004, in North America on March 24, 2005, and in PAL regions on September 1, 2005, and is the first handheld installment in the PlayStation line of consoles.</waterSystemDescription>
+    <waterDescriptionWidth>146.323730</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pspminis'">
+    <waterSystemDescription>PlayStation minis are compact downloadable games originally offered for the PSP through PlayStation Store. This collection brings together their arcade, puzzle and other small-scale releases; many titles were also made playable on PlayStation 3.</waterSystemDescription>
+    <waterDescriptionWidth>112.147949</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'psvita'">
+    <waterSystemDescription>The PlayStation Vita (PS Vita, or Vita) is a handheld video game console developed and marketed by Sony Interactive Entertainment. It was first released in Japan on December 17, 2011, and in North America, Europe, and other international territories beginning on February 22, 2012.</waterSystemDescription>
+    <waterDescriptionWidth>127.292969</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'psx'">
+    <waterSystemDescription>The Sony PlayStation, or PS for short, is a fifth generation (1993–2005) home video game console developed and distributed by Sony Interactive Entertainment. It was released on December 3, 1994 in Japan at a retail price of ¥37,000.</waterSystemDescription>
+    <waterDescriptionWidth>106.070312</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'pv1000'">
+    <waterSystemDescription>The Casio PV-1000 (ぴーぶいせん, Pi Bui-Sen) is a third-generation home video game console manufactured by Casio and released in Japan in 1983. It was discontinued less than a year after release.</waterSystemDescription>
+    <waterDescriptionWidth>86.711426</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'satellaview'">
+    <waterSystemDescription>The Satellaview is a satellite modem peripheral for Nintendo's Super Famicom system that was released in Japan in 1995. Available for pre-release orders beginning February 13, 1995, the Satellaview retailed for between ¥14,000 and 18,000 (at the time between USD$141 and 182) and came bundled with the BS-X Game Pak and an 8M Memory Pak.</waterSystemDescription>
+    <waterDescriptionWidth>157.052246</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'saturn'">
+    <waterSystemDescription>The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. Part of the fifth generation of video game consoles, it was the successor to the successful Sega Genesis.</waterSystemDescription>
+    <waterDescriptionWidth>124.500488</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'scummvm'">
+    <waterSystemDescription>Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system, it also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft.</waterSystemDescription>
+    <waterDescriptionWidth>136.515625</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'scv'">
+    <waterSystemDescription>Epoch's original Cassette Vision was introduced in Japan by Epoch in 1981, which had steady sales and took over 70% of the Japanese home console market at the time, with around 400,000 units sold. However, the introduction of next-generation systems from Nintendo, Casio and Sega quickly pushed back the original Cassette Vision, leading Epoch to quickly develop a successor.</waterSystemDescription>
+    <waterDescriptionWidth>172.520996</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'sega32x'">
+    <waterSystemDescription>The 32X is an add-on for the Sega Mega Drive/Genesis video game console. Codenamed "Project Mars", the 32X was designed to expand the power of the Mega Drive/Genesis and serve as a transitional console into the 32-bit era until the release of the Sega Saturn.</waterSystemDescription>
+    <waterDescriptionWidth>120.656738</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'segacd'">
+    <waterSystemDescription>The Sega CD, released as the Mega-CD in most regions outside North America and Brazil, is a CD-ROM accessory for the Mega Drive/Genesis designed and produced by Sega as part of the fourth generation of video game consoles. It was released on December 12, 1991 in Japan, October 15, 1992 in North America, and April 2, 1993 in Europe.</waterSystemDescription>
+    <waterDescriptionWidth>154.129395</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'segastv'">
+    <waterSystemDescription>ST-V (Sega Titan Video) is an arcade system board released by Sega, in 1994 for Japan and 1995 worldwide. Departing from their usual process of building custom arcade hardware, Sega's ST-V is essentially identical to the Sega Saturn home console system.</waterSystemDescription>
+    <waterDescriptionWidth>116.592773</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'sfc'">
+    <waterSystemDescription>The Super Famicom is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</waterSystemDescription>
+    <waterDescriptionWidth>94.746582</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'sg-1000'">
+    <waterSystemDescription>The SG-1000 is a home video game console manufactured by Sega and released in Japan, Australia, New Zealand, and other regions. It was Sega's first entry into the home video game hardware business.</waterSystemDescription>
+    <waterDescriptionWidth>92.744141</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'sgb'">
+    <waterSystemDescription>The Super Game Boy (スーパーゲームボーイ, Sūpā Gēmu Bōi) is a peripheral that allows Game Boy cartridges to be played on a Super Nintendo Entertainment System console, compatible with the same cartridges as the original Game Boy: original Game Boy cartridges, the Game Boy Camera, and dual-mode Game Boy Color cartridges (in Game Boy-mode).</waterSystemDescription>
+    <waterDescriptionWidth>157.068848</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'snes'">
+    <waterSystemDescription>The Super Nintendo Entertainment System (also known as the Super NES, SNES or Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</waterSystemDescription>
+    <waterDescriptionWidth>130.601074</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'snes-msu1'">
+    <waterSystemDescription>MSU-1 enhanced games extend the Super Nintendo experience with streamed stereo music and additional data. These versions use extra files alongside the game ROM and require an emulator or hardware implementation with MSU-1 support.</waterSystemDescription>
+    <waterDescriptionWidth>110.515137</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'snesh'">
+    <waterSystemDescription>Fan-made modifications of Super Nintendo games, with changes that can include new levels, graphics, translations or gameplay.</waterSystemDescription>
+    <waterDescriptionWidth>59.558105</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'snesmsu1'">
+    <waterSystemDescription>MSU-1 enhanced games extend the Super Nintendo experience with streamed stereo music and additional data. These versions use extra files alongside the game ROM and require an emulator or hardware implementation with MSU-1 support.</waterSystemDescription>
+    <waterDescriptionWidth>110.515137</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'solarus'">
+    <waterSystemDescription>Solarus was specifically designed with cult 2D action-RPG classics in mind, such as The Legend of Zelda: A Link to the Past and Secret of Mana on the Super Nintendo, or Soleil on the Sega Megadrive/Genesis. The engine is programmed in C++, with the SDL library and an OpenGL backend.</waterSystemDescription>
+    <waterDescriptionWidth>131.335449</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'st-v'">
+    <waterSystemDescription>ST-V (Sega Titan Video) is an arcade system board released by Sega, in 1994 for Japan and 1995 worldwide. Departing from their usual process of building custom arcade hardware, Sega's ST-V is essentially identical to the Sega Saturn home console system.</waterSystemDescription>
+    <waterDescriptionWidth>116.592773</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'stv'">
+    <waterSystemDescription>ST-V (Sega Titan Video) is an arcade system board released by Sega, in 1994 for Japan and 1995 worldwide. Departing from their usual process of building custom arcade hardware, Sega's ST-V is essentially identical to the Sega Saturn home console system.</waterSystemDescription>
+    <waterDescriptionWidth>116.592773</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'sufami'">
+    <waterSystemDescription>The SuFami Turbo (スーファミターボ), often compared to the Aladdin Deck Enhancer, is an accessory released by Bandai for Nintendo's Super Famicom system and was released in 1996. This device is designed to sit on top of the Super Famicom, and features two cartridge slots.</waterSystemDescription>
+    <waterDescriptionWidth>122.364746</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'supergrafx'">
+    <waterSystemDescription>The PC Engine SuperGrafx (PCエンジンスーパーグラフィックス, Pī Shī Enjin SūpāGurafikkusu), also known as simply the SuperGrafx, is a fourth-generation home video game console manufactured by NEC Home Electronics and released in Japan and France in 1989. It is the successor system to the PC Engine, released two years prior.</waterSystemDescription>
+    <waterDescriptionWidth>143.327637</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'supervision'">
+    <waterSystemDescription>The Watara Supervision, also known as the QuickShot Supervision in the UK, is a monochrome handheld game console, originating from Asia, and introduced in 1992 as a cut-price competitor for Nintendo's Game Boy. It came packaged with a game called Crystball, which is similar to Breakout.</waterSystemDescription>
+    <waterDescriptionWidth>132.958008</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'switch'">
+    <waterSystemDescription>The Nintendo Switch is an eighth generation (2012-present) home video game console developed and distributed by Nintendo. It was released on March 3, 2017 in North America at a retail price of $299.99.</waterSystemDescription>
+    <waterDescriptionWidth>93.436035</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'tg-cd'">
+    <waterSystemDescription>The CD-ROM² (pronounced CD-ROM-ROM) is an add-on attachment for the PC Engine that was released in Japan on December 4, 1988. The add-on allows the core versions of the console to play PC Engine games in CD-ROM format in addition to standard HuCards.</waterSystemDescription>
+    <waterDescriptionWidth>120.351562</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'tg16'">
+    <waterSystemDescription>The TurboGrafx-16, known as the PC Engine in Japan and France, is a 16-bit fourth-generation home video game console designed by Hudson Soft and sold by NEC Home Electronics. It was released in Japan in 1987 and in North America in 1989.</waterSystemDescription>
+    <waterDescriptionWidth>110.396484</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'tg16cd'">
+    <waterSystemDescription>The CD-ROM² (pronounced CD-ROM-ROM) is an add-on attachment for the PC Engine that was released in Japan on December 4, 1988. The add-on allows the core versions of the console to play PC Engine games in CD-ROM format in addition to standard HuCards.</waterSystemDescription>
+    <waterDescriptionWidth>120.351562</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'thomson'">
+    <waterSystemDescription>Thomson produced the French TO and MO home computer families during the 1980s. Machines such as the TO7 and MO5 combined BASIC, color graphics and light-pen input, and became closely associated with computing in French schools.</waterSystemDescription>
+    <waterDescriptionWidth>109.502441</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'tic80'">
+    <waterSystemDescription>TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. There are built-in tools for development: code, sprites, maps, sound editors and the command line, which is enough to create a mini retro game.</waterSystemDescription>
+    <waterDescriptionWidth>108.872559</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'tools'">
+    <waterSystemDescription>Utilities and scripts for managing your device, browsing files and carrying out maintenance tasks.</waterSystemDescription>
+    <waterDescriptionWidth>45.506836</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'uzebox'">
+    <waterSystemDescription>The Uzebox is a retro-minimalist 8-bit open source game console. It is based on an AVR 8-bit general purpose microcontroller made by Atmel.</waterSystemDescription>
+    <waterDescriptionWidth>65.460449</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'vectrex'">
+    <waterSystemDescription>The Vectrex is a vector display-based home video game console–the only one ever designed and released for the home market, developed by Smith Engineering. It was first released for the North America market in November 1982 and then Europe and Japan in 1983.</waterSystemDescription>
+    <waterDescriptionWidth>120.810059</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'vic20'">
+    <waterSystemDescription>The Commodore VIC-20 (known as the VC-20 in Germany and the VIC-1001 in Japan) is an 8-bit home computer that was sold by Commodore Business Machines. The VIC-20 was announced in 1980, roughly three years after Commodore's first personal computer, the PET.</waterSystemDescription>
+    <waterDescriptionWidth>122.278809</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'videopac'">
+    <waterSystemDescription>The Magnavox Odyssey 2 (stylized as Magnavox Odyssey²), also known as Philips Odyssey 2, is a second generation home video game console that was released in 1978. It was sold in Europe as the Philips Videopac G7000, in Brazil as the Philips Odyssey and in Japan as Odyssey2 (オデッセイ2 odessei2).</waterSystemDescription>
+    <waterDescriptionWidth>135.548340</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'vircon32'">
+    <waterSystemDescription>Vircon32 is a virtual console inspired by classic 16- and 32-bit systems as well as the arcade era.</waterSystemDescription>
+    <waterDescriptionWidth>44.626465</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'virtualboy'">
+    <waterSystemDescription>The Virtual Boy is a 32-bit tabletop portable video game console developed and manufactured by Nintendo. Released in 1995, it was marketed as the first console capable of displaying stereoscopic "3D" graphics.</waterSystemDescription>
+    <waterDescriptionWidth>96.589355</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'wasm4'">
+    <waterSystemDescription>WASM-4 is a low-level fantasy game console for building small games with WebAssembly. Game cartridges (ROMs) are small, self-contained .wasm files that can be built with any programming language that compiles to WebAssembly.</waterSystemDescription>
+    <waterDescriptionWidth>107.317871</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'wonderswan'">
+    <waterSystemDescription>The WonderSwan is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997.</waterSystemDescription>
+    <waterDescriptionWidth>103.922852</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'wonderswancolor'">
+    <waterSystemDescription>The WonderSwan is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997.</waterSystemDescription>
+    <waterDescriptionWidth>103.922852</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'x1'">
+    <waterSystemDescription>The X1 (エックスワン, Ekkusuwan), sometimes called the Sharp X1, is a series of home computers released by Sharp Corporation from 1982 to 1988. It was based on a Z80 CPU.</waterSystemDescription>
+    <waterDescriptionWidth>76.861816</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'x68000'">
+    <waterSystemDescription>The X68000 (Japanese: エックス ろくまんはっせん, Hepburn: Ekkusu Rokuman Hassen) is a home computer created by Sharp Corporation, first released in 1987, sold only in Japan. The first model features a 10 MHz Motorola 68000 CPU (hence the name), 1 MB of RAM, and no hard drive; the last model was released in 1993 with a 25 MHz Motorola 68030 CPU, 4 MB of RAM, and optional 80 MB SCSI hard drive.</waterSystemDescription>
+    <waterDescriptionWidth>179.551270</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'xbox'">
+    <waterSystemDescription>Xbox is a video gaming brand created and owned by Microsoft. It represents a series of video game consoles developed by Microsoft, with three consoles released in the sixth, seventh, and eighth generations, respectively.</waterSystemDescription>
+    <waterDescriptionWidth>101.169922</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'zmachine'">
+    <waterSystemDescription>The Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games. Infocom compiled game code to files containing Z-machine instructions (called story files or Z-code files) and could therefore port its text adventures to a new platform simply by writing a Z-machine implementation for that platform.</waterSystemDescription>
+    <waterDescriptionWidth>169.889648</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'zx81'">
+    <waterSystemDescription>The ZX81 is a home computer that was produced by Sinclair Research and manufactured in Dundee, Scotland, by Timex Corporation. It was launched in the United Kingdom in March 1981 as the successor to Sinclair's ZX80 and designed to be a low-cost introduction to home computing for the general public.</waterSystemDescription>
+    <waterDescriptionWidth>139.015137</waterDescriptionWidth>
+  </variables>
+  <variables if="${system.theme} == 'zxspectrum'">
+    <waterSystemDescription>The ZX Spectrum is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research Ltd. It was the follow-up to the Sinclair ZX81.</waterSystemDescription>
+    <waterDescriptionWidth>72.886719</waterDescriptionWidth>
+  </variables>
+  <variables>
+    <waterDescriptionFontScale>min(${screen.width}, ${screen.height}) &lt; 320 ? 1.5 : (min(${screen.width}, ${screen.height}) &lt; 720 ? 1.31 : 1)</waterDescriptionFontScale>
+    <waterDescriptionFontSetting>${settings.FontScale}</waterDescriptionFontSetting>
+    <waterDescriptionFontScale if="${waterDescriptionFontSetting} &gt; 0 &amp;&amp; ${waterDescriptionFontSetting} &lt; 4">${waterDescriptionFontSetting} * 1</waterDescriptionFontScale>
+    <waterDescriptionEnd>0 - ${waterDescriptionWidth} * min(${screen.width}, ${screen.height}) * 0.030 * ${waterDescriptionFontScale} / ${screen.width}</waterDescriptionEnd>
+  </variables>
+  <view name="system">
+    <control name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="20902" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == '3do'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44255" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == '3ds'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42959" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'adam'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49351" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'advision'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="45583" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'amiga'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48265" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'amigacd32'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56231" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'amstradcpc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="53097" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'arcade'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="55266" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'arcadia'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="54359" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'arduboy'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="30379" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'astrocade'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="69522" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atari2600'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="50741" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atari5200'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49007" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atari7800'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48941" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atari800'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48846" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atarijaguar'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="43038" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atarilynx'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="54015" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atarist'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44406" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'atomiswave'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42832" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-action'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23797" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-adult'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="22061" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-adventure'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25637" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-allgames'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23952" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-asiaticboard'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23344" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-at2players'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24644" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-at4players'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24279" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-beatemup'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25162" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-board'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26751" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-breakout'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24427" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-casino'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24187" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-casual'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="22899" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-compilation'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23840" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-demo'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="22470" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-educational'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="22629" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-favorites'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26345" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-fight'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26847" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-huntingandfishing'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25700" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-lastplayed'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25544" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-lightgun'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24110" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-musicanddance'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25378" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-neverplayed'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23134" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-pinball'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24199" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-platform'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23916" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-playingcards'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24235" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-puzzle'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25994" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-quiz'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="22665" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-racedriving'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26389" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-reflection'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24343" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-retroachievements'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25295" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-roleplayings'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26300" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-shootemup'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26849" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-shooter'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24265" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-simulation'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25522" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-sports'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25115" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-sportswithanimals'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="21367" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-strategy'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25817" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-various'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23418" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-verticalarcade'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="22840" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'auto-wheel'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="23037" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'build'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="45844" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'c128'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48681" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'c16'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="46826" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'c64'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56283" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'cdi'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="61920" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'channelf'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="30267" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'chip-8'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="47901" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'chip8'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="47901" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'colecovision'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="43413" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'completed'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="26287" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'cplus4'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56275" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'cps1'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="59349" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'cps2'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="65961" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'cps3'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="50308" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'creativision'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48500" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'custom-collections'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="24977" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'daphne'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57391" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'doom'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="47217" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'dreamcast'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="58880" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'easyrpg'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="62179" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'famicom'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="39482" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'fbn'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="46410" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'fbneo'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="46410" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'fds'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="62656" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gamate'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="64206" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gameandwatch'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56121" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gamegear'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="58051" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gamemaster'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57881" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gb'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42866" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gba'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="65679" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gbah'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="33542" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gbc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="51929" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gbch'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="33079" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gbh'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="32196" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56706" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'genesis'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="51712" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'genh'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="34268" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'ggh'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="32341" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gp32'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="50579" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'gx4000'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="46885" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'imageviewer'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="21614" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'intellivision'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44612" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'j2me'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="62555" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'laserdisc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="46513" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'lcdgames'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44516" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'lowresnx'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57924" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'macintosh'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="64390" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'mame'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="62316" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'mastersystem'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="61495" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'megacd'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="63977" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'megadrive'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="38400" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'megadrive-japan'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="38400" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'megadrivejp'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="38400" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'megaduck'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="69200" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'moonlight'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42580" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'moto'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="73271" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'mplayer'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="21082" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'msu-md'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44648" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'msx'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57601" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'msx2'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57601" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'music'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="21900" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'n64'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="61051" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'naomi'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44432" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'nds'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="40918" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'neogeo'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="41233" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'neogeocd'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="64911" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'nes'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="39482" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'nesh'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="31305" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'ngp'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="37329" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'ngpc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49556" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'now-playing'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="25320" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'odyssey2'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="43926" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'openbor'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="45583" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'palm'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="38871" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="61718" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pc88'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="51095" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pc98'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="52531" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pce-cd'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="52915" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pcengine'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42355" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pcfx'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="63720" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pet'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48514" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pico-8'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42709" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pico8'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="42709" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pokemini'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57352" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'ports'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="29308" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'psp'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="61421" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pspminis'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="50228" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'psvita'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="55188" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'psx'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48238" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'pv1000'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="41898" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'satellaview'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="64935" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'saturn'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="54274" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'scummvm'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="58209" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'scv'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="70001" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'sega32x'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="53015" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'segacd'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="63977" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'segastv'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="51684" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'sfc'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44530" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'sg-1000'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="43874" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'sgb'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="64940" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'snes'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56272" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'snes-msu1'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49694" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'snesh'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="33005" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'snesmsu1'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49694" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'solarus'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="56512" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'st-v'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="51684" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'stv'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="51684" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'sufami'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="53574" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'supergrafx'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="60440" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'supervision'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57044" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'switch'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="44100" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'tg-cd'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="52915" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'tg16'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49655" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'tg16cd'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="52915" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'thomson'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49362" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'tic80'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="49156" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'tools'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="28403" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'uzebox'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="34938" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'vectrex'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="53065" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'vic20'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="53546" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'videopac'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="57892" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'vircon32'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="28115" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'virtualboy'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="45133" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'wasm4'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="48647" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'wonderswan'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="47535" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'wonderswancolor'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="47535" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'x1'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="38672" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'x68000'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="72303" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'xbox'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="46633" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'zmachine'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="69139" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'zx81'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="59027" mode="linear" />
+      </storyboard>
+    </control>
+    <control if="${system.theme} == 'zxspectrum'" name="water-system-description">
+      <storyboard repeat="forever">
+        <animation property="offsetX" from="0.92" to="${waterDescriptionEnd}" duration="37370" mode="linear" />
+      </storyboard>
+    </control>
+  </view>
+</theme>

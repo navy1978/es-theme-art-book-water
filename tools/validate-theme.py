@@ -10,8 +10,10 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = json.loads((ROOT / 'tools/theme-schema.json').read_text())['elements']
+BASE_ELEMENTS = {'clock': 'text', 'batteryText': 'text', 'batteryIcon': 'image',
+                 'networkIcon': 'image', 'webimage': 'image'}
 UNIFORMS = set(re.findall(r'uniform\s+\w+\s+(water\w+)\s*;', (ROOT / 'assets/shaders/water.glsl').read_text()))
-SIZES = [(480, 320), (640, 480), (1920, 1152)]
+SIZES = [(480, 320), (640, 480), (960, 544), (1920, 1152)]
 MODES = ('animated', 'still', 'calm')
 CACHE = {}
 
@@ -34,7 +36,7 @@ def allowed(node, variables, modes):
     condition = node.get('if')
     if condition:
         for part in condition.split('&&'):
-            match = re.fullmatch(r"\$\{([^}]+)\}\s*(==|!=|<)\s*(.+)", part.strip())
+            match = re.fullmatch(r"\$\{([^}]+)\}\s*(==|!=|<=|>=|<|>)\s*(.+)", part.strip())
             assert match, f'Unsupported condition in validator: {condition}'
             lhs = variables[match[1]]
             rhs = match[3].strip()
@@ -43,8 +45,14 @@ def allowed(node, variables, modes):
                 passes = str(lhs) == str(rhs)
             elif match[2] == '!=':
                 passes = str(lhs) != str(rhs)
-            else:
+            elif match[2] == '<':
                 passes = float(lhs) < rhs
+            elif match[2] == '>':
+                passes = float(lhs) > rhs
+            elif match[2] == '<=':
+                passes = float(lhs) <= rhs
+            else:
+                passes = float(lhs) >= rhs
             if not passes:
                 return False
     subset = node.get('ifSubset')
@@ -68,8 +76,9 @@ def check_value(kind, value, file):
 
 
 def check_element(element, file, variables, modes):
-    assert element.tag in SCHEMA, (file, element.tag)
-    fields = dict(SCHEMA[element.tag])
+    assert element.tag in SCHEMA or element.tag in BASE_ELEMENTS, (file, element.tag)
+    fields = dict(SCHEMA.get(BASE_ELEMENTS.get(element.tag), {}))
+    fields.update(SCHEMA.get(element.tag, {}))
     shader = element.find('shader')
     parameters = set()
     if shader is not None:
@@ -78,6 +87,9 @@ def check_element(element, file, variables, modes):
     previous_path = None
     for prop in element:
         if not allowed(prop, variables, modes):
+            continue
+        if element.tag in ('container', 'stackpanel') and prop.tag in SCHEMA:
+            check_element(prop, file, variables, modes)
             continue
         if prop.tag == 'shader':
             shader_file = (file.parent / resolve(prop.findtext('path'), variables)).resolve()
@@ -103,6 +115,8 @@ def check_element(element, file, variables, modes):
         value = resolve(prop.text, variables)
         check_value(fields[prop.tag], value, file)
         if fields[prop.tag] == 'PATH':
+            if value.startswith(':/'):  # Resources bundled with EmulationStation.
+                continue
             target = (file.parent / value).resolve()
             if not target.is_file():
                 # ES retains the preceding fallback path for an unknown system.
@@ -127,7 +141,9 @@ def load(file, variables, modes, stack=()):
         elif node.tag == 'include':
             views |= load(file.parent / resolve(node.text, variables), variables, modes, stack + (file,))
         elif node.tag == 'subset':
-            selected = [inc for inc in node if inc.get('name') == modes.get(node.get('name'))]
+            # ES defaults to the first choice when an option has not been saved.
+            choice = modes.setdefault(node.get('name'), node[0].get('name'))
+            selected = [inc for inc in node if inc.get('name') == choice]
             assert len(selected) == 1
             views |= load(file.parent / selected[0].text, variables, modes, stack + (file,))
         elif node.tag == 'view':

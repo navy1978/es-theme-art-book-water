@@ -1,0 +1,721 @@
+{
+  "language": "en",
+  "upstream": {
+    "repository": "https://gitlab.com/es-de/themes/system-metadata",
+    "revision": "ba503c99106c34e26550ab0c178939d65fdddb0c",
+    "license": "CC-BY-NC-SA-2.0",
+    "adaptation": "Shortened to one or two sentences; filenames mapped to theme identifiers."
+  },
+  "additional_text": "Original factual summaries and functional collection descriptions by navy1978. Reference links document the facts used; Wikipedia prose is not copied verbatim.",
+  "entries": {
+    "3do": {
+      "kind": "upstream-shortened-description",
+      "file": "3do.xml"
+    },
+    "3ds": {
+      "kind": "upstream-shortened-description",
+      "file": "n3ds.xml"
+    },
+    "adam": {
+      "kind": "upstream-shortened-description",
+      "file": "adam.xml"
+    },
+    "advision": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/Entex_Adventure_Vision"
+    },
+    "amiga": {
+      "kind": "upstream-shortened-description",
+      "file": "amiga.xml"
+    },
+    "amigacd32": {
+      "kind": "upstream-shortened-description",
+      "file": "amigacd32.xml"
+    },
+    "amstradcpc": {
+      "kind": "upstream-shortened-description",
+      "file": "amstradcpc.xml"
+    },
+    "arcade": {
+      "kind": "upstream-shortened-description",
+      "file": "arcade.xml"
+    },
+    "arcadia": {
+      "kind": "upstream-shortened-description",
+      "file": "arcadia.xml"
+    },
+    "arduboy": {
+      "kind": "upstream-shortened-description",
+      "file": "arduboy.xml"
+    },
+    "astrocade": {
+      "kind": "upstream-shortened-description",
+      "file": "astrocade.xml"
+    },
+    "atari2600": {
+      "kind": "upstream-shortened-description",
+      "file": "atari2600.xml"
+    },
+    "atari5200": {
+      "kind": "upstream-shortened-description",
+      "file": "atari5200.xml"
+    },
+    "atari7800": {
+      "kind": "upstream-shortened-description",
+      "file": "atari7800.xml"
+    },
+    "atari800": {
+      "kind": "upstream-shortened-description",
+      "file": "atari800.xml"
+    },
+    "atarijaguar": {
+      "kind": "upstream-shortened-description",
+      "file": "atarijaguar.xml"
+    },
+    "atarilynx": {
+      "kind": "upstream-shortened-description",
+      "file": "atarilynx.xml"
+    },
+    "atarist": {
+      "kind": "upstream-shortened-description",
+      "file": "atarist.xml"
+    },
+    "atomiswave": {
+      "kind": "upstream-shortened-description",
+      "file": "atomiswave.xml"
+    },
+    "auto-action": {
+      "kind": "original-functional-description"
+    },
+    "auto-adult": {
+      "kind": "original-functional-description"
+    },
+    "auto-adventure": {
+      "kind": "original-functional-description"
+    },
+    "auto-allgames": {
+      "kind": "original-functional-description"
+    },
+    "auto-asiaticboard": {
+      "kind": "original-functional-description"
+    },
+    "auto-at2players": {
+      "kind": "original-functional-description"
+    },
+    "auto-at4players": {
+      "kind": "original-functional-description"
+    },
+    "auto-beatemup": {
+      "kind": "original-functional-description"
+    },
+    "auto-board": {
+      "kind": "original-functional-description"
+    },
+    "auto-breakout": {
+      "kind": "original-functional-description"
+    },
+    "auto-casino": {
+      "kind": "original-functional-description"
+    },
+    "auto-casual": {
+      "kind": "original-functional-description"
+    },
+    "auto-compilation": {
+      "kind": "original-functional-description"
+    },
+    "auto-demo": {
+      "kind": "original-functional-description"
+    },
+    "auto-educational": {
+      "kind": "original-functional-description"
+    },
+    "auto-favorites": {
+      "kind": "original-functional-description"
+    },
+    "auto-fight": {
+      "kind": "original-functional-description"
+    },
+    "auto-huntingandfishing": {
+      "kind": "original-functional-description"
+    },
+    "auto-lastplayed": {
+      "kind": "original-functional-description"
+    },
+    "auto-lightgun": {
+      "kind": "original-functional-description"
+    },
+    "auto-musicanddance": {
+      "kind": "original-functional-description"
+    },
+    "auto-neverplayed": {
+      "kind": "original-functional-description"
+    },
+    "auto-pinball": {
+      "kind": "original-functional-description"
+    },
+    "auto-platform": {
+      "kind": "original-functional-description"
+    },
+    "auto-playingcards": {
+      "kind": "original-functional-description"
+    },
+    "auto-puzzle": {
+      "kind": "original-functional-description"
+    },
+    "auto-quiz": {
+      "kind": "original-functional-description"
+    },
+    "auto-racedriving": {
+      "kind": "original-functional-description"
+    },
+    "auto-reflection": {
+      "kind": "original-functional-description"
+    },
+    "auto-retroachievements": {
+      "kind": "original-functional-description"
+    },
+    "auto-roleplayings": {
+      "kind": "original-functional-description"
+    },
+    "auto-shootemup": {
+      "kind": "original-functional-description"
+    },
+    "auto-shooter": {
+      "kind": "original-functional-description"
+    },
+    "auto-simulation": {
+      "kind": "original-functional-description"
+    },
+    "auto-sports": {
+      "kind": "original-functional-description"
+    },
+    "auto-sportswithanimals": {
+      "kind": "original-functional-description"
+    },
+    "auto-strategy": {
+      "kind": "original-functional-description"
+    },
+    "auto-various": {
+      "kind": "original-functional-description"
+    },
+    "auto-verticalarcade": {
+      "kind": "original-functional-description"
+    },
+    "auto-wheel": {
+      "kind": "original-functional-description"
+    },
+    "build": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/Build_(game_engine)"
+    },
+    "c128": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/Commodore_128"
+    },
+    "c16": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/Commodore_16"
+    },
+    "c64": {
+      "kind": "upstream-shortened-description",
+      "file": "c64.xml"
+    },
+    "cdi": {
+      "kind": "upstream-shortened-description",
+      "file": "cdimono1.xml"
+    },
+    "channelf": {
+      "kind": "upstream-shortened-description",
+      "file": "channelf.xml"
+    },
+    "chip-8": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/CHIP-8"
+    },
+    "chip8": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/CHIP-8"
+    },
+    "colecovision": {
+      "kind": "upstream-shortened-description",
+      "file": "colecovision.xml"
+    },
+    "completed": {
+      "kind": "original-functional-description"
+    },
+    "cplus4": {
+      "kind": "upstream-shortened-description",
+      "file": "plus4.xml"
+    },
+    "cps1": {
+      "kind": "upstream-shortened-description",
+      "file": "cps1.xml"
+    },
+    "cps2": {
+      "kind": "upstream-shortened-description",
+      "file": "cps2.xml"
+    },
+    "cps3": {
+      "kind": "upstream-shortened-description",
+      "file": "cps3.xml"
+    },
+    "creativision": {
+      "kind": "upstream-shortened-description",
+      "file": "crvision.xml"
+    },
+    "custom-collections": {
+      "kind": "original-functional-description"
+    },
+    "daphne": {
+      "kind": "upstream-shortened-description",
+      "file": "daphne.xml"
+    },
+    "doom": {
+      "kind": "upstream-shortened-description",
+      "file": "doom.xml"
+    },
+    "dreamcast": {
+      "kind": "upstream-shortened-description",
+      "file": "dreamcast.xml"
+    },
+    "easyrpg": {
+      "kind": "upstream-shortened-description",
+      "file": "easyrpg.xml"
+    },
+    "famicom": {
+      "kind": "upstream-shortened-description",
+      "file": "famicom.xml"
+    },
+    "fbn": {
+      "kind": "upstream-shortened-description",
+      "file": "fbneo.xml"
+    },
+    "fbneo": {
+      "kind": "upstream-shortened-description",
+      "file": "fbneo.xml"
+    },
+    "fds": {
+      "kind": "upstream-shortened-description",
+      "file": "fds.xml"
+    },
+    "gamate": {
+      "kind": "upstream-shortened-description",
+      "file": "gamate.xml"
+    },
+    "gameandwatch": {
+      "kind": "upstream-shortened-description",
+      "file": "gameandwatch.xml"
+    },
+    "gamegear": {
+      "kind": "upstream-shortened-description",
+      "file": "gamegear.xml"
+    },
+    "gamemaster": {
+      "kind": "upstream-shortened-description",
+      "file": "gmaster.xml"
+    },
+    "gb": {
+      "kind": "upstream-shortened-description",
+      "file": "gb.xml"
+    },
+    "gba": {
+      "kind": "upstream-shortened-description",
+      "file": "gba.xml"
+    },
+    "gbah": {
+      "kind": "original-functional-description"
+    },
+    "gbc": {
+      "kind": "upstream-shortened-description",
+      "file": "gbc.xml"
+    },
+    "gbch": {
+      "kind": "original-functional-description"
+    },
+    "gbh": {
+      "kind": "original-functional-description"
+    },
+    "gc": {
+      "kind": "upstream-shortened-description",
+      "file": "gc.xml"
+    },
+    "genesis": {
+      "kind": "upstream-shortened-description",
+      "file": "genesis.xml"
+    },
+    "genh": {
+      "kind": "original-functional-description"
+    },
+    "ggh": {
+      "kind": "original-functional-description"
+    },
+    "gp32": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/GP32"
+    },
+    "gx4000": {
+      "kind": "upstream-shortened-description",
+      "file": "gx4000.xml"
+    },
+    "imageviewer": {
+      "kind": "original-functional-description"
+    },
+    "intellivision": {
+      "kind": "upstream-shortened-description",
+      "file": "intellivision.xml"
+    },
+    "j2me": {
+      "kind": "upstream-shortened-description",
+      "file": "j2me.xml"
+    },
+    "laserdisc": {
+      "kind": "upstream-shortened-description",
+      "file": "laserdisc.xml"
+    },
+    "lcdgames": {
+      "kind": "upstream-shortened-description",
+      "file": "lcdgames.xml"
+    },
+    "lowresnx": {
+      "kind": "upstream-shortened-description",
+      "file": "lowresnx.xml"
+    },
+    "macintosh": {
+      "kind": "upstream-shortened-description",
+      "file": "macintosh.xml"
+    },
+    "mame": {
+      "kind": "upstream-shortened-description",
+      "file": "mame.xml"
+    },
+    "mastersystem": {
+      "kind": "upstream-shortened-description",
+      "file": "mastersystem.xml"
+    },
+    "megacd": {
+      "kind": "upstream-shortened-description",
+      "file": "megacd.xml"
+    },
+    "megadrive": {
+      "kind": "upstream-shortened-description",
+      "file": "megadrive.xml"
+    },
+    "megadrive-japan": {
+      "kind": "upstream-shortened-description",
+      "file": "megadrivejp.xml"
+    },
+    "megadrivejp": {
+      "kind": "upstream-shortened-description",
+      "file": "megadrivejp.xml"
+    },
+    "megaduck": {
+      "kind": "upstream-shortened-description",
+      "file": "megaduck.xml"
+    },
+    "moonlight": {
+      "kind": "upstream-shortened-description",
+      "file": "moonlight.xml"
+    },
+    "moto": {
+      "kind": "upstream-shortened-description",
+      "file": "moto.xml"
+    },
+    "mplayer": {
+      "kind": "original-functional-description"
+    },
+    "msu-md": {
+      "kind": "original-factual-summary",
+      "reference": "https://github.com/krikzz/msu-md"
+    },
+    "msx": {
+      "kind": "upstream-shortened-description",
+      "file": "msx.xml"
+    },
+    "msx2": {
+      "kind": "upstream-shortened-description",
+      "file": "msx2.xml"
+    },
+    "music": {
+      "kind": "original-functional-description"
+    },
+    "n64": {
+      "kind": "upstream-shortened-description",
+      "file": "n64.xml"
+    },
+    "naomi": {
+      "kind": "upstream-shortened-description",
+      "file": "naomi.xml"
+    },
+    "nds": {
+      "kind": "upstream-shortened-description",
+      "file": "nds.xml"
+    },
+    "neogeo": {
+      "kind": "upstream-shortened-description",
+      "file": "neogeo.xml"
+    },
+    "neogeocd": {
+      "kind": "upstream-shortened-description",
+      "file": "neogeocd.xml"
+    },
+    "nes": {
+      "kind": "upstream-shortened-description",
+      "file": "nes.xml"
+    },
+    "nesh": {
+      "kind": "original-functional-description"
+    },
+    "ngp": {
+      "kind": "upstream-shortened-description",
+      "file": "ngp.xml"
+    },
+    "ngpc": {
+      "kind": "upstream-shortened-description",
+      "file": "ngpc.xml"
+    },
+    "now-playing": {
+      "kind": "original-functional-description"
+    },
+    "odyssey2": {
+      "kind": "upstream-shortened-description",
+      "file": "odyssey2.xml"
+    },
+    "openbor": {
+      "kind": "upstream-shortened-description",
+      "file": "openbor.xml"
+    },
+    "palm": {
+      "kind": "upstream-shortened-description",
+      "file": "palm.xml"
+    },
+    "pc": {
+      "kind": "upstream-shortened-description",
+      "file": "pc.xml"
+    },
+    "pc88": {
+      "kind": "upstream-shortened-description",
+      "file": "pc88.xml"
+    },
+    "pc98": {
+      "kind": "upstream-shortened-description",
+      "file": "pc98.xml"
+    },
+    "pce-cd": {
+      "kind": "upstream-shortened-description",
+      "file": "pcenginecd.xml"
+    },
+    "pcengine": {
+      "kind": "upstream-shortened-description",
+      "file": "pcengine.xml"
+    },
+    "pcfx": {
+      "kind": "upstream-shortened-description",
+      "file": "pcfx.xml"
+    },
+    "pet": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/Commodore_PET"
+    },
+    "pico-8": {
+      "kind": "upstream-shortened-description",
+      "file": "pico8.xml"
+    },
+    "pico8": {
+      "kind": "upstream-shortened-description",
+      "file": "pico8.xml"
+    },
+    "pokemini": {
+      "kind": "upstream-shortened-description",
+      "file": "pokemini.xml"
+    },
+    "ports": {
+      "kind": "original-functional-description"
+    },
+    "psp": {
+      "kind": "upstream-shortened-description",
+      "file": "psp.xml"
+    },
+    "pspminis": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/List_of_PlayStation_minis"
+    },
+    "psvita": {
+      "kind": "upstream-shortened-description",
+      "file": "psvita.xml"
+    },
+    "psx": {
+      "kind": "upstream-shortened-description",
+      "file": "psx.xml"
+    },
+    "pv1000": {
+      "kind": "upstream-shortened-description",
+      "file": "pv1000.xml"
+    },
+    "satellaview": {
+      "kind": "upstream-shortened-description",
+      "file": "satellaview.xml"
+    },
+    "saturn": {
+      "kind": "upstream-shortened-description",
+      "file": "saturn.xml"
+    },
+    "scummvm": {
+      "kind": "upstream-shortened-description",
+      "file": "scummvm.xml"
+    },
+    "scv": {
+      "kind": "upstream-shortened-description",
+      "file": "scv.xml"
+    },
+    "sega32x": {
+      "kind": "upstream-shortened-description",
+      "file": "sega32x.xml"
+    },
+    "segacd": {
+      "kind": "upstream-shortened-description",
+      "file": "segacd.xml"
+    },
+    "segastv": {
+      "kind": "upstream-shortened-description",
+      "file": "stv.xml"
+    },
+    "sfc": {
+      "kind": "upstream-shortened-description",
+      "file": "sfc.xml"
+    },
+    "sg-1000": {
+      "kind": "upstream-shortened-description",
+      "file": "sg-1000.xml"
+    },
+    "sgb": {
+      "kind": "upstream-shortened-description",
+      "file": "sgb.xml"
+    },
+    "snes": {
+      "kind": "upstream-shortened-description",
+      "file": "snes.xml"
+    },
+    "snes-msu1": {
+      "kind": "original-factual-summary",
+      "reference": "https://github.com/bsnes-emu/bsnes/blob/master/bsnes/sfc/coprocessor/msu1/msu1.cpp"
+    },
+    "snesh": {
+      "kind": "original-functional-description"
+    },
+    "snesmsu1": {
+      "kind": "original-factual-summary",
+      "reference": "https://github.com/bsnes-emu/bsnes/blob/master/bsnes/sfc/coprocessor/msu1/msu1.cpp"
+    },
+    "solarus": {
+      "kind": "upstream-shortened-description",
+      "file": "solarus.xml"
+    },
+    "st-v": {
+      "kind": "upstream-shortened-description",
+      "file": "stv.xml"
+    },
+    "stv": {
+      "kind": "upstream-shortened-description",
+      "file": "stv.xml"
+    },
+    "sufami": {
+      "kind": "upstream-shortened-description",
+      "file": "sufami.xml"
+    },
+    "supergrafx": {
+      "kind": "upstream-shortened-description",
+      "file": "supergrafx.xml"
+    },
+    "supervision": {
+      "kind": "upstream-shortened-description",
+      "file": "supervision.xml"
+    },
+    "switch": {
+      "kind": "upstream-shortened-description",
+      "file": "switch.xml"
+    },
+    "tg-cd": {
+      "kind": "upstream-shortened-description",
+      "file": "tg-cd.xml"
+    },
+    "tg16": {
+      "kind": "upstream-shortened-description",
+      "file": "tg16.xml"
+    },
+    "tg16cd": {
+      "kind": "upstream-shortened-description",
+      "file": "tg-cd.xml"
+    },
+    "thomson": {
+      "kind": "original-factual-summary",
+      "reference": "https://en.wikipedia.org/wiki/List_of_Thomson_computers"
+    },
+    "tic80": {
+      "kind": "upstream-shortened-description",
+      "file": "tic80.xml"
+    },
+    "tools": {
+      "kind": "original-functional-description"
+    },
+    "uzebox": {
+      "kind": "upstream-shortened-description",
+      "file": "uzebox.xml"
+    },
+    "vectrex": {
+      "kind": "upstream-shortened-description",
+      "file": "vectrex.xml"
+    },
+    "vic20": {
+      "kind": "upstream-shortened-description",
+      "file": "vic20.xml"
+    },
+    "videopac": {
+      "kind": "upstream-shortened-description",
+      "file": "videopac.xml"
+    },
+    "vircon32": {
+      "kind": "upstream-shortened-description",
+      "file": "vircon32.xml"
+    },
+    "virtualboy": {
+      "kind": "upstream-shortened-description",
+      "file": "virtualboy.xml"
+    },
+    "wasm4": {
+      "kind": "upstream-shortened-description",
+      "file": "wasm4.xml"
+    },
+    "wonderswan": {
+      "kind": "upstream-shortened-description",
+      "file": "wonderswan.xml"
+    },
+    "wonderswancolor": {
+      "kind": "upstream-shortened-description",
+      "file": "wonderswancolor.xml"
+    },
+    "x1": {
+      "kind": "upstream-shortened-description",
+      "file": "x1.xml"
+    },
+    "x68000": {
+      "kind": "upstream-shortened-description",
+      "file": "x68000.xml"
+    },
+    "xbox": {
+      "kind": "upstream-shortened-description",
+      "file": "xbox.xml"
+    },
+    "zmachine": {
+      "kind": "upstream-shortened-description",
+      "file": "zmachine.xml"
+    },
+    "zx81": {
+      "kind": "upstream-shortened-description",
+      "file": "zx81.xml"
+    },
+    "zxspectrum": {
+      "kind": "upstream-shortened-description",
+      "file": "zxspectrum.xml"
+    }
+  }
+}

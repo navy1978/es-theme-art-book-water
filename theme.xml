@@ -47,6 +47,11 @@
     <include name="yes" displayName="Yes">./_inc/options/architecture.xml</include>
   </subset>
 
+  <subset name="water-show-description" displayName="Show system description">
+    <include name="no" displayName="No">./_inc/options/system-description.xml</include>
+    <include name="yes" displayName="Yes">./_inc/options/system-description.xml</include>
+  </subset>
+
   <!-- Theme views -->
   <include>./_inc/system.xml</include>
   <include>./_inc/gamelist.xml</include>

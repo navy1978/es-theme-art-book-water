@@ -1,0 +1,16 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <include ifSubset="water-show-description:yes">${themePath}/_inc/descriptions.xml</include>
+  <view ifSubset="water-show-description:yes" name="system">
+    <text name="water-system-description" extra="true">
+      <pos>0.04 0.860</pos><size>0 0.055</size>
+      <clipRect>0.04 0.855 0.92 0.065</clipRect>
+      <alignment>left</alignment><verticalAlignment>center</verticalAlignment>
+      <fontPath>${fontRegular}</fontPath><fontSize>0.030</fontSize>
+      <color>${uiTint}</color>
+      <multiLine>false</multiLine><autoScroll>none</autoScroll>
+      <text>${waterSystemDescription}</text>
+      <emptyTextDefaults>false</emptyTextDefaults><zIndex>10</zIndex>
+    </text>
+  </view>
+</theme>
